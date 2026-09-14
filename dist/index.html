@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="A proposed student piano community at UC San Diego." />
+    <meta name="theme-color" content="#071e3d" />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23071e3d'/%3E%3Cpath d='M14 17l8 8 7-13v27h6V12l7 13 8-8-6 27H20z' fill='%23f5c242'/%3E%3Cpath d='M17 43h30v9H17z' fill='%23fff7e6'/%3E%3Cpath d='M23 43v6m8-6v6m8-6v6' stroke='%23071e3d' stroke-width='3'/%3E%3C/svg%3E" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Piano Club at UC San Diego</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="proposal-ribbon" id="proposal-ribbon"></div>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="?lang=en&page=home" data-page-link="home" aria-label="Piano Club at UC San Diego home">
+          <img src="./assets/club-mark.png" alt="" width="54" height="54" />
+          <span>Piano Club <small>at UC San Diego</small></span>
+        </a>
+        <button class="menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+          <span id="menu-label">Menu</span><span aria-hidden="true">☰</span>
+        </button>
+        <nav class="site-nav" id="site-nav" aria-label="Primary navigation"></nav>
+        <label class="language-control">
+          <span class="sr-only" id="language-label">Language</span>
+          <select id="language-select" aria-labelledby="language-label">
+            <option value="en">English</option>
+            <option value="zh-CN">简体中文</option>
+            <option value="es">Español</option>
+          </select>
+        </label>
+      </div>
+    </header>
+    <main id="main" tabindex="-1"></main>
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <div class="footer-brand">Piano Club <span>at UC San Diego</span></div>
+        <p id="footer-disclaimer"></p>
+        <div class="footer-meta">
+          <span id="footer-contact"></span>
+          <span aria-hidden="true">•</span>
+          <span id="footer-status"></span>
+        </div>
+      </div>
+    </footer>
+    <noscript>This website needs JavaScript to display its multilingual pages.</noscript>
+    <script src="./app.js" defer></script>
+  </body>
+</html>
