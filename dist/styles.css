@@ -273,6 +273,8 @@ h3 { margin-bottom: 0.55rem; font-size: clamp(1.15rem, 2vw, 1.4rem); line-height
   box-shadow: var(--shadow);
 }
 .status-panel p { color: #d7e1ed; }
+.status-summary { align-items: center; }
+.status-summary .inline-action { margin-top: 0; justify-self: end; }
 .status-list { margin: 0; padding: 0; list-style: none; }
 .status-list li { padding: 0.55rem 0; border-bottom: 1px solid rgba(255, 255, 255, 0.14); }
 .status-list strong { color: var(--gold); }
@@ -354,6 +356,15 @@ h3 { margin-bottom: 0.55rem; font-size: clamp(1.15rem, 2vw, 1.4rem); line-height
 .contact-block p { margin-bottom: 0; color: #dfe8f3; }
 .inline-action { margin-top: 1.2rem; }
 .inline-action .button-link { width: auto; }
+.card .button-link.secondary,
+.empty-state .button-link.secondary {
+  color: var(--navy);
+  background: var(--gold);
+  border-color: var(--gold);
+  box-shadow: 0 8px 20px rgba(7, 30, 61, 0.12);
+}
+.text-link { color: var(--navy-2); font-weight: 800; text-underline-offset: 0.2em; }
+.text-link:hover { color: var(--navy); }
 
 .contact-email {
   margin-bottom: 2rem;
@@ -365,7 +376,15 @@ h3 { margin-bottom: 0.55rem; font-size: clamp(1.15rem, 2vw, 1.4rem); line-height
 .contact-email h2 { margin-bottom: 0.75rem; }
 .contact-email h2 a { color: var(--gold); overflow-wrap: anywhere; }
 .contact-email p:last-child { max-width: 720px; margin-bottom: 0; color: #dfe8f3; }
-.rollout-panel { margin-bottom: 2rem; }
+.subactivity-note {
+  margin-bottom: 2rem;
+  padding: 1.15rem 1.3rem;
+  background: var(--paper);
+  border-left: 5px solid var(--gold);
+  border-radius: 0.65rem;
+}
+.subactivity-note .eyebrow { margin-bottom: 0.35rem; }
+.subactivity-note p:last-child { margin-bottom: 0; color: var(--muted); }
 
 .faq { margin-top: 2.75rem; }
 .faq details { padding: 1rem 0; border-top: 1px solid var(--line); }
@@ -409,6 +428,7 @@ h3 { margin-bottom: 0.55rem; font-size: clamp(1.15rem, 2vw, 1.4rem); line-height
   .program-row { grid-template-columns: 52px minmax(0, 1fr); }
   .program-row .status-pill { grid-column: 2; }
   .facts, .role-grid { grid-template-columns: 1fr; }
+  .status-summary .inline-action { justify-self: start; }
 }
 
 @media (max-width: 639.98px) {
