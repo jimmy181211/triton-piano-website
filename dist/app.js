@@ -3,7 +3,7 @@ const locales = ["en", "zh-CN", "es"];
 
 const copy = {
   en: {
-    lang: "English", menu: "Menu", language: "Language", skip: "Skip to content", navigation: "Primary navigation", eyebrow: "A proposed student community",
+    lang: "English", menu: "Menu", language: "Language", skip: "Skip to content", navigation: "Primary navigation",
     banner: "Proposed student club — not yet approved",
     nav: { home: "Home", about: "About", programs: "Programs", practice: "Practice Access", events: "Events", "get-involved": "Get Involved", contact: "Contact" },
     common: {
@@ -16,9 +16,9 @@ const copy = {
       body: "We hope to build a welcoming piano community at UC San Diego, where students can learn from one another, share music and explore playing together.",
       cta1: "Explore proposed programs", cta2: "Explore ways to participate",
       themes: [
-        ["Learn together", "Free peer help focused on repertoire, interpretation and practice habits."],
-        ["Share the stage", "Informal piano salons for performing, listening and constructive reflection."],
-        ["Make connections", "A meeting point for pianists, ensembles and students looking for collaborators."]
+        ["Learn together", "Free peer help focused on repertoire, interpretation and practice habits.", "programs", "View Programs"],
+        ["Share the stage", "Informal piano salons for performing, listening and constructive reflection.", "events", "View Events"],
+        ["Make connections", "A meeting point for pianists, ensembles and students looking for collaborators.", "get-involved", "View ways to participate"]
       ],
       statusTitle: "Follow the club's current status",
       statusBody: "Registration and launch-readiness updates are maintained on the About page.",
@@ -33,7 +33,7 @@ const copy = {
     },
     programs: {
       title: "Eight programs, launched in deliberate phases.",
-      intro: "The first four programs are the launch priorities. External opportunity listings can run alongside them with little overhead; the remaining programs will follow as space, staffing, financial rules and university approvals become ready.",
+      intro: "This page is the single source for the scope and launch phase of all eight planned programs.",
       subTitle: "Lightweight activities inside the programs", subBody: "Four-hand duet matching, practice partners and unfinished-work sharing will be offered as sub-activities rather than counted as separate programs.",
       practiceLink: "See the detailed Practice Access plan",
       items: [
@@ -49,7 +49,7 @@ const copy = {
     },
     practice: {
       title: "A practical path to more time at the piano.",
-      intro: "Shared practice access at the Conrad Prebys Music Center (CPMC) is a proposal subject to university and department approval.",
+      intro: "This page maintains the access conditions and approval progress for the proposed shared practice pilot at the Conrad Prebys Music Center (CPMC).",
       cardTitle: "Open Piano Hours — pilot concept", cardBody: "We propose shared practice time for students who need a piano. Rooms, supervision, session length and booking arrangements are subject to approval. No access is currently confirmed.",
       facts: [["Rooms", "To be confirmed"], ["Session length", "To be confirmed"], ["Eligibility", "To be confirmed"], ["Schedule", "To be confirmed"]],
       questionsTitle: "What must be resolved", questions: [["Access", "Whether students outside Music courses may participate."], ["Operations", "Rooms, keys, supervision, instrument care and recurring reservations."], ["Costs", "Any space, staffing or instrument-use charges."], ["Event process", "T-RES, waivers and lead times for a pilot or recurring series."]],
@@ -63,10 +63,12 @@ const copy = {
     },
     involved: {
       title: "There will be more than one way to take part.",
-      intro: "Interested in learning, tutoring, performing or collaborating? Explore the roles below, then use the Contact page to reach the organizing team.",
+      intro: "Interested in learning, tutoring, performing or collaborating? Explore the roles below.",
       roles: [["Learner", "Bring repertoire questions, practice challenges or a wish to begin."], ["Peer tutor", "Share focused, constructive help during scheduled sessions."], ["Performer", "Prepare a piece for a future salon and receive optional feedback."], ["Collaborator", "Connect piano with voice, chamber music, orchestra or another student group."]],
+      contactLabel: "Contact entry",
       contactTitle: "Questions or ideas?", contactBody: "The Contact page keeps the club's current public channel in one place.", contactLink: "Go to Contact",
-      faqTitle: "Frequently asked questions", faq: [["Do I need piano experience?", "The proposed community is intended for different experience levels; exact participation arrangements are still being designed."], ["Where are room-access updates?", "The Practice Access page is the single source for room and booking updates.", "practice", "View Practice Access"], ["Where is each program's launch status?", "The Programs page maintains the complete rollout plan.", "programs", "View Programs"], ["Where is the registration status?", "The About page maintains the club's organizational status.", "about", "View About"]]
+      faqTitle: "Frequently asked question", faq: [["Do I need piano experience?", "The proposed community is intended for different experience levels; exact participation arrangements are still being designed."]],
+      relatedTitle: "Find related information", related: [["Practice access", "Room and booking updates are maintained on the Practice Access page.", "practice", "View Practice Access"], ["Program rollout", "The Programs page maintains the launch phase of all eight programs.", "programs", "View Programs"], ["Organization status", "Registration updates are maintained on the About page.", "about", "View About"]]
     },
     contactPage: {
       title: "Contact the proposed club.", intro: "Questions about programs, collaboration or helping with the launch are welcome at the public club email.",
@@ -75,7 +77,7 @@ const copy = {
     }
   },
   "zh-CN": {
-    lang: "简体中文", menu: "菜单", language: "语言", skip: "跳至正文", navigation: "主导航", eyebrow: "筹建中的学生社群",
+    lang: "简体中文", menu: "菜单", language: "语言", skip: "跳至正文", navigation: "主导航",
     banner: "筹建中的学生社团，尚未获批",
     nav: { home: "首页", about: "关于我们", programs: "项目", practice: "练琴资源", events: "活动", "get-involved": "参与我们", contact: "联系我们" },
     common: {
@@ -87,7 +89,7 @@ const copy = {
       title: "以琴会友，一起成长。",
       body: "我们希望在 UC San Diego 建立一个友好的钢琴社群，让同学们互相学习、分享音乐，探索合奏的乐趣。",
       cta1: "了解拟议项目", cta2: "了解参与方式",
-      themes: [["一起学习", "围绕曲目、音乐处理与练习方法提供免费同伴帮助。"], ["分享舞台", "举办轻松的钢琴沙龙，鼓励演奏、聆听与建设性交流。"], ["建立连接", "连接钢琴演奏者、学生乐团和寻找合作伙伴的同学。"]],
+      themes: [["一起学习", "围绕曲目、音乐处理与练习方法提供免费同伴帮助。", "programs", "查看项目"], ["分享舞台", "举办轻松的钢琴沙龙，鼓励演奏、聆听与建设性交流。", "events", "查看活动"], ["建立连接", "连接钢琴演奏者、学生乐团和寻找合作伙伴的同学。", "get-involved", "查看参与方式"]],
       statusTitle: "查看社团当前状态",
       statusBody: "注册进度与启动条件统一在“关于我们”页面维护。",
       statusLink: "查看组织状态"
@@ -99,7 +101,7 @@ const copy = {
       stateTitle: "组织状态", stateBody: "社团目前处于筹建阶段，尚未获批。主要负责人、志愿钢琴演奏者和启动时间均待确认。"
     },
     programs: {
-      title: "八个主要项目，分阶段稳步启动。", intro: "启动期优先落地前四项；外部比赛与演出机会整理可以低成本同步开展。其余项目将在场地、人手、财务规则和校方许可落实后逐步启动。",
+      title: "八个主要项目，分阶段稳步启动。", intro: "本页集中维护八个项目的内容范围和启动阶段。",
       subTitle: "纳入主要项目的轻量活动", subBody: "四手联弹配对、练习伙伴和未完成作品分享将作为相关项目的子活动开展，不单独计数。",
       practiceLink: "查看练琴资源的详细方案",
       items: [
@@ -114,7 +116,7 @@ const copy = {
       ]
     },
     practice: {
-      title: "让更多同学获得切实的练琴时间。", intro: "Conrad Prebys Music Center（CPMC）共享练琴资源目前仅为提议，须经学校及音乐系批准。",
+      title: "让更多同学获得切实的练琴时间。", intro: "本页统一维护 Conrad Prebys Music Center（CPMC）共享练琴试点的使用条件与审批进展。",
       cardTitle: "开放练琴时段——试点设想", cardBody: "我们拟为需要钢琴的同学争取共享练琴时段。琴房、现场监督、单次时长与预约安排均须获得批准，目前尚无已确认的使用权限。",
       facts: [["琴房", "待确定"], ["单次时长", "待确定"], ["参与资格", "待确定"], ["时间安排", "待确定"]],
       questionsTitle: "仍需确认的问题", questions: [["使用资格", "未选修音乐课程的学生能否参加。"], ["实际运营", "琴房、钥匙、现场监督、乐器维护及定期预约。"], ["费用", "是否涉及场地、人员或乐器使用费用。"], ["活动流程", "试点或系列活动所需的 T-RES、豁免与提前申请时间。"]],
@@ -126,10 +128,12 @@ const copy = {
       programsLink: "查看八个拟议项目"
     },
     involved: {
-      title: "我们希望提供多种参与方式。", intro: "想学习、辅导、演奏或合作？请先了解以下参与角色，再通过“联系我们”页面联系筹备团队。",
+      title: "我们希望提供多种参与方式。", intro: "想学习、辅导、演奏或合作？请先了解以下参与角色。",
       roles: [["学习者", "带来曲目问题、练习困难，或从零开始的愿望。"], ["同伴辅导者", "在固定时段提供有重点、建设性的帮助。"], ["演奏者", "为未来的沙龙准备曲目，并自愿接受反馈。"], ["合作伙伴", "让钢琴与声乐、室内乐、乐团或其他学生组织连接。"]],
+      contactLabel: "联系入口",
       contactTitle: "有问题或想法？", contactBody: "“联系我们”页面会集中维护社团当前的公开联系渠道。", contactLink: "前往联系我们",
-      faqTitle: "常见问题", faq: [["需要钢琴经验吗？", "拟议社群希望面向不同经验水平的同学，具体参与安排仍在设计。"], ["在哪里查看琴房使用进展？", "琴房与预约信息只在“练琴资源”页面维护。", "practice", "查看练琴资源"], ["在哪里查看各项目的启动状态？", "完整的分阶段计划只在“项目”页面维护。", "programs", "查看项目"], ["在哪里查看社团注册状态？", "社团组织状态只在“关于我们”页面维护。", "about", "查看关于我们"]]
+      faqTitle: "常见问题", faq: [["需要钢琴经验吗？", "拟议社群希望面向不同经验水平的同学，具体参与安排仍在设计。"]],
+      relatedTitle: "查找相关信息", related: [["练琴资源", "琴房与预约进展统一在“练琴资源”页面维护。", "practice", "查看练琴资源"], ["项目启动阶段", "八个项目的启动阶段统一在“项目”页面维护。", "programs", "查看项目"], ["社团注册状态", "注册进展统一在“关于我们”页面维护。", "about", "查看关于我们"]]
     },
     contactPage: {
       title: "联系我们。", intro: "如果你想了解项目、提出合作想法或参与社团筹建，欢迎通过公开邮箱联系我们。",
@@ -138,7 +142,7 @@ const copy = {
     }
   },
   es: {
-    lang: "Español", menu: "Menú", language: "Idioma", skip: "Saltar al contenido", navigation: "Navegación principal", eyebrow: "Una comunidad estudiantil propuesta",
+    lang: "Español", menu: "Menú", language: "Idioma", skip: "Saltar al contenido", navigation: "Navegación principal",
     banner: "Club estudiantil propuesto; aún no aprobado",
     nav: { home: "Inicio", about: "Acerca del club", programs: "Programas", practice: "Acceso a la práctica", events: "Eventos", "get-involved": "Participa", contact: "Contacto" },
     common: {
@@ -149,7 +153,7 @@ const copy = {
     home: {
       title: "Un espacio para crecer con el piano.", body: "Queremos crear una comunidad acogedora en UC San Diego para aprender entre estudiantes, compartir música y explorar cómo tocar juntos.",
       cta1: "Explora los programas propuestos", cta2: "Descubre cómo participar",
-      themes: [["Aprender juntos", "Apoyo gratuito entre estudiantes sobre repertorio, interpretación y hábitos de práctica."], ["Compartir el escenario", "Encuentros informales de piano para tocar, escuchar y reflexionar de forma constructiva."], ["Crear conexiones", "Un punto de encuentro para pianistas, conjuntos y estudiantes que buscan colaboradores."]],
+      themes: [["Aprender juntos", "Apoyo gratuito entre estudiantes sobre repertorio, interpretación y hábitos de práctica.", "programs", "Ver Programas"], ["Compartir el escenario", "Encuentros informales de piano para tocar, escuchar y reflexionar de forma constructiva.", "events", "Ver Eventos"], ["Crear conexiones", "Un punto de encuentro para pianistas, conjuntos y estudiantes que buscan colaboradores.", "get-involved", "Ver formas de participar"]],
       statusTitle: "Consulta el estado actual del club", statusBody: "Las novedades sobre el registro y la preparación se mantienen en la página Acerca del club.",
       statusLink: "Ver el estado de la organización"
     },
@@ -160,7 +164,7 @@ const copy = {
       stateTitle: "Estado de la organización", stateBody: "El club está en organización y aún no ha sido aprobado. Los miembros principales, los pianistas voluntarios y la fecha de lanzamiento están por confirmar."
     },
     programs: {
-      title: "Ocho programas, puestos en marcha por etapas.", intro: "Los primeros cuatro son las prioridades de lanzamiento. La lista de oportunidades externas puede mantenerse en paralelo con poco costo; los demás programas comenzarán cuando estén listos los espacios, el equipo, las reglas financieras y las autorizaciones universitarias.",
+      title: "Ocho programas, puestos en marcha por etapas.", intro: "Esta página es la fuente única sobre el alcance y la fase de lanzamiento de los ocho programas previstos.",
       subTitle: "Actividades ligeras dentro de los programas", subBody: "La búsqueda de parejas para piano a cuatro manos, compañeros de práctica y muestras de obras en proceso serán subactividades, no programas separados.",
       practiceLink: "Ver el plan detallado de acceso a la práctica",
       items: [
@@ -175,7 +179,7 @@ const copy = {
       ]
     },
     practice: {
-      title: "Un camino práctico hacia más tiempo al piano.", intro: "El acceso compartido para practicar en el Conrad Prebys Music Center (CPMC) es una propuesta sujeta a aprobación de la universidad y del departamento.",
+      title: "Un camino práctico hacia más tiempo al piano.", intro: "Esta página mantiene las condiciones de acceso y el progreso de aprobación del piloto propuesto en el Conrad Prebys Music Center (CPMC).",
       cardTitle: "Horas abiertas de piano: concepto piloto", cardBody: "Proponemos horarios compartidos de práctica para estudiantes que necesitan un piano. Las salas, la supervisión, la duración y las reservas están sujetas a aprobación. Aún no hay acceso confirmado.",
       facts: [["Salas", "Por confirmar"], ["Duración", "Por confirmar"], ["Elegibilidad", "Por confirmar"], ["Horario", "Por confirmar"]],
       questionsTitle: "Qué debe resolverse", questions: [["Acceso", "Si pueden participar estudiantes que no cursan asignaturas de Música."], ["Operación", "Salas, llaves, supervisión, cuidado del instrumento y reservas recurrentes."], ["Costos", "Posibles cargos por espacios, personal o uso de instrumentos."], ["Proceso de eventos", "T-RES, exenciones y plazos para un piloto o una serie recurrente."]],
@@ -187,10 +191,12 @@ const copy = {
       programsLink: "Ver los ocho programas previstos"
     },
     involved: {
-      title: "Habrá más de una forma de participar.", intro: "¿Te interesa aprender, dar tutorías, tocar o colaborar? Explora los roles y utiliza la página de Contacto para escribir al equipo organizador.",
+      title: "Habrá más de una forma de participar.", intro: "¿Te interesa aprender, dar tutorías, tocar o colaborar? Explora los roles disponibles.",
       roles: [["Estudiante", "Trae preguntas de repertorio, dificultades de práctica o el deseo de comenzar."], ["Tutor o tutora", "Comparte ayuda específica y constructiva durante sesiones programadas."], ["Intérprete", "Prepara una obra para un futuro encuentro y recibe comentarios opcionales."], ["Colaborador o colaboradora", "Conecta el piano con voz, música de cámara, orquesta u otro grupo estudiantil."]],
+      contactLabel: "Acceso de contacto",
       contactTitle: "¿Tienes una pregunta o idea?", contactBody: "La página de Contacto mantiene el canal público actual del club en un solo lugar.", contactLink: "Ir a Contacto",
-      faqTitle: "Preguntas frecuentes", faq: [["¿Necesito experiencia con el piano?", "La comunidad propuesta está pensada para distintos niveles; los detalles de participación siguen en diseño."], ["¿Dónde se publican las novedades sobre salas?", "La página Acceso a la práctica es la fuente única para salas y reservas.", "practice", "Ver Acceso a la práctica"], ["¿Dónde está el estado de cada programa?", "La página Programas mantiene el plan completo de lanzamiento.", "programs", "Ver Programas"], ["¿Dónde está el estado del registro?", "La página Acerca del club mantiene el estado de la organización.", "about", "Ver Acerca del club"]]
+      faqTitle: "Pregunta frecuente", faq: [["¿Necesito experiencia con el piano?", "La comunidad propuesta está pensada para distintos niveles; los detalles de participación siguen en diseño."]],
+      relatedTitle: "Encuentra información relacionada", related: [["Acceso a la práctica", "Las novedades sobre salas y reservas se mantienen en Acceso a la práctica.", "practice", "Ver Acceso a la práctica"], ["Lanzamiento de programas", "La fase de los ocho programas se mantiene en Programas.", "programs", "Ver Programas"], ["Estado de la organización", "Las novedades del registro se mantienen en Acerca del club.", "about", "Ver Acerca del club"]]
     },
     contactPage: {
       title: "Contacta con el club propuesto.", intro: "Escríbenos si tienes preguntas sobre los programas, una idea de colaboración o interés en ayudar con el lanzamiento.",
@@ -212,8 +218,11 @@ function pill(t) { return `<span class="status-pill">${t}</span>`; }
 function cardGrid(items, status) {
   return `<div class="card-grid">${items.map((item, i) => `<article class="card ${i === 0 ? "featured" : ""}"><span class="card-number">0${i + 1}</span><h3>${item[0]}</h3><p>${item[1]}</p>${status ? pill(status) : ""}</article>`).join("")}</div>`;
 }
+function entryCardGrid(lang, items) {
+  return `<div class="card-grid entry-grid">${items.map((item, i) => `<article class="card entry-card ${i === 0 ? "featured" : ""}"><span class="card-number">0${i + 1}</span><h3>${item[0]}</h3><p>${item[1]}</p><a class="text-link" href="${href(lang, item[2])}">${item[3]}</a></article>`).join("")}</div>`;
+}
 function intro(c, title, body) {
-  return `<section class="page-intro"><div class="page-shell"><p class="eyebrow">${c.eyebrow}</p><h1>${title}</h1><p>${body}</p></div></section>`;
+  return `<section class="page-intro"><div class="page-shell"><h1>${title}</h1><p>${body}</p></div></section>`;
 }
 function relatedLink(lang, page, label, anchor = "") {
   return `<a class="button-link secondary" href="${href(lang, page)}${anchor}">${label}</a>`;
@@ -221,7 +230,7 @@ function relatedLink(lang, page, label, anchor = "") {
 
 function renderHome(c, lang) {
   const h = c.home;
-  return `<section class="hero"><div class="hero-inner"><div class="hero-copy"><p class="eyebrow">${c.eyebrow}</p><h1>${h.title}</h1><p class="lead">${h.body}</p><div class="actions"><a class="button-link" href="${href(lang, "programs")}">${h.cta1}</a><a class="button-link secondary" href="${href(lang, "get-involved")}">${h.cta2}</a></div></div><img class="hero-mark" src="./assets/club-mark.png" alt="" width="420" height="420" /></div></section><section class="page-shell">${cardGrid(h.themes)}<div class="status-panel status-summary"><div><p class="eyebrow">${c.common.status}</p><h2>${h.statusTitle}</h2><p>${h.statusBody}</p></div><div class="inline-action">${relatedLink(lang, "about", h.statusLink)}</div></div></section>`;
+  return `<section class="hero"><div class="hero-inner"><div class="hero-copy"><h1>${h.title}</h1><p class="lead">${h.body}</p><div class="actions"><a class="button-link" href="${href(lang, "programs")}">${h.cta1}</a><a class="button-link secondary" href="${href(lang, "get-involved")}">${h.cta2}</a></div></div><img class="hero-mark" src="./assets/club-mark.png" alt="" width="420" height="420" /></div></section><section class="page-shell">${entryCardGrid(lang, h.themes)}<div class="status-panel status-summary"><div><p class="eyebrow">${c.common.status}</p><h2>${h.statusTitle}</h2><p>${h.statusBody}</p></div><div class="inline-action">${relatedLink(lang, "about", h.statusLink)}</div></div></section>`;
 }
 
 function renderAbout(c) {
@@ -237,7 +246,7 @@ function renderPrograms(c) {
 
 function renderPractice(c, lang) {
   const p = c.practice;
-  return `${intro(c, p.title, p.intro)}<section class="page-shell"><div class="practice-visual"><div class="practice-mark"><img src="./assets/discord-mark.png" alt="" width="260" height="260" /></div><div class="card featured"><p class="eyebrow">${c.common.proposal}</p><h2>${p.cardTitle}</h2><p>${p.cardBody}</p><div class="facts">${p.facts.map(x => `<div class="fact"><span>${x[0]}</span><strong>${x[1]}</strong></div>`).join("")}</div><div class="inline-action">${relatedLink(lang, "programs", p.programLink, "#program-3")}</div></div></div><div class="section-head faq"><h2>${p.questionsTitle}</h2></div>${cardGrid(p.questions, c.common.pending)}</section>`;
+  return `${intro(c, p.title, p.intro)}<section class="page-shell"><div class="practice-visual"><div class="practice-mark"><img src="./assets/club-mark.png" alt="" width="260" height="260" /></div><div class="card featured"><p class="eyebrow">${c.common.proposal}</p><h2>${p.cardTitle}</h2><p>${p.cardBody}</p><div class="facts">${p.facts.map(x => `<div class="fact"><span>${x[0]}</span><strong>${x[1]}</strong></div>`).join("")}</div><div class="inline-action">${relatedLink(lang, "programs", p.programLink, "#program-3")}</div></div></div><div class="section-head faq"><h2>${p.questionsTitle}</h2></div>${cardGrid(p.questions, c.common.pending)}</section>`;
 }
 
 function renderEvents(c, lang) {
@@ -247,7 +256,7 @@ function renderEvents(c, lang) {
 
 function renderInvolved(c, lang) {
   const i = c.involved;
-  return `${intro(c, i.title, i.intro)}<section class="page-shell"><div class="role-grid">${i.roles.map((x, n) => `<article class="card"><span class="card-number">0${n + 1}</span><h3>${x[0]}</h3><p>${x[1]}</p></article>`).join("")}</div><div class="contact-block"><img src="./assets/discord-mark.png" alt="" width="96" height="96" /><div><p class="eyebrow">${c.common.contact}</p><h2>${i.contactTitle}</h2><p>${i.contactBody}</p><div class="inline-action">${relatedLink(lang, "contact", i.contactLink)}</div></div></div><div class="faq"><h2>${i.faqTitle}</h2>${i.faq.map(x => `<details><summary>${x[0]}</summary><p>${x[1]}${x[2] ? ` <a class="text-link" href="${href(lang, x[2])}">${x[3]}</a>` : ""}</p></details>`).join("")}</div></section>`;
+  return `${intro(c, i.title, i.intro)}<section class="page-shell"><div class="role-grid">${i.roles.map((x, n) => `<article class="card"><span class="card-number">0${n + 1}</span><h3>${x[0]}</h3><p>${x[1]}</p></article>`).join("")}</div><div class="contact-block"><img src="./assets/discord-mark.png" alt="" width="96" height="96" /><div><p class="eyebrow">${i.contactLabel}</p><h2>${i.contactTitle}</h2><p>${i.contactBody}</p><div class="inline-action">${relatedLink(lang, "contact", i.contactLink)}</div></div></div><div class="faq"><h2>${i.faqTitle}</h2>${i.faq.map(x => `<details><summary>${x[0]}</summary><p>${x[1]}</p></details>`).join("")}</div><section class="related-section"><h2>${i.relatedTitle}</h2>${entryCardGrid(lang, i.related)}</section></section>`;
 }
 
 function renderContact(c) {
@@ -275,7 +284,6 @@ function render() {
   document.getElementById("main").innerHTML = views[page](c, lang);
   document.getElementById("footer-disclaimer").textContent = c.common.disclaimer;
   document.getElementById("footer-contact").innerHTML = `<a href="mailto:hello@tritonpiano.org">${c.common.contact}</a>`;
-  document.getElementById("footer-status").textContent = c.banner;
   document.getElementById("site-nav").classList.remove("open");
   document.getElementById("menu-toggle").setAttribute("aria-expanded", "false");
 }
