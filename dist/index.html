@@ -15,7 +15,7 @@
     <header class="site-header">
       <div class="header-inner">
         <a class="brand" href="?lang=en&page=home" data-page-link="home" aria-label="Piano Club at UC San Diego home">
-          <img src="./assets/club-mark.png" alt="" width="54" height="54" />
+          <img src="./assets/discord-mark.png" alt="" width="54" height="54" />
           <span>Piano Club <small>at UC San Diego</small></span>
         </a>
         <button class="menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
@@ -38,11 +38,14 @@
         <div class="footer-brand">Piano Club <span>at UC San Diego</span></div>
         <p id="footer-disclaimer"></p>
         <div class="footer-meta">
-          <span id="footer-contact"></span>
+          <nav id="footer-links" aria-label="Footer"></nav>
+          <a id="footer-email" href="?lang=en&amp;page=contact">hello@tritonpiano.org</a>
         </div>
       </div>
     </footer>
     <noscript>This website needs JavaScript to display its multilingual pages.</noscript>
+    <script src="./content.js" defer></script>
+    <script src="./legal.js" defer></script>
     <script src="./app.js" defer></script>
   </body>
 </html>
