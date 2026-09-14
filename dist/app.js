@@ -3,7 +3,7 @@ const locales = ["en", "zh-CN", "es"];
 
 const copy = {
   en: {
-    lang: "English", menu: "Menu", language: "Language", eyebrow: "A proposed student community",
+    lang: "English", menu: "Menu", language: "Language", skip: "Skip to content", navigation: "Primary navigation", eyebrow: "A proposed student community",
     banner: "Proposed student club — not yet approved",
     nav: { home: "Home", about: "About", programs: "Programs", practice: "Practice Access", events: "Events", "get-involved": "Get Involved" },
     common: {
@@ -22,7 +22,7 @@ const copy = {
       ],
       statusTitle: "Built honestly from the beginning",
       statusBody: "Registration, rooms, organizers and participation channels are still being confirmed. The site shows the intended structure without presenting proposals as active services.",
-      statusItems: [["Registration", "In progress"], ["Shared piano access", "Permission requested"], ["Events and Discord", "Not yet launched"]]
+      statusItems: [["Registration", "To be confirmed"], ["Shared piano access", "To be confirmed"], ["Events and Discord", "To be confirmed"]]
     },
     about: {
       title: "A piano community across majors and experience levels.",
@@ -46,8 +46,8 @@ const copy = {
     practice: {
       title: "A practical path to more time at the piano.",
       intro: "Shared practice access at the Conrad Prebys Music Center (CPMC) is a proposal subject to university and department approval.",
-      cardTitle: "Open Piano Hours — pilot concept", cardBody: "A supervised two-hour block using one or two approved rooms, with members reserving individual 30-minute practice slots. The exact model will change to match department rules.",
-      facts: [["Rooms", "One or two, if approved"], ["Session length", "30-minute proposal"], ["Eligibility", "To be confirmed"], ["Schedule", "To be confirmed"]],
+      cardTitle: "Open Piano Hours — pilot concept", cardBody: "We propose shared practice time for students who need a piano. Rooms, supervision, session length and booking arrangements are subject to approval. No access is currently confirmed.",
+      facts: [["Rooms", "To be confirmed"], ["Session length", "To be confirmed"], ["Eligibility", "To be confirmed"], ["Schedule", "To be confirmed"]],
       questionsTitle: "What must be resolved", questions: [["Access", "Whether students outside Music courses may participate."], ["Operations", "Rooms, keys, supervision, instrument care and recurring reservations."], ["Costs", "Any space, staffing or instrument-use charges."], ["Event process", "T-RES, waivers and lead times for a pilot or recurring series."]]
     },
     events: {
@@ -61,11 +61,11 @@ const copy = {
       intro: "Interested in learning, tutoring, performing or collaborating? Contact and sign-up channels are not yet confirmed.",
       roles: [["Learner", "Bring repertoire questions, practice challenges or a wish to begin."], ["Peer tutor", "Share focused, constructive help during scheduled sessions."], ["Performer", "Prepare a piece for a future salon and receive optional feedback."], ["Collaborator", "Connect piano with voice, chamber music, orchestra or another student group."]],
       contactTitle: "Discord and public contact", contactBody: "The server, public inbox and interest form are being prepared. Verified links will appear here after ownership and privacy details are confirmed.",
-      faqTitle: "Frequently asked questions", faq: [["Do I need piano experience?", "The proposed community is intended for different experience levels; exact participation arrangements are still being designed."], ["Can I reserve a CPMC piano through the club?", "Not yet. Access has been requested, but no room or booking permission is confirmed."], ["Is tutoring available now?", "No. Free peer help and optional paid tutoring are proposals, not active services."], ["Is this an official UC San Diego program?", "No. It is a proposed independent student organization and is not yet approved."]]
+      faqTitle: "Frequently asked questions", faq: [["Do I need piano experience?", "The proposed community is intended for different experience levels; exact participation arrangements are still being designed."], ["Can I reserve a CPMC piano through the club?", "Not yet. Room access and booking permission are to be confirmed."], ["Is tutoring available now?", "No. Free peer help and optional paid tutoring are proposals, not active services."], ["Is this an official UC San Diego program?", "No. It is a proposed independent student organization and is not yet approved."]]
     }
   },
   "zh-CN": {
-    lang: "简体中文", menu: "菜单", language: "语言", eyebrow: "筹建中的学生社群",
+    lang: "简体中文", menu: "菜单", language: "语言", skip: "跳至正文", navigation: "主导航", eyebrow: "筹建中的学生社群",
     banner: "筹建中的学生社团，尚未获批",
     nav: { home: "首页", about: "关于我们", programs: "项目", practice: "练琴资源", events: "活动", "get-involved": "参与我们" },
     common: {
@@ -80,7 +80,7 @@ const copy = {
       themes: [["一起学习", "围绕曲目、音乐处理与练习方法提供免费同伴帮助。"], ["分享舞台", "举办轻松的钢琴沙龙，鼓励演奏、聆听与建设性交流。"], ["建立连接", "连接钢琴演奏者、学生乐团和寻找合作伙伴的同学。"]],
       statusTitle: "从筹建阶段如实呈现",
       statusBody: "注册、场地、组织者和参与渠道仍在确认中。网站展示我们计划建立的结构，不会把提议写成已经开放的服务。",
-      statusItems: [["社团注册", "正在办理"], ["共享练琴", "已提出许可询问"], ["活动与 Discord", "尚未开放"]]
+      statusItems: [["社团注册", "待确定"], ["共享练琴", "待确定"], ["活动与 Discord", "待确定"]]
     },
     about: {
       title: "面向不同专业与演奏经验的钢琴社群。", intro: "拟议社团希望欢迎初学者、有经验的钢琴演奏者、聆听者及音乐合作伙伴。",
@@ -94,8 +94,8 @@ const copy = {
     },
     practice: {
       title: "让更多同学获得切实的练琴时间。", intro: "Conrad Prebys Music Center（CPMC）共享练琴资源目前仅为提议，须经学校及音乐系批准。",
-      cardTitle: "开放练琴时段——试点设想", cardBody: "由负责人监督两个小时，在获批的一至两个琴房内，为成员安排每人 30 分钟的独立练琴时段。最终方案会按音乐系规定调整。",
-      facts: [["琴房", "如获批准，拟使用一至两个"], ["单次时长", "拟定 30 分钟"], ["参与资格", "待确定"], ["时间安排", "待确定"]],
+      cardTitle: "开放练琴时段——试点设想", cardBody: "我们拟为需要钢琴的同学争取共享练琴时段。琴房、现场监督、单次时长与预约安排均须获得批准，目前尚无已确认的使用权限。",
+      facts: [["琴房", "待确定"], ["单次时长", "待确定"], ["参与资格", "待确定"], ["时间安排", "待确定"]],
       questionsTitle: "仍需确认的问题", questions: [["使用资格", "未选修音乐课程的学生能否参加。"], ["实际运营", "琴房、钥匙、现场监督、乐器维护及定期预约。"], ["费用", "是否涉及场地、人员或乐器使用费用。"], ["活动流程", "试点或系列活动所需的 T-RES、豁免与提前申请时间。"]]
     },
     events: {
@@ -107,11 +107,11 @@ const copy = {
       title: "我们希望提供多种参与方式。", intro: "想学习、辅导、演奏或合作？联系方式与报名渠道尚未确定。",
       roles: [["学习者", "带来曲目问题、练习困难，或从零开始的愿望。"], ["同伴辅导者", "在固定时段提供有重点、建设性的帮助。"], ["演奏者", "为未来的沙龙准备曲目，并自愿接受反馈。"], ["合作伙伴", "让钢琴与声乐、室内乐、乐团或其他学生组织连接。"]],
       contactTitle: "Discord 与公开联系方式", contactBody: "Discord、公开邮箱和兴趣表单正在准备中。确认所有权和隐私说明后，这里才会提供经过验证的链接。",
-      faqTitle: "常见问题", faq: [["需要钢琴经验吗？", "拟议社群希望面向不同经验水平的同学，具体参与安排仍在设计。"], ["现在能通过社团预约 CPMC 琴房吗？", "还不能。我们已询问使用许可，但尚无琴房或预约权获批。"], ["现在有辅导服务吗？", "没有。免费同伴帮助和可选付费辅导目前均为提议。"], ["这是 UC San Diego 官方项目吗？", "不是。它是拟成立的独立学生组织，目前尚未获批。"]]
+      faqTitle: "常见问题", faq: [["需要钢琴经验吗？", "拟议社群希望面向不同经验水平的同学，具体参与安排仍在设计。"], ["现在能通过社团预约 CPMC 琴房吗？", "还不能。琴房使用和预约权限均待确定。"], ["现在有辅导服务吗？", "没有。免费同伴帮助和可选付费辅导目前均为提议。"], ["这是 UC San Diego 官方项目吗？", "不是。它是拟成立的独立学生组织，目前尚未获批。"]]
     }
   },
   es: {
-    lang: "Español", menu: "Menú", language: "Idioma", eyebrow: "Una comunidad estudiantil propuesta",
+    lang: "Español", menu: "Menú", language: "Idioma", skip: "Saltar al contenido", navigation: "Navegación principal", eyebrow: "Una comunidad estudiantil propuesta",
     banner: "Club estudiantil propuesto; aún no aprobado",
     nav: { home: "Inicio", about: "Acerca del club", programs: "Programas", practice: "Acceso a la práctica", events: "Eventos", "get-involved": "Participa" },
     common: {
@@ -124,7 +124,7 @@ const copy = {
       cta1: "Explora los programas propuestos", cta2: "Descubre cómo participar",
       themes: [["Aprender juntos", "Apoyo gratuito entre estudiantes sobre repertorio, interpretación y hábitos de práctica."], ["Compartir el escenario", "Encuentros informales de piano para tocar, escuchar y reflexionar de forma constructiva."], ["Crear conexiones", "Un punto de encuentro para pianistas, conjuntos y estudiantes que buscan colaboradores."]],
       statusTitle: "Transparencia desde el principio", statusBody: "El registro, los espacios, los organizadores y los canales de participación siguen pendientes. El sitio muestra la estructura prevista sin presentar propuestas como servicios activos.",
-      statusItems: [["Registro", "En proceso"], ["Acceso compartido al piano", "Permiso solicitado"], ["Eventos y Discord", "Aún no disponibles"]]
+      statusItems: [["Registro", "Por confirmar"], ["Acceso compartido al piano", "Por confirmar"], ["Eventos y Discord", "Por confirmar"]]
     },
     about: {
       title: "Una comunidad de piano para distintas carreras y niveles.", intro: "El club propuesto está pensado para principiantes, pianistas con experiencia, oyentes y colaboradores.",
@@ -138,8 +138,8 @@ const copy = {
     },
     practice: {
       title: "Un camino práctico hacia más tiempo al piano.", intro: "El acceso compartido para practicar en el Conrad Prebys Music Center (CPMC) es una propuesta sujeta a aprobación de la universidad y del departamento.",
-      cardTitle: "Horas abiertas de piano: concepto piloto", cardBody: "Un bloque supervisado de dos horas en una o dos salas aprobadas, con reservas individuales de 30 minutos. El modelo se adaptará a las normas del departamento.",
-      facts: [["Salas", "Una o dos, si se aprueba"], ["Duración", "Propuesta de 30 minutos"], ["Elegibilidad", "Por confirmar"], ["Horario", "Por confirmar"]],
+      cardTitle: "Horas abiertas de piano: concepto piloto", cardBody: "Proponemos horarios compartidos de práctica para estudiantes que necesitan un piano. Las salas, la supervisión, la duración y las reservas están sujetas a aprobación. Aún no hay acceso confirmado.",
+      facts: [["Salas", "Por confirmar"], ["Duración", "Por confirmar"], ["Elegibilidad", "Por confirmar"], ["Horario", "Por confirmar"]],
       questionsTitle: "Qué debe resolverse", questions: [["Acceso", "Si pueden participar estudiantes que no cursan asignaturas de Música."], ["Operación", "Salas, llaves, supervisión, cuidado del instrumento y reservas recurrentes."], ["Costos", "Posibles cargos por espacios, personal o uso de instrumentos."], ["Proceso de eventos", "T-RES, exenciones y plazos para un piloto o una serie recurrente."]]
     },
     events: {
@@ -151,7 +151,7 @@ const copy = {
       title: "Habrá más de una forma de participar.", intro: "¿Te interesa aprender, dar tutorías, tocar o colaborar? Los canales de contacto e inscripción aún no están confirmados.",
       roles: [["Estudiante", "Trae preguntas de repertorio, dificultades de práctica o el deseo de comenzar."], ["Tutor o tutora", "Comparte ayuda específica y constructiva durante sesiones programadas."], ["Intérprete", "Prepara una obra para un futuro encuentro y recibe comentarios opcionales."], ["Colaborador o colaboradora", "Conecta el piano con voz, música de cámara, orquesta u otro grupo estudiantil."]],
       contactTitle: "Discord y contacto público", contactBody: "El servidor, el buzón público y el formulario de interés están en preparación. Los enlaces verificados aparecerán aquí después de confirmar la propiedad y los detalles de privacidad.",
-      faqTitle: "Preguntas frecuentes", faq: [["¿Necesito experiencia con el piano?", "La comunidad propuesta está pensada para distintos niveles; los detalles de participación siguen en diseño."], ["¿Puedo reservar un piano de CPMC a través del club?", "Todavía no. Se ha solicitado orientación, pero no hay permiso confirmado para salas o reservas."], ["¿Ya hay tutoría disponible?", "No. Tanto la ayuda gratuita como la tutoría de pago opcional son propuestas, no servicios activos."], ["¿Es un programa oficial de UC San Diego?", "No. Es una organización estudiantil independiente propuesta y aún no está aprobada."]]
+      faqTitle: "Preguntas frecuentes", faq: [["¿Necesito experiencia con el piano?", "La comunidad propuesta está pensada para distintos niveles; los detalles de participación siguen en diseño."], ["¿Puedo reservar un piano de CPMC a través del club?", "Todavía no. El acceso a las salas y los permisos de reserva están por confirmar."], ["¿Ya hay tutoría disponible?", "No. Tanto la ayuda gratuita como la tutoría de pago opcional son propuestas, no servicios activos."], ["¿Es un programa oficial de UC San Diego?", "No. Es una organización estudiantil independiente propuesta y aún no está aprobada."]]
     }
   }
 };
@@ -184,7 +184,7 @@ function renderAbout(c) {
 
 function renderPrograms(c) {
   const p = c.programs;
-  return `${intro(c, p.title, p.intro)}<section class="page-shell"><div class="program-list">${p.items.map((item, i) => `<article class="program-row"><span class="program-icon">${String(i + 1).padStart(2, "0")}</span><div><h3>${item[0]}</h3><p>${item[1]}</p></div>${pill(i === 5 ? c.common.approval : c.common.pending)}</article>`).join("")}</div></section>`;
+  return `${intro(c, p.title, p.intro)}<section class="page-shell"><div class="program-list">${p.items.map((item, i) => `<article class="program-row"><span class="program-icon">${String(i + 1).padStart(2, "0")}</span><div><h3>${item[0]}</h3><p>${item[1]}</p></div>${pill(c.common.pending)}</article>`).join("")}</div></section>`;
 }
 
 function renderPractice(c) {
@@ -211,6 +211,8 @@ function render() {
   document.getElementById("proposal-ribbon").textContent = c.banner;
   document.getElementById("menu-label").textContent = c.menu;
   document.getElementById("language-label").textContent = c.language;
+  document.querySelector(".skip-link").textContent = c.skip;
+  document.getElementById("site-nav").setAttribute("aria-label", c.navigation);
   document.getElementById("language-select").value = lang;
   document.getElementById("site-nav").innerHTML = pages.map(p => `<a href="${href(lang, p)}" ${p === page ? 'aria-current="page"' : ""}>${c.nav[p]}</a>`).join("");
   const brand = document.querySelector(".brand");
@@ -227,7 +229,7 @@ function render() {
 
 document.getElementById("language-select").addEventListener("change", event => {
   const { page } = params();
-  location.href = href(event.target.value, page);
+  location.href = href(event.target.value, page) + location.hash;
 });
 document.getElementById("menu-toggle").addEventListener("click", () => {
   const nav = document.getElementById("site-nav");
