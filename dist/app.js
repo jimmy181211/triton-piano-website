@@ -1,13 +1,13 @@
-const pages = ["home", "about", "programs", "practice", "events", "get-involved"];
+const pages = ["home", "about", "programs", "practice", "events", "get-involved", "contact"];
 const locales = ["en", "zh-CN", "es"];
 
 const copy = {
   en: {
     lang: "English", menu: "Menu", language: "Language", skip: "Skip to content", navigation: "Primary navigation", eyebrow: "A proposed student community",
     banner: "Proposed student club — not yet approved",
-    nav: { home: "Home", about: "About", programs: "Programs", practice: "Practice Access", events: "Events", "get-involved": "Get Involved" },
+    nav: { home: "Home", about: "About", programs: "Programs", practice: "Practice Access", events: "Events", "get-involved": "Get Involved", contact: "Contact" },
     common: {
-      pending: "To be confirmed", proposal: "Proposed", status: "Current status", contact: "Contact channel: To be confirmed",
+      pending: "To be confirmed", proposal: "Proposed", status: "Current status", contact: "hello@tritonpiano.org",
       disclaimer: "This website describes a proposed student club. It does not represent an approved organization or an official UC San Diego program.",
       approval: "Subject to university approval", learn: "Learn", share: "Share", connect: "Connect"
     },
@@ -32,15 +32,20 @@ const copy = {
       stateTitle: "Organizational status", stateBody: "The club is being organized and has not yet been approved. Principal Members, volunteer pianists and launch timing remain unconfirmed."
     },
     programs: {
-      title: "Programs designed around learning, performing and access.",
-      intro: "These are proposed program directions. Availability, schedules and participation details will be published only after confirmation.",
+      title: "Eight programs, launched in deliberate phases.",
+      intro: "The first four programs are the launch priorities. External opportunity listings can run alongside them with little overhead; the remaining programs will follow as space, staffing, financial rules and university approvals become ready.",
+      planLabel: "Rollout plan", planTitle: "Start focused, then expand responsibly",
+      planBody: "Launch with Piano Help Hours, piano salons, Open Piano Hours and collaboration matching. Maintain the external opportunities list in parallel, then add the remaining programs in later phases.",
+      subTitle: "Lightweight activities inside the programs", subBody: "Four-hand duet matching, practice partners and unfinished-work sharing will be offered as sub-activities rather than counted as separate programs.",
       items: [
-        ["Free peer tutoring", "Scheduled peer help with piano fundamentals, repertoire, interpretation and practice methods. Tutors, matching and timing are not yet confirmed."],
-        ["Piano salons", "Informal gatherings to perform and listen. Optional anonymous feedback with an AI-generated summary is being explored; privacy and consent rules must be established first."],
-        ["Shared practice access", "A proposed recurring CPMC practice block for students who need an instrument. No rooms, pianos or booking rights are confirmed."],
-        ["Ensemble connections", "Help pianists find singers, instrumentalists and student ensembles for collaboration. No partnerships or rehearsals are confirmed."],
-        ["Guest artists & opportunities", "Future possibilities include talks, masterclasses, practice auditions, internal competitions and information about external opportunities."],
-        ["Optional paid tutoring", "A separate club-administered service may be considered. It is not offered now, and approval, fees, tutor compensation and payment rules are unresolved."]
+        ["Free Piano Help Hours", "Scheduled drop-in peer help with fundamentals, repertoire, interpretation and practice methods.", "Launch priority"],
+        ["Piano salons, anonymous feedback and AI-organized suggestions", "Informal performances with optional anonymous feedback. AI may organize recurring themes after privacy and consent rules are established.", "Launch priority"],
+        ["Open Piano Hours / shared practice time", "Proposed recurring practice blocks for students who need access to a piano, subject to space and university approval.", "Launch priority"],
+        ["Ensemble, chamber music and accompaniment collaboration", "Match pianists with ensembles, chamber groups, singers and accompaniment requests.", "Launch priority"],
+        ["Pianist talks and masterclasses", "Invite pianists to share musical ideas, practice methods and performance experience when guests and venues are available.", "Later phase"],
+        ["Internal competitions and mock auditions", "Create supportive practice settings for auditions and competition repertoire after organizers and procedures are ready.", "Later phase"],
+        ["External competition and performance opportunity listings", "Maintain a concise list of relevant opportunities that students can review independently.", "Parallel launch"],
+        ["Club-managed optional paid coaching", "Consider an opt-in service only after approval, pricing, tutor compensation, payment and accountability rules are established.", "Later phase"]
       ]
     },
     practice: {
@@ -48,28 +53,34 @@ const copy = {
       intro: "Shared practice access at the Conrad Prebys Music Center (CPMC) is a proposal subject to university and department approval.",
       cardTitle: "Open Piano Hours — pilot concept", cardBody: "We propose shared practice time for students who need a piano. Rooms, supervision, session length and booking arrangements are subject to approval. No access is currently confirmed.",
       facts: [["Rooms", "To be confirmed"], ["Session length", "To be confirmed"], ["Eligibility", "To be confirmed"], ["Schedule", "To be confirmed"]],
-      questionsTitle: "What must be resolved", questions: [["Access", "Whether students outside Music courses may participate."], ["Operations", "Rooms, keys, supervision, instrument care and recurring reservations."], ["Costs", "Any space, staffing or instrument-use charges."], ["Event process", "T-RES, waivers and lead times for a pilot or recurring series."]]
+      questionsTitle: "What must be resolved", questions: [["Access", "Whether students outside Music courses may participate."], ["Operations", "Rooms, keys, supervision, instrument care and recurring reservations."], ["Costs", "Any space, staffing or instrument-use charges."], ["Event process", "T-RES, waivers and lead times for a pilot or recurring series."]],
+      programLink: "View Open Piano Hours in the program plan"
     },
     events: {
       title: "Events will appear here when they are real.",
       intro: "No dates, venues or participation details are confirmed yet.",
       empty: "No events are confirmed yet. Dates, venues and participation details will be published when confirmed.",
-      formatsTitle: "Formats under consideration", formats: [["Weekly peer-help hours", "A consistent place to bring questions about music and practice."], ["Piano salons", "A low-pressure performance and listening gathering."], ["Collaborations & masterclasses", "Future sessions with ensembles or guest musicians when arrangements are confirmed."]]
+      programsLink: "View the eight planned programs"
     },
     involved: {
       title: "There will be more than one way to take part.",
-      intro: "Interested in learning, tutoring, performing or collaborating? Contact and sign-up channels are not yet confirmed.",
+      intro: "Interested in learning, tutoring, performing or collaborating? Explore the roles below, then use the Contact page to reach the organizing team.",
       roles: [["Learner", "Bring repertoire questions, practice challenges or a wish to begin."], ["Peer tutor", "Share focused, constructive help during scheduled sessions."], ["Performer", "Prepare a piece for a future salon and receive optional feedback."], ["Collaborator", "Connect piano with voice, chamber music, orchestra or another student group."]],
-      contactTitle: "Discord and public contact", contactBody: "The server, public inbox and interest form are being prepared. Verified links will appear here after ownership and privacy details are confirmed.",
+      contactTitle: "Questions or ideas?", contactBody: "The Contact page keeps the club's current public channel in one place.", contactLink: "Go to Contact",
       faqTitle: "Frequently asked questions", faq: [["Do I need piano experience?", "The proposed community is intended for different experience levels; exact participation arrangements are still being designed."], ["Can I reserve a CPMC piano through the club?", "Not yet. Room access and booking permission are to be confirmed."], ["Is tutoring available now?", "No. Free peer help and optional paid tutoring are proposals, not active services."], ["Is this an official UC San Diego program?", "No. It is a proposed independent student organization and is not yet approved."]]
+    },
+    contactPage: {
+      title: "Contact the proposed club.", intro: "Questions about programs, collaboration or helping with the launch are welcome at the public club email.",
+      emailLabel: "Public email", emailNote: "Messages are forwarded to the club organizer through Cloudflare Email Routing.",
+      topics: [["Programs and piano access", "Ask about planned activities, accessibility needs or future practice access."], ["Performance and collaboration", "Share an ensemble, chamber music, accompaniment or event idea."], ["Help launch the club", "Introduce yourself if you may be interested in organizing, tutoring or volunteering."]]
     }
   },
   "zh-CN": {
     lang: "简体中文", menu: "菜单", language: "语言", skip: "跳至正文", navigation: "主导航", eyebrow: "筹建中的学生社群",
     banner: "筹建中的学生社团，尚未获批",
-    nav: { home: "首页", about: "关于我们", programs: "项目", practice: "练琴资源", events: "活动", "get-involved": "参与我们" },
+    nav: { home: "首页", about: "关于我们", programs: "项目", practice: "练琴资源", events: "活动", "get-involved": "参与我们", contact: "联系我们" },
     common: {
-      pending: "待确定", proposal: "拟议项目", status: "当前状态", contact: "联系方式：待确定",
+      pending: "待确定", proposal: "拟议项目", status: "当前状态", contact: "hello@tritonpiano.org",
       disclaimer: "本网站介绍的是拟筹建的学生社团，不代表已获批准的组织或 UC San Diego 官方项目。",
       approval: "须经校方批准", learn: "学习", share: "分享", connect: "连接"
     },
@@ -89,33 +100,51 @@ const copy = {
       stateTitle: "组织状态", stateBody: "社团目前处于筹建阶段，尚未获批。主要负责人、志愿钢琴演奏者和启动时间均待确认。"
     },
     programs: {
-      title: "围绕学习、演奏与练琴资源设计的项目。", intro: "以下均为拟议方向。只有在确认后，我们才会公布是否开放、具体时间与参与方式。",
-      items: [["免费同伴辅导", "拟安排钢琴基础、曲目、音乐处理与练习方法的同伴帮助。辅导人员、匹配方式和时间尚未确定。"], ["钢琴沙龙", "拟举办轻松的演奏与聆听聚会，并探索自愿匿名反馈及 AI 总结；须先明确隐私与同意机制。"], ["共享练琴资源", "拟争取 CPMC 固定练琴时段，帮助需要乐器的同学。琴房、钢琴及预约权限均未确认。"], ["乐团与合奏连接", "帮助钢琴演奏者联系歌者、器乐演奏者与学生乐团。目前尚无已确认的合作方或排练。"], ["嘉宾与比赛机会", "未来可探索讲座、大师课、模拟试奏、内部比赛和校外音乐机会信息。"], ["可选付费辅导", "可另行考虑由社团统一管理的服务。目前尚未提供，批准、费用、辅导报酬和收款规则均未解决。"]]
+      title: "八个主要项目，分阶段稳步启动。", intro: "启动期优先落地前四项；外部比赛与演出机会整理可以低成本同步开展。其余项目将在场地、人手、财务规则和校方许可落实后逐步启动。",
+      planLabel: "启动顺序", planTitle: "先集中落地，再稳步扩展",
+      planBody: "先启动 Piano Help Hours、钢琴沙龙、Open Piano Hours 和合作配对；同步维护外部机会清单，其余项目放在后续阶段。",
+      subTitle: "纳入主要项目的轻量活动", subBody: "四手联弹配对、练习伙伴和未完成作品分享将作为相关项目的子活动开展，不单独计数。",
+      items: [
+        ["免费 Piano Help Hours", "通过固定答疑时段，提供钢琴基础、曲目处理、音乐表达与练习方法方面的同伴帮助。", "启动优先"],
+        ["钢琴沙龙＋匿名反馈＋AI 建议整理", "举办轻松的演奏与聆听聚会；在明确隐私与同意机制后，自愿收集匿名反馈并由 AI 整理共性建议。", "启动优先"],
+        ["Open Piano Hours／共享练琴时段", "为需要钢琴的同学争取定期共享练琴时段，具体场地与使用方式须经校方批准。", "启动优先"],
+        ["乐团、室内乐及伴奏合作", "帮助钢琴演奏者与乐团、室内乐组合、歌者及伴奏需求进行配对。", "启动优先"],
+        ["钢琴家分享／大师课", "在嘉宾与场地落实后，邀请钢琴家分享音乐理解、练习方法与演出经验。", "后续阶段"],
+        ["社团内部比赛／模拟试奏", "在组织人手与流程准备好后，为试奏和比赛曲目提供支持性的实践环境。", "后续阶段"],
+        ["外部比赛与演出机会整理", "持续整理适合同学自主了解和报名的比赛、演出及相关音乐机会。", "同步开展"],
+        ["社团统一管理的可选付费辅导", "仅在批准、定价、辅导报酬、收款与责任规则明确后，考虑提供自愿参加的服务。", "后续阶段"]
+      ]
     },
     practice: {
       title: "让更多同学获得切实的练琴时间。", intro: "Conrad Prebys Music Center（CPMC）共享练琴资源目前仅为提议，须经学校及音乐系批准。",
       cardTitle: "开放练琴时段——试点设想", cardBody: "我们拟为需要钢琴的同学争取共享练琴时段。琴房、现场监督、单次时长与预约安排均须获得批准，目前尚无已确认的使用权限。",
       facts: [["琴房", "待确定"], ["单次时长", "待确定"], ["参与资格", "待确定"], ["时间安排", "待确定"]],
-      questionsTitle: "仍需确认的问题", questions: [["使用资格", "未选修音乐课程的学生能否参加。"], ["实际运营", "琴房、钥匙、现场监督、乐器维护及定期预约。"], ["费用", "是否涉及场地、人员或乐器使用费用。"], ["活动流程", "试点或系列活动所需的 T-RES、豁免与提前申请时间。"]]
+      questionsTitle: "仍需确认的问题", questions: [["使用资格", "未选修音乐课程的学生能否参加。"], ["实际运营", "琴房、钥匙、现场监督、乐器维护及定期预约。"], ["费用", "是否涉及场地、人员或乐器使用费用。"], ["活动流程", "试点或系列活动所需的 T-RES、豁免与提前申请时间。"]],
+      programLink: "查看项目规划中的 Open Piano Hours"
     },
     events: {
       title: "活动确认后，我们会在这里公布。", intro: "目前尚无已确认的日期、地点或参与方式。",
       empty: "目前尚无已确认的活动。日期、地点及参与方式将在确认后公布。",
-      formatsTitle: "正在考虑的形式", formats: [["每周同伴辅导", "在固定时段讨论音乐与练习问题。"], ["钢琴沙龙", "提供轻松、低压力的演奏与聆听机会。"], ["合作与大师课", "条件成熟后，与乐团或受邀音乐家开展活动。"]]
+      programsLink: "查看八个拟议项目"
     },
     involved: {
-      title: "我们希望提供多种参与方式。", intro: "想学习、辅导、演奏或合作？联系方式与报名渠道尚未确定。",
+      title: "我们希望提供多种参与方式。", intro: "想学习、辅导、演奏或合作？请先了解以下参与角色，再通过“联系我们”页面联系筹备团队。",
       roles: [["学习者", "带来曲目问题、练习困难，或从零开始的愿望。"], ["同伴辅导者", "在固定时段提供有重点、建设性的帮助。"], ["演奏者", "为未来的沙龙准备曲目，并自愿接受反馈。"], ["合作伙伴", "让钢琴与声乐、室内乐、乐团或其他学生组织连接。"]],
-      contactTitle: "Discord 与公开联系方式", contactBody: "Discord、公开邮箱和兴趣表单正在准备中。确认所有权和隐私说明后，这里才会提供经过验证的链接。",
+      contactTitle: "有问题或想法？", contactBody: "“联系我们”页面会集中维护社团当前的公开联系渠道。", contactLink: "前往联系我们",
       faqTitle: "常见问题", faq: [["需要钢琴经验吗？", "拟议社群希望面向不同经验水平的同学，具体参与安排仍在设计。"], ["现在能通过社团预约 CPMC 琴房吗？", "还不能。琴房使用和预约权限均待确定。"], ["现在有辅导服务吗？", "没有。免费同伴帮助和可选付费辅导目前均为提议。"], ["这是 UC San Diego 官方项目吗？", "不是。它是拟成立的独立学生组织，目前尚未获批。"]]
+    },
+    contactPage: {
+      title: "联系我们。", intro: "如果你想了解项目、提出合作想法或参与社团筹建，欢迎通过公开邮箱联系我们。",
+      emailLabel: "公开邮箱", emailNote: "邮件通过 Cloudflare Email Routing 转发给社团筹备负责人。",
+      topics: [["项目与练琴资源", "咨询拟议活动、无障碍需求或未来共享练琴安排。"], ["演出与合作", "提出乐团、室内乐、伴奏或活动合作想法。"], ["参与社团筹建", "如果你愿意协助组织、同伴辅导或志愿工作，可以通过邮件介绍自己。"]]
     }
   },
   es: {
     lang: "Español", menu: "Menú", language: "Idioma", skip: "Saltar al contenido", navigation: "Navegación principal", eyebrow: "Una comunidad estudiantil propuesta",
     banner: "Club estudiantil propuesto; aún no aprobado",
-    nav: { home: "Inicio", about: "Acerca del club", programs: "Programas", practice: "Acceso a la práctica", events: "Eventos", "get-involved": "Participa" },
+    nav: { home: "Inicio", about: "Acerca del club", programs: "Programas", practice: "Acceso a la práctica", events: "Eventos", "get-involved": "Participa", contact: "Contacto" },
     common: {
-      pending: "Por confirmar", proposal: "Propuesta", status: "Estado actual", contact: "Canal de contacto: Por confirmar",
+      pending: "Por confirmar", proposal: "Propuesta", status: "Estado actual", contact: "hello@tritonpiano.org",
       disclaimer: "Este sitio presenta un club estudiantil propuesto. No representa una organización aprobada ni un programa oficial de UC San Diego.",
       approval: "Sujeto a aprobación universitaria", learn: "Aprender", share: "Compartir", connect: "Conectar"
     },
@@ -133,25 +162,43 @@ const copy = {
       stateTitle: "Estado de la organización", stateBody: "El club está en organización y aún no ha sido aprobado. Los miembros principales, los pianistas voluntarios y la fecha de lanzamiento están por confirmar."
     },
     programs: {
-      title: "Programas centrados en aprender, tocar y acceder a un piano.", intro: "Estas son líneas de trabajo propuestas. La disponibilidad, los horarios y los detalles se publicarán únicamente cuando estén confirmados.",
-      items: [["Tutoría gratuita entre estudiantes", "Apoyo programado sobre fundamentos, repertorio, interpretación y métodos de práctica. Los tutores, las asignaciones y los horarios están por confirmar."], ["Encuentros de piano", "Reuniones informales para tocar y escuchar. Se estudian comentarios anónimos opcionales con resumen de IA; antes deben definirse la privacidad y el consentimiento."], ["Acceso compartido para practicar", "Un bloque recurrente propuesto en CPMC para estudiantes que necesitan un instrumento. No se han confirmado salas, pianos ni derechos de reserva."], ["Conexiones con conjuntos", "Ayudar a pianistas a conocer cantantes, instrumentistas y conjuntos estudiantiles. No hay colaboraciones ni ensayos confirmados."], ["Artistas invitados y oportunidades", "En el futuro podrían explorarse charlas, clases magistrales, audiciones de práctica, concursos internos e información sobre oportunidades externas."], ["Tutoría de pago opcional", "Podría considerarse un servicio separado administrado por el club. Actualmente no se ofrece; faltan aprobación, tarifas, compensación y reglas de pago."]]
+      title: "Ocho programas, puestos en marcha por etapas.", intro: "Los primeros cuatro son las prioridades de lanzamiento. La lista de oportunidades externas puede mantenerse en paralelo con poco costo; los demás programas comenzarán cuando estén listos los espacios, el equipo, las reglas financieras y las autorizaciones universitarias.",
+      planLabel: "Plan de lanzamiento", planTitle: "Comenzar con foco y ampliar con responsabilidad",
+      planBody: "Empezar con Piano Help Hours, encuentros de piano, Open Piano Hours y conexiones para colaborar. Mantener en paralelo la lista de oportunidades externas y añadir los demás programas más adelante.",
+      subTitle: "Actividades ligeras dentro de los programas", subBody: "La búsqueda de parejas para piano a cuatro manos, compañeros de práctica y muestras de obras en proceso serán subactividades, no programas separados.",
+      items: [
+        ["Piano Help Hours gratuitos", "Sesiones abiertas de apoyo entre estudiantes sobre fundamentos, repertorio, interpretación y métodos de práctica.", "Prioridad inicial"],
+        ["Encuentros de piano, comentarios anónimos y síntesis con IA", "Actuaciones informales con comentarios anónimos opcionales. La IA podrá organizar temas comunes después de definir privacidad y consentimiento.", "Prioridad inicial"],
+        ["Open Piano Hours / horario compartido de práctica", "Bloques periódicos propuestos para estudiantes que necesitan acceso a un piano, sujetos a espacio y aprobación universitaria.", "Prioridad inicial"],
+        ["Colaboración con conjuntos, música de cámara y acompañamiento", "Conectar pianistas con conjuntos, grupos de cámara, cantantes y solicitudes de acompañamiento.", "Prioridad inicial"],
+        ["Charlas de pianistas y clases magistrales", "Invitar a pianistas a compartir ideas musicales, métodos de práctica y experiencia escénica cuando haya invitados y espacios.", "Etapa posterior"],
+        ["Concursos internos y audiciones simuladas", "Crear un entorno de práctica constructivo para audiciones y repertorio de concurso cuando estén listos el equipo y los procedimientos.", "Etapa posterior"],
+        ["Lista de concursos y oportunidades de actuación externas", "Mantener una lista breve de oportunidades relevantes que cada estudiante pueda revisar por su cuenta.", "En paralelo"],
+        ["Tutoría de pago opcional gestionada por el club", "Considerarla solo después de definir aprobación, precios, compensación, pagos y responsabilidades.", "Etapa posterior"]
+      ]
     },
     practice: {
       title: "Un camino práctico hacia más tiempo al piano.", intro: "El acceso compartido para practicar en el Conrad Prebys Music Center (CPMC) es una propuesta sujeta a aprobación de la universidad y del departamento.",
       cardTitle: "Horas abiertas de piano: concepto piloto", cardBody: "Proponemos horarios compartidos de práctica para estudiantes que necesitan un piano. Las salas, la supervisión, la duración y las reservas están sujetas a aprobación. Aún no hay acceso confirmado.",
       facts: [["Salas", "Por confirmar"], ["Duración", "Por confirmar"], ["Elegibilidad", "Por confirmar"], ["Horario", "Por confirmar"]],
-      questionsTitle: "Qué debe resolverse", questions: [["Acceso", "Si pueden participar estudiantes que no cursan asignaturas de Música."], ["Operación", "Salas, llaves, supervisión, cuidado del instrumento y reservas recurrentes."], ["Costos", "Posibles cargos por espacios, personal o uso de instrumentos."], ["Proceso de eventos", "T-RES, exenciones y plazos para un piloto o una serie recurrente."]]
+      questionsTitle: "Qué debe resolverse", questions: [["Acceso", "Si pueden participar estudiantes que no cursan asignaturas de Música."], ["Operación", "Salas, llaves, supervisión, cuidado del instrumento y reservas recurrentes."], ["Costos", "Posibles cargos por espacios, personal o uso de instrumentos."], ["Proceso de eventos", "T-RES, exenciones y plazos para un piloto o una serie recurrente."]],
+      programLink: "Ver Open Piano Hours en el plan de programas"
     },
     events: {
       title: "Los eventos aparecerán aquí cuando sean reales.", intro: "Aún no hay fechas, lugares ni formas de participación confirmados.",
       empty: "Aún no hay eventos confirmados. Las fechas, los lugares y los detalles de participación se publicarán cuando se confirmen.",
-      formatsTitle: "Formatos en consideración", formats: [["Tutoría semanal entre estudiantes", "Un horario constante para preguntas sobre música y práctica."], ["Encuentros de piano", "Una reunión de interpretación y escucha con poca presión."], ["Colaboraciones y clases magistrales", "Futuras sesiones con conjuntos o músicos invitados cuando existan acuerdos confirmados."]]
+      programsLink: "Ver los ocho programas previstos"
     },
     involved: {
-      title: "Habrá más de una forma de participar.", intro: "¿Te interesa aprender, dar tutorías, tocar o colaborar? Los canales de contacto e inscripción aún no están confirmados.",
+      title: "Habrá más de una forma de participar.", intro: "¿Te interesa aprender, dar tutorías, tocar o colaborar? Explora los roles y utiliza la página de Contacto para escribir al equipo organizador.",
       roles: [["Estudiante", "Trae preguntas de repertorio, dificultades de práctica o el deseo de comenzar."], ["Tutor o tutora", "Comparte ayuda específica y constructiva durante sesiones programadas."], ["Intérprete", "Prepara una obra para un futuro encuentro y recibe comentarios opcionales."], ["Colaborador o colaboradora", "Conecta el piano con voz, música de cámara, orquesta u otro grupo estudiantil."]],
-      contactTitle: "Discord y contacto público", contactBody: "El servidor, el buzón público y el formulario de interés están en preparación. Los enlaces verificados aparecerán aquí después de confirmar la propiedad y los detalles de privacidad.",
+      contactTitle: "¿Tienes una pregunta o idea?", contactBody: "La página de Contacto mantiene el canal público actual del club en un solo lugar.", contactLink: "Ir a Contacto",
       faqTitle: "Preguntas frecuentes", faq: [["¿Necesito experiencia con el piano?", "La comunidad propuesta está pensada para distintos niveles; los detalles de participación siguen en diseño."], ["¿Puedo reservar un piano de CPMC a través del club?", "Todavía no. El acceso a las salas y los permisos de reserva están por confirmar."], ["¿Ya hay tutoría disponible?", "No. Tanto la ayuda gratuita como la tutoría de pago opcional son propuestas, no servicios activos."], ["¿Es un programa oficial de UC San Diego?", "No. Es una organización estudiantil independiente propuesta y aún no está aprobada."]]
+    },
+    contactPage: {
+      title: "Contacta con el club propuesto.", intro: "Escríbenos si tienes preguntas sobre los programas, una idea de colaboración o interés en ayudar con el lanzamiento.",
+      emailLabel: "Correo público", emailNote: "Los mensajes se reenvían a la persona organizadora mediante Cloudflare Email Routing.",
+      topics: [["Programas y acceso al piano", "Pregunta por las actividades previstas, necesidades de accesibilidad o el futuro acceso para practicar."], ["Actuaciones y colaboración", "Comparte una idea de conjunto, música de cámara, acompañamiento o evento."], ["Ayuda a lanzar el club", "Preséntate si te interesa organizar, dar apoyo entre estudiantes o colaborar como voluntario."]]
     }
   }
 };
@@ -171,6 +218,9 @@ function cardGrid(items, status) {
 function intro(c, title, body) {
   return `<section class="page-intro"><div class="page-shell"><p class="eyebrow">${c.eyebrow}</p><h1>${title}</h1><p>${body}</p></div></section>`;
 }
+function relatedLink(lang, page, label, anchor = "") {
+  return `<a class="button-link secondary" href="${href(lang, page)}${anchor}">${label}</a>`;
+}
 
 function renderHome(c, lang) {
   const h = c.home;
@@ -184,22 +234,27 @@ function renderAbout(c) {
 
 function renderPrograms(c) {
   const p = c.programs;
-  return `${intro(c, p.title, p.intro)}<section class="page-shell"><div class="program-list">${p.items.map((item, i) => `<article class="program-row"><span class="program-icon">${String(i + 1).padStart(2, "0")}</span><div><h3>${item[0]}</h3><p>${item[1]}</p></div>${pill(c.common.pending)}</article>`).join("")}</div></section>`;
+  return `${intro(c, p.title, p.intro)}<section class="page-shell"><div class="status-panel rollout-panel"><div><p class="eyebrow">${p.planLabel}</p><h2>${p.planTitle}</h2><p>${p.planBody}</p></div><div><h3>${p.subTitle}</h3><p>${p.subBody}</p></div></div><div class="program-list">${p.items.map((item, i) => `<article class="program-row" id="program-${i + 1}"><span class="program-icon">${String(i + 1).padStart(2, "0")}</span><div><h3>${item[0]}</h3><p>${item[1]}</p></div>${pill(item[2])}</article>`).join("")}</div></section>`;
 }
 
-function renderPractice(c) {
+function renderPractice(c, lang) {
   const p = c.practice;
-  return `${intro(c, p.title, p.intro)}<section class="page-shell"><div class="practice-visual"><div class="practice-mark"><img src="./assets/discord-mark.png" alt="" width="260" height="260" /></div><div class="card featured"><p class="eyebrow">${c.common.proposal}</p><h2>${p.cardTitle}</h2><p>${p.cardBody}</p><div class="facts">${p.facts.map(x => `<div class="fact"><span>${x[0]}</span><strong>${x[1]}</strong></div>`).join("")}</div></div></div><div class="section-head faq"><h2>${p.questionsTitle}</h2></div>${cardGrid(p.questions, c.common.pending)}</section>`;
+  return `${intro(c, p.title, p.intro)}<section class="page-shell"><div class="practice-visual"><div class="practice-mark"><img src="./assets/discord-mark.png" alt="" width="260" height="260" /></div><div class="card featured"><p class="eyebrow">${c.common.proposal}</p><h2>${p.cardTitle}</h2><p>${p.cardBody}</p><div class="facts">${p.facts.map(x => `<div class="fact"><span>${x[0]}</span><strong>${x[1]}</strong></div>`).join("")}</div><div class="inline-action">${relatedLink(lang, "programs", p.programLink, "#program-3")}</div></div></div><div class="section-head faq"><h2>${p.questionsTitle}</h2></div>${cardGrid(p.questions, c.common.pending)}</section>`;
 }
 
-function renderEvents(c) {
+function renderEvents(c, lang) {
   const e = c.events;
-  return `${intro(c, e.title, e.intro)}<section class="page-shell"><div class="empty-state"><span class="rest" aria-hidden="true">𝄽</span><h2>${c.common.pending}</h2><p>${e.empty}</p></div><div class="section-head faq"><h2>${e.formatsTitle}</h2></div>${cardGrid(e.formats, c.common.proposal)}</section>`;
+  return `${intro(c, e.title, e.intro)}<section class="page-shell"><div class="empty-state"><span class="rest" aria-hidden="true">𝄽</span><h2>${c.common.pending}</h2><p>${e.empty}</p><div class="inline-action">${relatedLink(lang, "programs", e.programsLink)}</div></div></section>`;
 }
 
-function renderInvolved(c) {
+function renderInvolved(c, lang) {
   const i = c.involved;
-  return `${intro(c, i.title, i.intro)}<section class="page-shell"><div class="role-grid">${i.roles.map((x, n) => `<article class="card"><span class="card-number">0${n + 1}</span><h3>${x[0]}</h3><p>${x[1]}</p></article>`).join("")}</div><div class="contact-block"><img src="./assets/discord-mark.png" alt="" width="96" height="96" /><div><p class="eyebrow">${c.common.pending}</p><h2>${i.contactTitle}</h2><p>${i.contactBody}</p></div></div><div class="faq"><h2>${i.faqTitle}</h2>${i.faq.map(x => `<details><summary>${x[0]}</summary><p>${x[1]}</p></details>`).join("")}</div></section>`;
+  return `${intro(c, i.title, i.intro)}<section class="page-shell"><div class="role-grid">${i.roles.map((x, n) => `<article class="card"><span class="card-number">0${n + 1}</span><h3>${x[0]}</h3><p>${x[1]}</p></article>`).join("")}</div><div class="contact-block"><img src="./assets/discord-mark.png" alt="" width="96" height="96" /><div><p class="eyebrow">${c.common.contact}</p><h2>${i.contactTitle}</h2><p>${i.contactBody}</p><div class="inline-action">${relatedLink(lang, "contact", i.contactLink)}</div></div></div><div class="faq"><h2>${i.faqTitle}</h2>${i.faq.map(x => `<details><summary>${x[0]}</summary><p>${x[1]}</p></details>`).join("")}</div></section>`;
+}
+
+function renderContact(c) {
+  const p = c.contactPage;
+  return `${intro(c, p.title, p.intro)}<section class="page-shell"><div class="contact-email"><p class="eyebrow">${p.emailLabel}</p><h2><a href="mailto:hello@tritonpiano.org">hello@tritonpiano.org</a></h2><p>${p.emailNote}</p></div>${cardGrid(p.topics)}</section>`;
 }
 
 function render() {
@@ -218,10 +273,10 @@ function render() {
   const brand = document.querySelector(".brand");
   brand.href = href(lang, "home");
   brand.setAttribute("aria-label", `${c.nav.home} — Piano Club at UC San Diego`);
-  const views = { home: renderHome, about: renderAbout, programs: renderPrograms, practice: renderPractice, events: renderEvents, "get-involved": renderInvolved };
+  const views = { home: renderHome, about: renderAbout, programs: renderPrograms, practice: renderPractice, events: renderEvents, "get-involved": renderInvolved, contact: renderContact };
   document.getElementById("main").innerHTML = views[page](c, lang);
   document.getElementById("footer-disclaimer").textContent = c.common.disclaimer;
-  document.getElementById("footer-contact").textContent = c.common.contact;
+  document.getElementById("footer-contact").innerHTML = `<a href="mailto:hello@tritonpiano.org">${c.common.contact}</a>`;
   document.getElementById("footer-status").textContent = c.banner;
   document.getElementById("site-nav").classList.remove("open");
   document.getElementById("menu-toggle").setAttribute("aria-expanded", "false");
