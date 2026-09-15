@@ -67,21 +67,21 @@ window.clubCopy = {
         ]
       ],
       "statusTitle": "A community in the making",
-      "statusBody": "Meet the idea behind the club and learn where we are in the registration process.",
+      "statusBody": "The club is being organized now, with a first phase tentatively planned for early to mid-October 2026.",
       "statusLink": "About the club",
       "exploreTitle": "Choose where to start",
       "exploreIntro": "Explore our programs, learn about practice access, see upcoming events or find a way to get involved."
     },
     "about": {
-      "title": "A piano community across majors and experience levels.",
-      "intro": "The proposed club is designed for curious beginners, experienced pianists, listeners and collaborators.",
+      "title": "A piano community for current UCSD students.",
+      "intro": "Most programs are planned for current students across majors and experience levels. Public piano salons may welcome a wider audience when venue rules allow.",
       "mission": "What we want to build",
-      "missionBody": "A welcoming piano community where students can practice, ask musical questions, perform with confidence and find people to make music with.",
+      "missionBody": "A welcoming community where UCSD students can practise, ask musical questions, perform with confidence and find people to make music with.",
       "valuesTitle": "How we’ll make it possible",
       "values": [
         [
           "Make room for everyone",
-          "Free to join, with space for different majors, goals and experience levels."
+          "Free to join for current UCSD students, with space for different majors, goals and experience levels."
         ],
         [
           "Make feedback useful",
@@ -93,7 +93,7 @@ window.clubCopy = {
         ]
       ],
       "stateTitle": "Organizational status",
-      "stateBody": "The club is being organized and has not yet been approved. Principal Members, volunteer pianists and launch timing remain unconfirmed.",
+      "stateBody": "The club is currently being organized by one student and has not yet been approved. Leadership is still open; the first phase is tentatively planned for early to mid-October 2026.",
       "programsTitle": "See what we’re planning",
       "programsBody": "Eight proposed programs turn this idea into practical ways to learn, practice, perform and collaborate.",
       "programsLink": "Explore the programs"
@@ -123,7 +123,7 @@ window.clubCopy = {
         ],
         [
           "Piano salons, anonymous feedback and AI-organized suggestions",
-          "Informal performances with optional anonymous feedback. AI may organize recurring themes after privacy and consent rules are established.",
+          "Informal performances open to the wider community when venue rules allow. Optional anonymous feedback and AI organization would begin only after privacy and consent rules are established.",
           "Launch priority"
         ],
         [
@@ -175,8 +175,8 @@ window.clubCopy = {
           "Not confirmed"
         ],
         [
-          "Eligibility",
-          "Not confirmed"
+          "Intended participants",
+          "Current UCSD students, subject to approval"
         ],
         [
           "Schedule",
@@ -187,7 +187,7 @@ window.clubCopy = {
       "questions": [
         [
           "Access",
-          "Whether students outside Music courses may participate."
+          "How current UCSD students across majors may receive authorized room access."
         ],
         [
           "Operations",
@@ -212,13 +212,13 @@ window.clubCopy = {
         "Let your music\nbe heard.",
         "Start solo.\nFind an ensemble."
       ],
-      "intro": "Piano salons, shared listening and opportunities to play together.",
-      "empty": "Our first events are still being planned. Dates, venues and participation details will appear here once confirmed.",
+      "intro": "Piano salons open to the wider community, shared listening and opportunities to play together.",
+      "empty": "We are tentatively aiming to begin the first phase in early to mid-October 2026. Confirmed dates, venues and participation details will appear here.",
       "programsLink": "Explore what we are planning"
     },
     "involved": {
       "title": "Find your place\nat the piano.",
-      "intro": "Come to learn, offer a little guidance, share a piece or find someone to play with. Choose what interests you and tell us about yourself.",
+      "intro": "Most club programs are for current UCSD students. Piano salons may welcome everyone; choose what interests you and tell us about yourself.",
       "roles": [
         [
           "Learner",
@@ -252,6 +252,7 @@ window.clubCopy = {
       "intro": "A question, a piece you want to share, or an idea for the club — we would like to hear from you.",
       "emailLabel": "Write to us",
       "phoneLabel": "Call us",
+      "phoneNote": "Calls and texts: Monday–Friday, 9:00 a.m.–8:00 p.m. Leave a voicemail if we miss your call.",
       "topicLabel": "What is on your mind? (optional)",
       "general": "General enquiry",
       "reset": "Clear selection",
@@ -285,15 +286,15 @@ window.clubCopy = {
       "faq": [
         [
           "Is the Piano Club officially recognized yet?",
-          "Not yet. The club is still being organized and has not received university approval. Its launch date and leadership team remain unconfirmed."
+          "Not yet. The club is still being organized and has not received university approval. One student is currently organizing it, and leadership remains open. The first phase is tentatively planned for early to mid-October 2026."
         ],
         [
           "Who is the club for?",
-          "The proposed community welcomes UC San Diego students across majors and experience levels, from beginners and listeners to experienced pianists and collaborators. Final eligibility rules will be published after approval."
+          "Most programs are intended for current UCSD students across majors and experience levels. Piano salons may welcome students, staff, alumni and visitors when venue rules and capacity allow."
         ],
         [
           "Will it cost anything to join?",
-          "The club is intended to be free to join, and the first proposed peer-help and community programs are designed to be free. Optional paid coaching would be considered only after approval and clear pricing, payment and accountability rules."
+          "Joining the club is free. Optional paid coaching would be a separate future program and would be considered only after approval and clear pricing, payment and accountability rules."
         ],
         [
           "Can I book a piano or practice room now?",
@@ -301,7 +302,7 @@ window.clubCopy = {
         ],
         [
           "When and where will the first events happen?",
-          "No date or venue is confirmed yet. We will update the Events page once the details are ready."
+          "The first phase is tentatively planned for early to mid-October 2026, but no event date or venue is confirmed yet. We will update the Events page once details are ready."
         ],
         [
           "How can I take part?",
@@ -329,7 +330,7 @@ window.clubCopy = {
         ],
         [
           "Can I call instead?",
-          "Yes. Our public phone number is (619) 380-1100. Email is especially helpful when you need to share detailed context, links or files."
+          "Yes. Call or text (619) 380-1100 Monday through Friday, 9:00 a.m.–8:00 p.m. If we miss your call, leave a voicemail and we will respond when we can. Email is better for detailed context, links or files."
         ]
       ],
       "topicMessages": {
@@ -504,21 +505,21 @@ window.clubCopy = {
         ]
       ],
       "statusTitle": "一起把社团建立起来",
-      "statusBody": "认识我们的理念，了解社团筹建与注册的当前进展。",
+      "statusBody": "社团正在筹建，首阶段暂定于 2026 年十月上中旬启动。",
       "statusLink": "认识钢琴社",
       "exploreTitle": "选择你的下一步",
       "exploreIntro": "查看社团项目、了解练琴资源、寻找近期活动，或选择一种方式加入我们。"
     },
     "about": {
-      "title": "面向不同专业与演奏经验的钢琴社群。",
-      "intro": "这里欢迎刚开始学琴的同学、有经验的演奏者、喜欢聆听的人，以及想一起合作的伙伴。",
+      "title": "面向 UCSD 在校学生的钢琴社群。",
+      "intro": "大多数项目面向不同专业与演奏经验的 UCSD 在校学生；场地规则允许时，钢琴沙龙也会向校外来宾开放。",
       "mission": "我们想建立什么",
-      "missionBody": "一个友好的钢琴社群，让同学可以练琴、交流音乐问题、安心演奏，也能找到一起做音乐的伙伴。",
+      "missionBody": "一个友好的钢琴社群，让 UCSD 同学可以练琴、交流音乐问题、安心演奏，也能找到一起做音乐的伙伴。",
       "valuesTitle": "我们怎样把它做好",
       "values": [
         [
           "让每个人都能参与",
-          "免费加入，欢迎不同专业、目标和经验水平的同学。"
+          "UCSD 在校学生可以免费加入，不限专业、目标和演奏经验。"
         ],
         [
           "让交流真正有帮助",
@@ -530,7 +531,7 @@ window.clubCopy = {
         ]
       ],
       "stateTitle": "组织状态",
-      "stateBody": "社团目前处于筹建阶段，尚未获批。主要负责人、志愿钢琴演奏者和启动时间均待确认。",
+      "stateBody": "社团目前由一名学生筹办，尚未获批；正式负责人仍待确定，首阶段暂定于 2026 年十月上中旬启动。",
       "programsTitle": "看看我们准备做什么",
       "programsBody": "八个计划中的项目，会把这些想法变成一起学习、练习、演奏和合作的具体方式。",
       "programsLink": "查看社团项目"
@@ -560,7 +561,7 @@ window.clubCopy = {
         ],
         [
           "钢琴沙龙＋匿名反馈＋AI 建议整理",
-          "举办轻松的演奏与聆听聚会；在明确隐私与同意机制后，自愿收集匿名反馈并由 AI 整理共性建议。",
+          "在场地规则允许时向校内外来宾开放演奏与聆听聚会；匿名反馈与 AI 整理只会在隐私和同意机制明确后启用。",
           "启动优先"
         ],
         [
@@ -612,8 +613,8 @@ window.clubCopy = {
           "尚未确认"
         ],
         [
-          "参与资格",
-          "尚未确认"
+          "计划面向",
+          "UCSD 在校学生，仍须获得批准"
         ],
         [
           "时间安排",
@@ -624,7 +625,7 @@ window.clubCopy = {
       "questions": [
         [
           "使用资格",
-          "未选修音乐课程的学生能否参加。"
+          "如何让不同专业的 UCSD 在校学生依规获得琴房使用权限。"
         ],
         [
           "实际运营",
@@ -649,13 +650,13 @@ window.clubCopy = {
         "让练过的曲子，\n有机会被听见。",
         "从独奏出发，\n遇见合奏。"
       ],
-      "intro": "钢琴沙龙、一起聆听，也一起寻找登台的机会。",
-      "empty": "首批活动正在筹备中。日期、地点和参与方式确认后会在这里公布。",
+      "intro": "向校内外来宾开放的钢琴沙龙、一起聆听，也一起寻找登台的机会。",
+      "empty": "首阶段暂定于 2026 年十月上中旬启动。日期、地点和参与方式确认后会在这里公布。",
       "programsLink": "了解正在筹备的项目"
     },
     "involved": {
       "title": "找到属于你的\n参与方式。",
-      "intro": "来学习、分享经验、演奏一首曲子，或寻找合奏伙伴。选一个感兴趣的角色，和我们聊聊。",
+      "intro": "大多数项目面向 UCSD 在校学生，钢琴沙龙可向所有人开放。选一个感兴趣的角色，和我们聊聊。",
       "roles": [
         [
           "学习者",
@@ -689,6 +690,7 @@ window.clubCopy = {
       "intro": "想了解项目、一起演奏，或帮助筹建社团？欢迎来信。",
       "emailLabel": "给我们写信",
       "phoneLabel": "给我们打电话",
+      "phoneNote": "电话与短信：周一至周五 9:00–20:00。未接时请留言，我们看到后会回复。",
       "topicLabel": "你想聊什么？（可选）",
       "general": "一般咨询",
       "reset": "清除选择",
@@ -722,15 +724,15 @@ window.clubCopy = {
       "faq": [
         [
           "钢琴社已经正式获批了吗？",
-          "还没有。社团仍在筹建，尚未获得学校批准；正式启动时间与主要负责人也还没有确认。"
+          "还没有。社团仍在筹建，尚未获得学校批准。目前由一名学生筹办，正式负责人仍待确定；首阶段暂定于 2026 年十月上中旬启动。"
         ],
         [
           "谁可以参加？",
-          "我们希望面向 UC San Diego 不同专业和经验水平的学生，包括初学者、听众、有经验的演奏者和合作伙伴。最终参与资格将在获批后公布。"
+          "大多数项目面向不同专业和经验水平的 UCSD 在校学生。场地规则和容量允许时，钢琴沙龙可向教职员工、校友和校外来宾开放。"
         ],
         [
           "加入或参加项目需要付费吗？",
-          "社团计划免费加入，首批同伴答疑和社群活动也以免费为目标。可选付费辅导只会在取得批准并明确定价、收款与责任规则后再考虑。"
+          "加入社团免费。可选付费辅导属于独立的后续项目，只会在取得批准并明确定价、收款与责任规则后再考虑。"
         ],
         [
           "现在可以预约钢琴或琴房吗？",
@@ -738,7 +740,7 @@ window.clubCopy = {
         ],
         [
           "第一场活动何时、在哪里举行？",
-          "日期和场地都还没有确认。信息落实后，我们会更新“活动”页面。"
+          "首阶段暂定于 2026 年十月上中旬启动，但具体活动日期和场地尚未确认。信息落实后，我们会更新“活动”页面。"
         ],
         [
           "我可以怎样参与？",
@@ -766,7 +768,7 @@ window.clubCopy = {
         ],
         [
           "可以直接打电话吗？",
-          "可以。公开电话是 (619) 380-1100；如果需要说明较多背景，或附上链接和文件，使用邮件会更方便。"
+          "可以。周一至周五 9:00–20:00 可拨打或发送短信至 (619) 380-1100。电话未接时请留言，我们看到后会回复；需要提供较多背景、链接或文件时，邮件更方便。"
         ]
       ],
       "topicMessages": {
@@ -941,21 +943,21 @@ window.clubCopy = {
         ]
       ],
       "statusTitle": "Una comunidad en formación",
-      "statusBody": "Conoce la idea del club y el avance de su registro.",
+      "statusBody": "El club está en preparación y la primera fase está prevista, de forma provisional, para principios o mediados de octubre de 2026.",
       "statusLink": "Conoce el club",
       "exploreTitle": "Elige por dónde empezar",
       "exploreIntro": "Explora los programas, consulta el acceso para practicar, descubre próximos eventos o encuentra una forma de participar."
     },
     "about": {
-      "title": "Una comunidad de piano para distintas carreras y niveles.",
-      "intro": "El club propuesto está pensado para principiantes, pianistas con experiencia, oyentes y colaboradores.",
+      "title": "Una comunidad de piano para estudiantes actuales de UCSD.",
+      "intro": "La mayoría de los programas están pensados para estudiantes actuales de distintas carreras y niveles. Los encuentros de piano podrán recibir a más público cuando las normas del espacio lo permitan.",
       "mission": "Lo que queremos crear",
-      "missionBody": "Una comunidad de piano acogedora donde estudiantes puedan practicar, hacer preguntas sobre música, tocar con confianza y encontrar personas con quienes hacer música.",
+      "missionBody": "Una comunidad acogedora donde estudiantes de UCSD puedan practicar, hacer preguntas sobre música, tocar con confianza y encontrar personas con quienes hacer música.",
       "valuesTitle": "Cómo lo haremos posible",
       "values": [
         [
           "Un lugar para todos",
-          "Participación gratuita y abierta a distintas carreras, metas y niveles de experiencia."
+          "La membresía es gratuita para estudiantes actuales de UCSD, de cualquier carrera, meta o nivel de experiencia."
         ],
         [
           "Comentarios que ayudan",
@@ -967,7 +969,7 @@ window.clubCopy = {
         ]
       ],
       "stateTitle": "Estado de la organización",
-      "stateBody": "El club está en organización y aún no ha sido aprobado. Los miembros principales, los pianistas voluntarios y la fecha de lanzamiento están por confirmar.",
+      "stateBody": "Actualmente una persona está organizando el club, que aún no ha sido aprobado. El liderazgo sigue abierto y la primera fase está prevista provisionalmente para principios o mediados de octubre de 2026.",
       "programsTitle": "Conoce lo que estamos preparando",
       "programsBody": "Ocho programas propuestos convierten esta idea en formas concretas de aprender, practicar, tocar y colaborar.",
       "programsLink": "Explorar los programas"
@@ -997,7 +999,7 @@ window.clubCopy = {
         ],
         [
           "Encuentros de piano, comentarios anónimos y síntesis con IA",
-          "Actuaciones informales con comentarios anónimos opcionales. La IA podrá organizar temas comunes después de definir privacidad y consentimiento.",
+          "Actuaciones informales abiertas a más público cuando las normas del espacio lo permitan. Los comentarios anónimos y la síntesis con IA solo comenzarían después de definir privacidad y consentimiento.",
           "Prioridad inicial"
         ],
         [
@@ -1049,8 +1051,8 @@ window.clubCopy = {
           "Sin confirmar"
         ],
         [
-          "Elegibilidad",
-          "Sin confirmar"
+          "Participantes previstos",
+          "Estudiantes actuales de UCSD, sujeto a aprobación"
         ],
         [
           "Horario",
@@ -1061,7 +1063,7 @@ window.clubCopy = {
       "questions": [
         [
           "Acceso",
-          "Si pueden participar estudiantes que no cursan asignaturas de Música."
+          "Cómo podrán obtener acceso autorizado estudiantes actuales de UCSD de distintas carreras."
         ],
         [
           "Operación",
@@ -1086,13 +1088,13 @@ window.clubCopy = {
         "Que tu música\npueda ser escuchada.",
         "Empieza solo.\nToca en conjunto."
       ],
-      "intro": "Encuentros de piano, escucha compartida y oportunidades para tocar juntos.",
-      "empty": "Los primeros eventos están en preparación. Publicaremos fechas, lugares y formas de participar cuando estén confirmados.",
+      "intro": "Encuentros de piano abiertos a más público, escucha compartida y oportunidades para tocar juntos.",
+      "empty": "La primera fase está prevista provisionalmente para principios o mediados de octubre de 2026. Publicaremos las fechas, lugares y formas de participar cuando estén confirmados.",
       "programsLink": "Explora lo que estamos preparando"
     },
     "involved": {
       "title": "Encuentra tu lugar\njunto al piano.",
-      "intro": "Ven a aprender, compartir consejos, interpretar una obra o buscar compañeros. Elige un rol que te interese y cuéntanos sobre ti.",
+      "intro": "La mayoría de los programas son para estudiantes actuales de UCSD; los encuentros de piano podrán abrirse a todas las personas. Elige lo que te interese y cuéntanos sobre ti.",
       "roles": [
         [
           "Estudiante",
@@ -1126,6 +1128,7 @@ window.clubCopy = {
       "intro": "Una pregunta, una obra para compartir o una idea para el club: nos gustaría escucharte.",
       "emailLabel": "Escríbenos",
       "phoneLabel": "Llámanos",
+      "phoneNote": "Llamadas y mensajes: de lunes a viernes, de 9:00 a 20:00. Deja un mensaje de voz si no contestamos.",
       "topicLabel": "¿De qué quieres hablar? (opcional)",
       "general": "Consulta general",
       "reset": "Borrar selección",
@@ -1159,15 +1162,15 @@ window.clubCopy = {
       "faq": [
         [
           "¿El Piano Club ya está reconocido oficialmente?",
-          "Aún no. El club sigue en formación y no ha recibido la aprobación de la universidad. La fecha de lanzamiento y el equipo responsable tampoco están confirmados."
+          "Aún no. El club sigue en formación y no ha recibido la aprobación de la universidad. Actualmente lo organiza una persona y el liderazgo sigue abierto. La primera fase está prevista provisionalmente para principios o mediados de octubre de 2026."
         ],
         [
           "¿Quién puede participar?",
-          "La comunidad propuesta está pensada para estudiantes de UC San Diego de distintas carreras y niveles, desde principiantes y oyentes hasta pianistas con experiencia y colaboradores. Los requisitos definitivos se publicarán después de la aprobación."
+          "La mayoría de los programas están pensados para estudiantes actuales de UCSD de distintas carreras y niveles. Los encuentros de piano podrán recibir a personal, exalumnos y visitantes cuando las normas y la capacidad del espacio lo permitan."
         ],
         [
           "¿Hay que pagar para unirse?",
-          "La intención es que unirse sea gratuito y que los primeros programas de apoyo entre estudiantes y de comunidad también lo sean. La tutoría de pago opcional solo se consideraría después de contar con aprobación y reglas claras de precios, pagos y responsabilidades."
+          "Unirse al club es gratuito. La tutoría de pago opcional sería un programa futuro separado y solo se consideraría después de contar con aprobación y reglas claras de precios, pagos y responsabilidades."
         ],
         [
           "¿Puedo reservar un piano o una sala ahora?",
@@ -1175,7 +1178,7 @@ window.clubCopy = {
         ],
         [
           "¿Cuándo y dónde será el primer evento?",
-          "Aún no hay fecha ni lugar confirmados. Actualizaremos la página de Eventos cuando los detalles estén listos."
+          "La primera fase está prevista provisionalmente para principios o mediados de octubre de 2026, pero todavía no hay fecha ni lugar confirmados. Actualizaremos la página de Eventos cuando los detalles estén listos."
         ],
         [
           "¿Cómo puedo participar?",
@@ -1203,7 +1206,7 @@ window.clubCopy = {
         ],
         [
           "¿Puedo llamar en su lugar?",
-          "Sí. Nuestro teléfono público es (619) 380-1100. El correo resulta más cómodo cuando necesitas compartir contexto detallado, enlaces o archivos."
+          "Sí. Puedes llamar o enviar un mensaje al (619) 380-1100 de lunes a viernes, de 9:00 a 20:00. Si no contestamos, deja un mensaje de voz y responderemos cuando podamos. El correo es mejor para contexto detallado, enlaces o archivos."
         ]
       ],
       "topicMessages": {

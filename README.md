@@ -1,6 +1,6 @@
-# Triton Piano Club website
+# Piano Club at UCSD website
 
-Public website for the proposed Piano Club at UC San Diego. The club is still being organized and has not yet been approved by the university.
+Public website for the proposed Piano Club at UCSD. The club is still being organized and has not yet been approved by the university.
 
 ## Local preview
 

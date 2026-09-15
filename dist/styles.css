@@ -130,6 +130,7 @@ details summary { min-height:48px; padding:.65rem 0; cursor:pointer; font-weight
 .contact-method { min-width:0; padding:1rem 1.1rem; border:1px solid var(--line); border-radius:10px; background:var(--white); }
 .contact-method .eyebrow { color:var(--muted); margin-bottom:.35rem; }
 .public-contact { display:inline-flex; align-items:center; min-height:44px; margin:0; color:var(--navy); font-size:clamp(1.1rem,2vw,1.35rem); font-weight:750; line-height:1.4; overflow-wrap:anywhere; }
+.contact-note { margin:.25rem 0 0; color:var(--muted); font-size:.86rem; line-height:1.5; }
 a.public-contact { text-decoration:none; text-underline-offset:.2em; }
 a.public-contact:hover { color:var(--navy-2); text-decoration:underline; text-decoration-thickness:2px; }
 .text-button { display:inline-flex; align-items:center; justify-content:center; min-height:44px; padding:.5rem 0; border:0; background:transparent; color:var(--navy-2); text-decoration:underline; text-underline-offset:.2em; font-size:.875rem; }
