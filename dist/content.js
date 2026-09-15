@@ -7,7 +7,7 @@ window.clubCopy = {
     "skip": "Skip to content",
     "navigation": "Primary navigation",
     "footerNavigation": "Footer navigation",
-    "banner": "CSI approval in progress — programs not yet open",
+    "banner": "CSI Approval in Progress — Programs Not Yet Open",
     "nav": {
       "home": "Home",
       "about": "About",
@@ -18,37 +18,37 @@ window.clubCopy = {
       "contact": "Contact"
     },
     "common": {
-      "pending": "To be confirmed",
+      "pending": "To Be Confirmed",
       "proposal": "Proposed",
-      "status": "Current status",
+      "status": "Current Status",
       "contact": "hello@tritonpiano.org",
       "disclaimer": "This is a proposed independent student club. References to UC San Diego describe its location and do not imply university endorsement or support.",
-      "approval": "Subject to university approval",
+      "approval": "Subject to University Approval",
       "learn": "Learn",
       "share": "Share",
       "connect": "Connect"
     },
     "home": {
-      "title": "Find your people.\nMake music together.",
+      "title": "Find Your People.\nMake Music Together.",
       "taglines": [
-        "Find a piano.\nKeep practising.",
-        "Let your music\nbe heard.",
-        "Learn. Play. Connect.\nStart here.",
-        "Start solo.\nDiscover an ensemble.",
-        "Bring a question.\nLeave inspired."
+        "Find a Piano.\nKeep Practising.",
+        "Let Your Music\nBe Heard.",
+        "Learn. Play. Connect.\nStart Here.",
+        "Start Solo.\nDiscover an Ensemble.",
+        "Bring a Question.\nLeave Inspired."
       ],
       "body": "A piano community taking shape at UC San Diego. Bring a piece, a question, or simply your curiosity.",
       "cta1": "Explore our programs",
       "cta2": "Find your place",
       "themes": [
         [
-          "Our programs",
+          "Our Programs",
           "Explore eight ways to learn, perform and make music together.",
           "programs",
           "View programs"
         ],
         [
-          "Practice access",
+          "Practice Access",
           "Learn about the shared-practice plan and what needs to be in place before it opens.",
           "practice",
           "View practice access"
@@ -60,115 +60,115 @@ window.clubCopy = {
           "View events"
         ],
         [
-          "Get involved",
+          "Get Involved",
           "Learn, help, perform or collaborate. Find a way to take part that suits you.",
           "get-involved",
           "Find your role"
         ]
       ],
-      "statusTitle": "A community in the making",
+      "statusTitle": "A Community in the Making",
       "statusBody": "Fall 2026 is focused on completing CSI approval, currently expected around late November. Programs can begin only after approval.",
       "statusLink": "About the club",
-      "exploreTitle": "Choose where to start",
+      "exploreTitle": "Choose Where to Start",
       "exploreIntro": "Explore the programs and practice access planned for after approval, review future events or express your interest in getting involved."
     },
     "about": {
-      "title": "A piano community for current UCSD students.",
+      "title": "A Piano Community for Current UCSD Students.",
       "intro": "Most programs are planned for current students across majors and experience levels. Public piano salons may welcome a wider audience when venue rules allow.",
-      "mission": "What we want to build",
+      "mission": "What We Want to Build",
       "missionBody": "A welcoming community where UCSD students can practise, ask musical questions, perform with confidence and find people to make music with.",
-      "valuesTitle": "How we’ll make it possible",
+      "valuesTitle": "How We’ll Make It Possible",
       "values": [
         [
-          "Make room for everyone",
+          "Make Room for Everyone",
           "Free to join for current UCSD students, with space for different majors, goals and experience levels."
         ],
         [
-          "Make feedback useful",
+          "Make Feedback Useful",
           "Specific, respectful suggestions help each musician find a clear next step."
         ],
         [
-          "Build programs that last",
+          "Build Programs That Last",
           "We open each program when the people, spaces, privacy safeguards and approvals are in place, so it can run safely and reliably."
         ]
       ],
-      "stateTitle": "Organizational status",
+      "stateTitle": "Organizational Status",
       "stateBody": "The club is currently being organized by one student and is going through the CSI approval process. Approval may come around late November 2026; leadership remains open, and no program can begin before approval.",
-      "programsTitle": "See what we’re planning",
+      "programsTitle": "See What We’re Planning",
       "programsBody": "Eight proposed programs turn this idea into practical ways to learn, practice, perform and collaborate.",
       "programsLink": "Explore the programs"
     },
     "programs": {
-      "title": "Room to learn.\nA reason to play.",
+      "title": "Room to Learn.\nA Reason to Play.",
       "taglines": [
-        "Questions to ensembles.\nFind your fit.",
-        "Eight ideas.\nPractise, share and play.",
-        "Learn. Play. Connect.\nStart here.",
-        "Bring a question.\nLeave inspired."
+        "Questions to Ensembles.\nFind Your Fit.",
+        "Eight Ideas.\nPractise, Share and Play.",
+        "Learn. Play. Connect.\nStart Here.",
+        "Bring a Question.\nLeave Inspired."
       ],
       "intro": "Eight programs are planned, from free peer help and piano salons to ensemble collaboration. None will begin before CSI approval is complete; the first four remain the priorities afterward, with external opportunities prepared alongside them.",
-      "subTitle": "Lightweight activities inside the programs",
+      "subTitle": "Lightweight Activities Inside the Programs",
       "subBody": "Four-hand duet matching, practice partners and unfinished-work sharing will be offered as sub-activities rather than counted as separate programs.",
       "practiceLink": "View Practice Access",
-      "guideTitle": "Open a program for current details",
+      "guideTitle": "Open a Program for Current Details",
       "guideBody": "Select any program to see its schedule, venue and participation details. Confirmed information will be kept with the corresponding program here.",
       "detailPrompt": "View schedule, venue and participation",
       "detailLabels": ["Schedule", "Venue", "Participation"],
       "pendingDetails": ["After CSI approval", "To be confirmed", "Details will be posted here"],
       "items": [
         [
-          "Open Piano Hours / shared practice time",
+          "Open Piano Hours / Shared Practice Time",
           "Proposed recurring practice blocks for students who need access to a piano, subject to space and university approval.",
-          "Launch priority"
+          "Launch Priority"
         ],
         [
           "Free Piano Help Hours",
           "Scheduled drop-in peer help with fundamentals, repertoire, interpretation and practice methods.",
-          "Launch priority"
+          "Launch Priority"
         ],
         [
-          "Piano salons, anonymous feedback and AI-organized suggestions",
+          "Piano Salons, Anonymous Feedback and AI-Organized Suggestions",
           "Informal performances open to the wider community when venue rules allow. Optional anonymous feedback and AI organization would begin only after privacy and consent rules are established.",
-          "Launch priority"
+          "Launch Priority"
         ],
         [
-          "Ensemble, chamber music and accompaniment collaboration",
+          "Ensemble, Chamber Music and Accompaniment Collaboration",
           "Match pianists with ensembles, chamber groups, singers and accompaniment requests.",
-          "Launch priority"
+          "Launch Priority"
         ],
         [
-          "Pianist talks and masterclasses",
+          "Pianist Talks and Masterclasses",
           "Invite pianists to share musical ideas, practice methods and performance experience when guests and venues are available.",
-          "Later phase"
+          "Later Phase"
         ],
         [
-          "Internal competitions and mock auditions",
+          "Internal Competitions and Mock Auditions",
           "Create supportive practice settings for auditions and competition repertoire after organizers and procedures are ready.",
-          "Later phase"
+          "Later Phase"
         ],
         [
-          "External competition and performance opportunity listings",
+          "External Competition and Performance Opportunity Listings",
           "Maintain a concise list of relevant opportunities that students can review independently.",
-          "Parallel launch"
+          "Parallel Launch"
         ],
         [
-          "Club-managed optional paid coaching",
+          "Club-Managed Optional Paid Coaching",
           "Consider an opt-in service only after approval, pricing, tutor compensation, payment and accountability rules are established.",
-          "Later phase"
+          "Later Phase"
         ]
       ],
       "ask": "Have a specific question? Write to us"
     },
     "practice": {
-      "title": "More time at the piano.",
+      "title": "More Time at the Piano.",
       "taglines": [
-        "Find a piano.\nKeep practising.",
-        "More practice.\nMore room to grow.",
-        "No piano?\nKeep the music moving.",
-        "A place to practise.\nPeople to play with."
+        "Find a Piano.\nKeep Practising.",
+        "More Practice.\nMore Room to Grow.",
+        "No Piano?\nKeep the Music Moving.",
+        "A Place to Practise.\nPeople to Play With."
       ],
       "intro": "We hope to arrange shared practice time at the Conrad Prebys Music Center (CPMC). University and department approval is still required.",
-      "cardTitle": "Open Piano Hours — pilot concept",
+      "cardTitle": "Open Piano Hours — Pilot Concept",
       "cardBody": "The pilot would give students who need a piano a regular chance to practise. Room access and bookings are not yet available.",
       "facts": [
         [
@@ -176,11 +176,11 @@ window.clubCopy = {
           "Not confirmed"
         ],
         [
-          "Session length",
+          "Session Length",
           "Not confirmed"
         ],
         [
-          "Intended participants",
+          "Intended Participants",
           "Current UCSD students, subject to approval"
         ],
         [
@@ -188,7 +188,7 @@ window.clubCopy = {
           "Not confirmed"
         ]
       ],
-      "questionsTitle": "Before the pilot can begin",
+      "questionsTitle": "Before the Pilot Can Begin",
       "questions": [
         [
           "Access",
@@ -203,7 +203,7 @@ window.clubCopy = {
           "Any space, staffing or instrument-use charges."
         ],
         [
-          "Event process",
+          "Event Process",
           "T-RES, waivers and lead times for a pilot or recurring series."
         ]
       ],
@@ -211,18 +211,18 @@ window.clubCopy = {
       "ask": "Ask about practice access"
     },
     "events": {
-      "title": "Come for the music.",
+      "title": "Come for the Music.",
       "taglines": [
-        "Practise together.\nPerform together.",
-        "Let your music\nbe heard.",
-        "Start solo.\nFind an ensemble."
+        "Practise Together.\nPerform Together.",
+        "Let Your Music\nBe Heard.",
+        "Start Solo.\nFind an Ensemble."
       ],
       "intro": "The latest confirmed salons, performances and gatherings will appear here, with links to each program for full details.",
       "empty": "Fall 2026 is dedicated to completing CSI approval, currently expected around late November. No events will begin before approval; confirmed dates, venues and participation details will appear here afterward.",
       "programsLink": "View program details"
     },
     "involved": {
-      "title": "Find your place\nat the piano.",
+      "title": "Find Your Place\nAt the Piano.",
       "intro": "Join through one of our community channels when they open. No application email is required.",
       "roles": [
         [
@@ -230,7 +230,7 @@ window.clubCopy = {
           "Bring repertoire questions, practice challenges or a wish to begin."
         ],
         [
-          "Peer tutor",
+          "Peer Tutor",
           "Share focused, constructive help during scheduled sessions."
         ],
         [
@@ -242,16 +242,16 @@ window.clubCopy = {
           "Connect piano with voice, chamber music, orchestra or another student group."
         ]
       ],
-      "communityTitle": "Join the club",
+      "communityTitle": "Join the Club",
       "communityIntro": "Once the channels open, joining our Discord server, following an official social account or joining the WeChat group is enough to become a member.",
-      "communityStatus": "Coming soon",
+      "communityStatus": "Coming Soon",
       "communities": [
         [
           "Discord",
           "The official server invitation will be posted here."
         ],
         [
-          "Social media",
+          "Social Media",
           "Official account names and profile links will be posted here."
         ],
         [
@@ -260,7 +260,7 @@ window.clubCopy = {
         ]
       ],
       "communityFootnote": "These channels are still being prepared. Official links, account names and current QR codes will appear here when ready.",
-      "rolesTitle": "Ways to take part",
+      "rolesTitle": "Ways to Take Part",
       "rolesIntro": "After joining the community, take part as a learner, peer tutor, performer or collaborator whenever an activity fits you. These are options, not membership requirements.",
       "roleLinks": [
         "Still have questions? Contact us",
@@ -268,25 +268,25 @@ window.clubCopy = {
         "Still have questions? Contact us",
         "Still have questions? Contact us"
       ],
-      "contactTitle": "Have a specific idea or question?",
+      "contactTitle": "Have a Specific Idea or Question?",
       "contactBody": "Email us about a project idea, performance, collaboration or individual question. You do not need to email us to join.",
       "contactLink": "Write about your idea"
     },
     "contact": {
-      "title": "Let’s talk piano.",
+      "title": "Let’s Talk Piano.",
       "intro": "A question, a piece you want to share, or an idea for the club — we would like to hear from you.",
-      "emailLabel": "Write to us",
+      "emailLabel": "Write to Us",
       "emailNote": "Email replies: Monday–Friday, 9:00 a.m.–8:00 p.m. Messages received outside these hours will wait until the next response window; we do not reply on weekends.",
-      "phoneLabel": "Call us",
+      "phoneLabel": "Call Us",
       "phoneNote": "Calls and texts: Monday–Friday, 9:00 a.m.–8:00 p.m. Leave a voicemail if we miss your call.",
       "topicLabel": "What is on your mind? (optional)",
       "general": "General enquiry",
       "reset": "Clear selection",
-      "providersTitle": "Choose how to write",
+      "providersTitle": "Choose How to Write",
       "providersIntro": "Choose an email service and we’ll open a suggested draft. You can change or remove any part of it.",
       "composeButton": "Write an email",
       "closeDialog": "Close",
-      "defaultMail": "Mail app",
+      "defaultMail": "Mail App",
       "defaultHint": "Use the app on your device",
       "gmailHint": "Open Gmail with a draft",
       "outlookHint": "Open Outlook with a draft",
@@ -307,55 +307,55 @@ window.clubCopy = {
         "Name (optional):",
         "My question or idea:"
       ],
-      "faqTitle": "You may be wondering",
+      "faqTitle": "You May Be Wondering",
       "faqIntro": "Quick answers about the club, its programs, practice access, events and getting in touch.",
       "faq": [
         [
-          "Has the club completed CSI approval?",
+          "Has the Club Completed CSI Approval?",
           "Not yet. One student is currently organizing the club and the CSI approval process is underway. Approval may come around late November 2026; leadership remains open, and no program can begin before approval."
         ],
         [
-          "Who is the club for?",
+          "Who Is the Club For?",
           "Most programs are intended for current UCSD students across majors and experience levels. Piano salons may welcome students, staff, alumni and visitors when venue rules and capacity allow."
         ],
         [
-          "Will it cost anything to join?",
+          "Will It Cost Anything to Join?",
           "Joining the club is free. Optional paid coaching would be a separate future program and would be considered only after approval and clear pricing, payment and accountability rules."
         ],
         [
-          "Can I book a piano or practice room now?",
+          "Can I Book a Piano or Practice Room Now?",
           "Not yet. Open Piano Hours is a proposal; rooms, eligibility, schedules, supervision and any costs remain unconfirmed."
         ],
         [
-          "When and where will the first events happen?",
+          "When and Where Will the First Events Happen?",
           "No event can begin before CSI approval is complete. Approval is currently expected around late November 2026; event dates and venues will be planned and posted afterward."
         ],
         [
-          "How can I take part?",
+          "How Can I Take Part?",
           "You can express interest as a learner, peer tutor, performer or collaborator. Choose a role on Get Involved; the link takes you to Contact with the relevant topic selected, where you can open an email draft."
         ],
         [
-          "Can I propose a collaboration or share an opportunity?",
+          "Can I Propose a Collaboration or Share an Opportunity?",
           "Yes. Choose Ensembles & collaboration when you write, then include the people involved, the idea or opportunity, and any dates or links you already know."
         ],
         [
-          "How will anonymous feedback and AI be used?",
+          "How Will Anonymous Feedback and AI Be Used?",
           "They are a future proposal. The club is not currently collecting recordings or anonymous salon feedback. Participation would be optional, with privacy and consent rules in place first; AI would only help organize recurring themes."
         ],
         [
-          "Do I have to choose a topic?",
+          "Do I Have to Choose a Topic?",
           "No. A topic simply prepares a more relevant email draft; you can keep General enquiry instead."
         ],
         [
-          "Will the email draft be sent automatically?",
+          "Will the Email Draft Be Sent Automatically?",
           "No. It opens in your own mailbox for you to review, edit and send."
         ],
         [
-          "Who will read my message?",
+          "Who Will Read My Message?",
           "During the organizing stage, the club organizer receives messages. A planned contact role will later route relevant messages to the appropriate organizer. Abusive, harassing or clearly irrelevant messages may not receive a response."
         ],
         [
-          "Can I call instead?",
+          "Can I Call Instead?",
           "Yes. Call or text (619) 380-1100 Monday through Friday, 9:00 a.m.–8:00 p.m. If we miss your call, leave a voicemail and we will respond when we can. Email is better for detailed context, links or files."
         ]
       ],
@@ -369,7 +369,7 @@ window.clubCopy = {
           ]
         ],
         "salon": [
-          "Piano salons & feedback",
+          "Piano Salons & Feedback",
           "I am interested in future piano salons.",
           [
             "Piece or idea (optional):",
@@ -377,7 +377,7 @@ window.clubCopy = {
           ]
         ],
         "practice": [
-          "Shared practice access",
+          "Shared Practice Access",
           "I would like to ask about shared practice access.",
           [
             "My practice needs:",
@@ -385,7 +385,7 @@ window.clubCopy = {
           ]
         ],
         "collaboration": [
-          "Ensembles & collaboration",
+          "Ensembles & Collaboration",
           "I would like to propose a musical collaboration.",
           [
             "Instrument or ensemble:",
@@ -394,21 +394,21 @@ window.clubCopy = {
           ]
         ],
         "masterclass": [
-          "Pianist talks & masterclasses",
+          "Pianist Talks & Masterclasses",
           "I would like to ask about pianist talks or masterclasses.",
           [
             "My idea or question:"
           ]
         ],
         "audition": [
-          "Mock auditions & internal competitions",
+          "Mock Auditions & Internal Competitions",
           "I am interested in mock auditions or internal competitions.",
           [
             "My interest or question:"
           ]
         ],
         "opportunities": [
-          "External performance opportunities",
+          "External Performance Opportunities",
           "I would like to ask about or share an external opportunity.",
           [
             "Opportunity or link (optional):",
@@ -416,14 +416,14 @@ window.clubCopy = {
           ]
         ],
         "tutoring": [
-          "Optional paid tutoring",
+          "Optional Paid Tutoring",
           "I would like to ask about the proposed optional tutoring program.",
           [
             "My question:"
           ]
         ],
         "peer": [
-          "Offering peer help",
+          "Offering Peer Help",
           "I am interested in offering peer piano help.",
           [
             "A little about my experience:",
@@ -432,7 +432,7 @@ window.clubCopy = {
           ]
         ],
         "perform": [
-          "Performing with the club",
+          "Performing with the Club",
           "I am interested in performing with the club.",
           [
             "Piece or musical interest (optional):",
@@ -440,7 +440,7 @@ window.clubCopy = {
           ]
         ],
         "organize": [
-          "Helping launch the club",
+          "Helping Launch the Club",
           "I am interested in helping launch the club.",
           [
             "How I would like to help:",
@@ -448,7 +448,7 @@ window.clubCopy = {
           ]
         ],
         "privacy": [
-          "Privacy question",
+          "Privacy Question",
           "I have a question or request about my personal information.",
           [
             "My question or request:"
@@ -935,35 +935,35 @@ window.clubCopy = {
     "skip": "Saltar al contenido",
     "navigation": "Navegación principal",
     "footerNavigation": "Navegación del pie de página",
-    "banner": "Aprobación de CSI en curso; programas aún no abiertos",
+    "banner": "Aprobación de CSI en Curso; Programas Aún No Abiertos",
     "nav": {
       "home": "Inicio",
-      "about": "Acerca del club",
+      "about": "Acerca del Club",
       "programs": "Programas",
-      "practice": "Acceso a la práctica",
+      "practice": "Acceso a la Práctica",
       "events": "Eventos",
       "get-involved": "Participa",
       "contact": "Contacto"
     },
     "common": {
-      "pending": "Por confirmar",
+      "pending": "Por Confirmar",
       "proposal": "Propuesta",
-      "status": "Estado actual",
+      "status": "Estado Actual",
       "contact": "hello@tritonpiano.org",
       "disclaimer": "Este es un club estudiantil independiente propuesto. Las referencias a UC San Diego describen su ubicación y no implican respaldo ni apoyo de la universidad.",
-      "approval": "Sujeto a aprobación universitaria",
+      "approval": "Sujeto a Aprobación Universitaria",
       "learn": "Aprender",
       "share": "Compartir",
       "connect": "Conectar"
     },
     "home": {
-      "title": "Encuentra tu gente.\nComparte tu música.",
+      "title": "Encuentra Tu Gente.\nComparte Tu Música.",
       "taglines": [
-        "Encuentra un piano.\nSigue practicando.",
-        "Que tu música\npueda ser escuchada.",
-        "Aprende. Toca. Únete.\nEmpieza aquí.",
-        "Empieza solo.\nToca en conjunto.",
-        "Trae preguntas.\nLlévate ideas."
+        "Encuentra un Piano.\nSigue Practicando.",
+        "Que Tu Música\nPueda Ser Escuchada.",
+        "Aprende. Toca. Únete.\nEmpieza Aquí.",
+        "Empieza Solo.\nToca en Conjunto.",
+        "Trae Preguntas.\nLlévate Ideas."
       ],
       "body": "Una comunidad de piano que está naciendo en UC San Diego. Trae una obra, una pregunta o tu curiosidad.",
       "cta1": "Explora los programas",
@@ -976,7 +976,7 @@ window.clubCopy = {
           "Ver programas"
         ],
         [
-          "Acceso a la práctica",
+          "Acceso a la Práctica",
           "Conoce el plan de práctica compartida y las condiciones necesarias antes de abrirlo.",
           "practice",
           "Ver acceso"
@@ -994,109 +994,109 @@ window.clubCopy = {
           "Cómo participar"
         ]
       ],
-      "statusTitle": "Una comunidad en formación",
+      "statusTitle": "Una Comunidad en Formación",
       "statusBody": "El otoño de 2026 se dedicará a completar la aprobación de CSI, prevista actualmente para finales de noviembre. Los programas solo podrán comenzar después de la aprobación.",
       "statusLink": "Conoce el club",
-      "exploreTitle": "Elige por dónde empezar",
+      "exploreTitle": "Elige por Dónde Empezar",
       "exploreIntro": "Explora los programas, el acceso para practicar y los eventos previstos para después de la aprobación, o expresa tu interés en participar."
     },
     "about": {
-      "title": "Una comunidad de piano para estudiantes actuales de UCSD.",
+      "title": "Una Comunidad de Piano para Estudiantes Actuales de UCSD.",
       "intro": "La mayoría de los programas están pensados para estudiantes actuales de distintas carreras y niveles. Los encuentros de piano podrán recibir a más público cuando las normas del espacio lo permitan.",
-      "mission": "Lo que queremos crear",
+      "mission": "Lo Que Queremos Crear",
       "missionBody": "Una comunidad acogedora donde estudiantes de UCSD puedan practicar, hacer preguntas sobre música, tocar con confianza y encontrar personas con quienes hacer música.",
-      "valuesTitle": "Cómo lo haremos posible",
+      "valuesTitle": "Cómo lo Haremos Posible",
       "values": [
         [
-          "Un lugar para todos",
+          "Un Lugar para Todos",
           "La membresía es gratuita para estudiantes actuales de UCSD, de cualquier carrera, meta o nivel de experiencia."
         ],
         [
-          "Comentarios que ayudan",
+          "Comentarios Que Ayudan",
           "Sugerencias concretas y respetuosas para que cada músico encuentre un siguiente paso claro."
         ],
         [
-          "Programas bien preparados",
+          "Programas Bien Preparados",
           "Abriremos cada programa cuando estén listos el equipo, los espacios, la protección de la privacidad y las autorizaciones necesarias, para que funcione de forma segura y estable."
         ]
       ],
-      "stateTitle": "Estado de la organización",
+      "stateTitle": "Estado de la Organización",
       "stateBody": "Actualmente una persona organiza el club y el proceso de aprobación de CSI está en curso. La aprobación podría llegar hacia finales de noviembre de 2026; el liderazgo sigue abierto y ningún programa podrá comenzar antes.",
-      "programsTitle": "Conoce lo que estamos preparando",
+      "programsTitle": "Conoce lo Que Estamos Preparando",
       "programsBody": "Ocho programas propuestos convierten esta idea en formas concretas de aprender, practicar, tocar y colaborar.",
       "programsLink": "Explorar los programas"
     },
     "programs": {
-      "title": "Aprender juntos.\nTocar juntos.",
+      "title": "Aprender Juntos.\nTocar Juntos.",
       "taglines": [
-        "Dudas y conjuntos.\nEncuentra tu lugar.",
-        "Ocho propuestas.\nPractica, toca y comparte.",
-        "Aprende. Toca. Únete.\nEmpieza aquí.",
-        "Trae preguntas.\nLlévate ideas."
+        "Dudas y Conjuntos.\nEncuentra Tu Lugar.",
+        "Ocho Propuestas.\nPractica, Toca y Comparte.",
+        "Aprende. Toca. Únete.\nEmpieza Aquí.",
+        "Trae Preguntas.\nLlévate Ideas."
       ],
       "intro": "Hay ocho programas previstos, desde apoyo gratuito y encuentros de piano hasta colaboración con conjuntos. Ninguno comenzará antes de completar la aprobación de CSI; después, los cuatro primeros serán prioritarios y las oportunidades externas podrán prepararse en paralelo.",
-      "subTitle": "Actividades ligeras dentro de los programas",
+      "subTitle": "Actividades Ligeras Dentro de los Programas",
       "subBody": "La búsqueda de parejas para piano a cuatro manos, compañeros de práctica y muestras de obras en proceso serán subactividades, no programas separados.",
       "practiceLink": "Ver acceso para practicar",
-      "guideTitle": "Abre un programa para ver sus detalles",
+      "guideTitle": "Abre un Programa para Ver Sus Detalles",
       "guideBody": "Selecciona cualquier programa para consultar horario, lugar y forma de participar. La información confirmada se mantendrá aquí, dentro del programa correspondiente.",
       "detailPrompt": "Ver horario, lugar y participación",
       "detailLabels": ["Horario", "Lugar", "Participación"],
       "pendingDetails": ["Después de la aprobación de CSI", "Por confirmar", "Publicaremos aquí los detalles"],
       "items": [
         [
-          "Open Piano Hours / horario compartido de práctica",
+          "Open Piano Hours / Horario Compartido de Práctica",
           "Bloques periódicos propuestos para estudiantes que necesitan acceso a un piano, sujetos a espacio y aprobación universitaria.",
-          "Prioridad inicial"
+          "Prioridad Inicial"
         ],
         [
-          "Piano Help Hours gratuitos",
+          "Piano Help Hours Gratuitos",
           "Sesiones abiertas de apoyo entre estudiantes sobre fundamentos, repertorio, interpretación y métodos de práctica.",
-          "Prioridad inicial"
+          "Prioridad Inicial"
         ],
         [
-          "Encuentros de piano, comentarios anónimos y síntesis con IA",
+          "Encuentros de Piano, Comentarios Anónimos y Síntesis con IA",
           "Actuaciones informales abiertas a más público cuando las normas del espacio lo permitan. Los comentarios anónimos y la síntesis con IA solo comenzarían después de definir privacidad y consentimiento.",
-          "Prioridad inicial"
+          "Prioridad Inicial"
         ],
         [
-          "Colaboración con conjuntos, música de cámara y acompañamiento",
+          "Colaboración con Conjuntos, Música de Cámara y Acompañamiento",
           "Conectar pianistas con conjuntos, grupos de cámara, cantantes y solicitudes de acompañamiento.",
-          "Prioridad inicial"
+          "Prioridad Inicial"
         ],
         [
-          "Charlas de pianistas y clases magistrales",
+          "Charlas de Pianistas y Clases Magistrales",
           "Invitar a pianistas a compartir ideas musicales, métodos de práctica y experiencia escénica cuando haya invitados y espacios.",
-          "Etapa posterior"
+          "Etapa Posterior"
         ],
         [
-          "Concursos internos y audiciones simuladas",
+          "Concursos Internos y Audiciones Simuladas",
           "Crear un entorno de práctica constructivo para audiciones y repertorio de concurso cuando estén listos el equipo y los procedimientos.",
-          "Etapa posterior"
+          "Etapa Posterior"
         ],
         [
-          "Lista de concursos y oportunidades de actuación externas",
+          "Lista de Concursos y Oportunidades de Actuación Externas",
           "Mantener una lista breve de oportunidades relevantes que cada estudiante pueda revisar por su cuenta.",
-          "En paralelo"
+          "En Paralelo"
         ],
         [
-          "Tutoría de pago opcional gestionada por el club",
+          "Tutoría de Pago Opcional Gestionada por el Club",
           "Considerarla solo después de definir aprobación, precios, compensación, pagos y responsabilidades.",
-          "Etapa posterior"
+          "Etapa Posterior"
         ]
       ],
       "ask": "¿Tienes una pregunta concreta? Escríbenos"
     },
     "practice": {
-      "title": "Más tiempo al piano.",
+      "title": "Más Tiempo al Piano.",
       "taglines": [
-        "Encuentra un piano.\nSigue practicando.",
-        "Más práctica.\nMás espacio para crecer.",
-        "¿Sin piano?\nQue siga la música.",
-        "Practica y conecta.\nToca con otros."
+        "Encuentra un Piano.\nSigue Practicando.",
+        "Más Práctica.\nMás Espacio para Crecer.",
+        "¿Sin Piano?\nQue Siga la Música.",
+        "Practica y Conecta.\nToca con Otros."
       ],
       "intro": "Queremos conseguir horarios compartidos en el Conrad Prebys Music Center (CPMC). Aún se requiere aprobación de la universidad y del departamento.",
-      "cardTitle": "Horas abiertas de piano: concepto piloto",
+      "cardTitle": "Horas Abiertas de Piano: Concepto Piloto",
       "cardBody": "El piloto ofrecería oportunidades regulares de práctica a estudiantes que necesitan un piano. Aún no hay acceso ni reservas disponibles.",
       "facts": [
         [
@@ -1108,7 +1108,7 @@ window.clubCopy = {
           "Sin confirmar"
         ],
         [
-          "Participantes previstos",
+          "Participantes Previstos",
           "Estudiantes actuales de UCSD, sujeto a aprobación"
         ],
         [
@@ -1116,7 +1116,7 @@ window.clubCopy = {
           "Sin confirmar"
         ]
       ],
-      "questionsTitle": "Antes de comenzar el piloto",
+      "questionsTitle": "Antes de Comenzar el Piloto",
       "questions": [
         [
           "Acceso",
@@ -1131,7 +1131,7 @@ window.clubCopy = {
           "Posibles cargos por espacios, personal o uso de instrumentos."
         ],
         [
-          "Proceso de eventos",
+          "Proceso de Eventos",
           "T-RES, exenciones y plazos para un piloto o una serie recurrente."
         ]
       ],
@@ -1139,18 +1139,18 @@ window.clubCopy = {
       "ask": "Consultar el acceso al piano"
     },
     "events": {
-      "title": "Nos une la música.",
+      "title": "Nos Une la Música.",
       "taglines": [
-        "Practiquemos juntos.\nToquemos juntos.",
-        "Que tu música\npueda ser escuchada.",
-        "Empieza solo.\nToca en conjunto."
+        "Practiquemos Juntos.\nToquemos Juntos.",
+        "Que Tu Música\nPueda Ser Escuchada.",
+        "Empieza Solo.\nToca en Conjunto."
       ],
       "intro": "Aquí aparecerán los encuentros, conciertos y reuniones confirmados más recientes, con enlaces a cada programa para consultar todos los detalles.",
       "empty": "El otoño de 2026 se dedicará a completar la aprobación de CSI, prevista actualmente para finales de noviembre. No habrá eventos antes de la aprobación; después publicaremos las fechas, lugares y formas de participar confirmados.",
       "programsLink": "Ver los detalles de los programas"
     },
     "involved": {
-      "title": "Encuentra tu lugar\njunto al piano.",
+      "title": "Encuentra Tu Lugar\nJunto al Piano.",
       "intro": "Cuando se abran nuestros canales, podrás unirte a la comunidad sin enviar un correo de solicitud.",
       "roles": [
         [
@@ -1158,7 +1158,7 @@ window.clubCopy = {
           "Trae preguntas de repertorio, dificultades de práctica o el deseo de comenzar."
         ],
         [
-          "Tutor o tutora",
+          "Tutor o Tutora",
           "Comparte ayuda específica y constructiva durante sesiones programadas."
         ],
         [
@@ -1166,11 +1166,11 @@ window.clubCopy = {
           "Prepara una obra para un futuro encuentro y recibe comentarios opcionales."
         ],
         [
-          "Colaborador o colaboradora",
+          "Colaborador o Colaboradora",
           "Conecta el piano con voz, música de cámara, orquesta u otro grupo estudiantil."
         ]
       ],
-      "communityTitle": "Únete al club",
+      "communityTitle": "Únete al Club",
       "communityIntro": "Bastará con entrar al servidor de Discord, seguir una cuenta social oficial o unirse al grupo de WeChat para ser miembro.",
       "communityStatus": "Próximamente",
       "communities": [
@@ -1179,7 +1179,7 @@ window.clubCopy = {
           "La invitación oficial al servidor se publicará aquí."
         ],
         [
-          "Redes sociales",
+          "Redes Sociales",
           "Los nombres de las cuentas oficiales y sus enlaces se publicarán aquí."
         ],
         [
@@ -1188,7 +1188,7 @@ window.clubCopy = {
         ]
       ],
       "communityFootnote": "Estos canales todavía están en preparación. Publicaremos aquí los enlaces oficiales, los nombres de las cuentas y los códigos QR vigentes cuando estén listos.",
-      "rolesTitle": "Formas de participar",
+      "rolesTitle": "Formas de Participar",
       "rolesIntro": "Después de unirte a la comunidad, participa como estudiante, tutor, intérprete o colaborador cuando una actividad encaje contigo. Son opciones, no requisitos de membresía.",
       "roleLinks": [
         "¿Aún tienes dudas? Contáctanos",
@@ -1196,12 +1196,12 @@ window.clubCopy = {
         "¿Aún tienes dudas? Contáctanos",
         "¿Aún tienes dudas? Contáctanos"
       ],
-      "contactTitle": "¿Tienes una idea o pregunta concreta?",
+      "contactTitle": "¿Tienes una Idea o Pregunta Concreta?",
       "contactBody": "Escríbenos sobre una idea de programa, actuación, colaboración o pregunta individual. No necesitas enviar un correo para unirte.",
       "contactLink": "Escribir sobre tu idea"
     },
     "contact": {
-      "title": "Hablemos de piano.",
+      "title": "Hablemos de Piano.",
       "intro": "Una pregunta, una obra para compartir o una idea para el club: nos gustaría escucharte.",
       "emailLabel": "Escríbenos",
       "emailNote": "Respondemos correos de lunes a viernes, de 9:00 a 20:00. Los mensajes recibidos fuera de ese horario se atenderán en el siguiente periodo de respuesta; no respondemos los fines de semana.",
@@ -1210,11 +1210,11 @@ window.clubCopy = {
       "topicLabel": "¿De qué quieres hablar? (opcional)",
       "general": "Consulta general",
       "reset": "Borrar selección",
-      "providersTitle": "Elige cómo escribirnos",
+      "providersTitle": "Elige Cómo Escribirnos",
       "providersIntro": "Elige un servicio de correo y abriremos un borrador sugerido. Puedes cambiar o borrar cualquier parte.",
       "composeButton": "Escribir un correo",
       "closeDialog": "Cerrar",
-      "defaultMail": "Aplicación de correo",
+      "defaultMail": "Aplicación de Correo",
       "defaultHint": "Usar la aplicación de tu dispositivo",
       "gmailHint": "Abrir un borrador en Gmail",
       "outlookHint": "Abrir un borrador en Outlook",
@@ -1235,55 +1235,55 @@ window.clubCopy = {
         "Nombre (opcional):",
         "Mi pregunta o idea:"
       ],
-      "faqTitle": "Quizá te preguntes",
+      "faqTitle": "Quizá Te Preguntes",
       "faqIntro": "Respuestas breves sobre el club, sus programas, el acceso a pianos, los eventos y cómo contactarnos.",
       "faq": [
         [
-          "¿El club ya completó la aprobación de CSI?",
+          "¿El Club Ya Completó la Aprobación de CSI?",
           "Aún no. Actualmente una persona organiza el club y el proceso de aprobación de CSI está en curso. La aprobación podría llegar hacia finales de noviembre de 2026; el liderazgo sigue abierto y ningún programa podrá comenzar antes."
         ],
         [
-          "¿Quién puede participar?",
+          "¿Quién Puede Participar?",
           "La mayoría de los programas están pensados para estudiantes actuales de UCSD de distintas carreras y niveles. Los encuentros de piano podrán recibir a personal, exalumnos y visitantes cuando las normas y la capacidad del espacio lo permitan."
         ],
         [
-          "¿Hay que pagar para unirse?",
+          "¿Hay Que Pagar para Unirse?",
           "Unirse al club es gratuito. La tutoría de pago opcional sería un programa futuro separado y solo se consideraría después de contar con aprobación y reglas claras de precios, pagos y responsabilidades."
         ],
         [
-          "¿Puedo reservar un piano o una sala ahora?",
+          "¿Puedo Reservar un Piano o una Sala Ahora?",
           "Todavía no. Open Piano Hours es una propuesta; las salas, los requisitos, los horarios, la supervisión y los posibles costos siguen sin confirmarse."
         ],
         [
-          "¿Cuándo y dónde será el primer evento?",
+          "¿Cuándo y Dónde Será el Primer Evento?",
           "No habrá eventos antes de completar la aprobación de CSI. Actualmente se espera que la aprobación pueda llegar hacia finales de noviembre de 2026; las fechas y los espacios se planificarán y publicarán después."
         ],
         [
-          "¿Cómo puedo participar?",
+          "¿Cómo Puedo Participar?",
           "Puedes mostrar interés como estudiante, tutor o tutora, intérprete o colaborador. Elige un rol en Participa; el enlace te llevará a Contacto con el tema correspondiente seleccionado, donde podrás abrir un borrador."
         ],
         [
-          "¿Puedo proponer una colaboración o compartir una oportunidad?",
+          "¿Puedo Proponer una Colaboración o Compartir una Oportunidad?",
           "Sí. Elige Conjuntos y colaboración al escribir e incluye las personas, la idea u oportunidad y cualquier fecha o enlace que ya conozcas."
         ],
         [
-          "¿Cómo se usarán los comentarios anónimos y la IA?",
+          "¿Cómo Se Usarán los Comentarios Anónimos y la IA?",
           "Es una propuesta para el futuro. El club no recopila actualmente grabaciones ni comentarios anónimos de los encuentros. La participación sería opcional y primero se definirían reglas de privacidad y consentimiento; la IA solo ayudaría a organizar temas recurrentes."
         ],
         [
-          "¿Tengo que elegir un tema?",
+          "¿Tengo Que Elegir un Tema?",
           "No. Elegirlo prepara un borrador más adecuado; también puedes dejar Consulta general."
         ],
         [
-          "¿Se enviará el borrador automáticamente?",
+          "¿Se Enviará el Borrador Automáticamente?",
           "No. Se abrirá en tu correo para que lo revises, lo edites y lo envíes."
         ],
         [
-          "¿Quién leerá mi mensaje?",
+          "¿Quién Leerá Mi Mensaje?",
           "Durante la organización, la persona organizadora del club recibe los mensajes. Más adelante, un puesto de contacto previsto derivará cada mensaje pertinente a la persona responsable. Los mensajes abusivos, de acoso o claramente irrelevantes podrían quedar sin respuesta."
         ],
         [
-          "¿Puedo llamar en su lugar?",
+          "¿Puedo Llamar en Su Lugar?",
           "Sí. Puedes llamar o enviar un mensaje al (619) 380-1100 de lunes a viernes, de 9:00 a 20:00. Si no contestamos, deja un mensaje de voz y responderemos cuando podamos. El correo es mejor para contexto detallado, enlaces o archivos."
         ]
       ],
@@ -1297,7 +1297,7 @@ window.clubCopy = {
           ]
         ],
         "salon": [
-          "Encuentros de piano y comentarios",
+          "Encuentros de Piano y Comentarios",
           "Me interesan los futuros encuentros de piano.",
           [
             "Obra o idea (opcional):",
@@ -1305,7 +1305,7 @@ window.clubCopy = {
           ]
         ],
         "practice": [
-          "Acceso compartido al piano",
+          "Acceso Compartido al Piano",
           "Quisiera consultar el acceso compartido al piano.",
           [
             "Mis necesidades de práctica:",
@@ -1313,7 +1313,7 @@ window.clubCopy = {
           ]
         ],
         "collaboration": [
-          "Conjuntos y colaboración",
+          "Conjuntos y Colaboración",
           "Me gustaría proponer una colaboración musical.",
           [
             "Instrumento o conjunto:",
@@ -1322,21 +1322,21 @@ window.clubCopy = {
           ]
         ],
         "masterclass": [
-          "Charlas y clases magistrales",
+          "Charlas y Clases Magistrales",
           "Quisiera consultar las charlas de pianistas o clases magistrales.",
           [
             "Mi idea o pregunta:"
           ]
         ],
         "audition": [
-          "Audiciones simuladas y concursos internos",
+          "Audiciones Simuladas y Concursos Internos",
           "Me interesan las audiciones simuladas o los concursos internos.",
           [
             "Mi interés o pregunta:"
           ]
         ],
         "opportunities": [
-          "Oportunidades externas",
+          "Oportunidades Externas",
           "Quisiera consultar o compartir una oportunidad externa.",
           [
             "Oportunidad o enlace (opcional):",
@@ -1344,14 +1344,14 @@ window.clubCopy = {
           ]
         ],
         "tutoring": [
-          "Tutoría de pago opcional",
+          "Tutoría de Pago Opcional",
           "Quisiera consultar el programa propuesto de tutoría opcional.",
           [
             "Mi pregunta:"
           ]
         ],
         "peer": [
-          "Ofrecer apoyo entre estudiantes",
+          "Ofrecer Apoyo entre Estudiantes",
           "Me interesa ofrecer apoyo de piano a otros estudiantes.",
           [
             "Mi experiencia:",
@@ -1360,7 +1360,7 @@ window.clubCopy = {
           ]
         ],
         "perform": [
-          "Tocar con el club",
+          "Tocar con el Club",
           "Me interesa tocar con el club.",
           [
             "Obra o interés musical (opcional):",
@@ -1368,7 +1368,7 @@ window.clubCopy = {
           ]
         ],
         "organize": [
-          "Ayudar a crear el club",
+          "Ayudar a Crear el Club",
           "Me interesa ayudar a crear el club.",
           [
             "Cómo me gustaría ayudar:",
@@ -1376,7 +1376,7 @@ window.clubCopy = {
           ]
         ],
         "privacy": [
-          "Consulta de privacidad",
+          "Consulta de Privacidad",
           "Tengo una pregunta o solicitud sobre mis datos personales.",
           [
             "Mi pregunta o solicitud:"
@@ -1387,7 +1387,7 @@ window.clubCopy = {
     "footer": {
       "contact": "Contacto",
       "privacy": "Privacidad",
-      "terms": "Condiciones de uso",
+      "terms": "Condiciones de Uso",
       "updated": "Última actualización",
       "back": "Volver al inicio"
     }
