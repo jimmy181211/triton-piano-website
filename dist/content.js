@@ -110,6 +110,11 @@ window.clubCopy = {
       "subTitle": "Lightweight activities inside the programs",
       "subBody": "Four-hand duet matching, practice partners and unfinished-work sharing will be offered as sub-activities rather than counted as separate programs.",
       "practiceLink": "View Practice Access",
+      "guideTitle": "Open a program for current details",
+      "guideBody": "Select any program to see its schedule, venue and participation details. Confirmed information will be kept with the corresponding program here.",
+      "detailPrompt": "View schedule, venue and participation",
+      "detailLabels": ["Schedule", "Venue", "Participation"],
+      "pendingDetails": ["After CSI approval", "To be confirmed", "Details will be posted here"],
       "items": [
         [
           "Open Piano Hours / shared practice time",
@@ -152,7 +157,7 @@ window.clubCopy = {
           "Later phase"
         ]
       ],
-      "ask": "Ask about this program"
+      "ask": "Have a specific question? Write to us"
     },
     "practice": {
       "title": "More time at the piano.",
@@ -212,13 +217,13 @@ window.clubCopy = {
         "Let your music\nbe heard.",
         "Start solo.\nFind an ensemble."
       ],
-      "intro": "Piano salons open to the wider community, shared listening and opportunities to play together.",
+      "intro": "The latest confirmed salons, performances and gatherings will appear here, with links to each program for full details.",
       "empty": "Fall 2026 is dedicated to completing CSI approval, currently expected around late November. No events will begin before approval; confirmed dates, venues and participation details will appear here afterward.",
-      "programsLink": "Explore what we are planning"
+      "programsLink": "View program details"
     },
     "involved": {
       "title": "Find your place\nat the piano.",
-      "intro": "Most club programs are for current UCSD students. Piano salons may welcome everyone; choose what interests you and tell us about yourself.",
+      "intro": "Join through one of our community channels when they open. No application email is required.",
       "roles": [
         [
           "Learner",
@@ -237,8 +242,8 @@ window.clubCopy = {
           "Connect piano with voice, chamber music, orchestra or another student group."
         ]
       ],
-      "communityTitle": "Social and community channels",
-      "communityIntro": "Our Discord, social media and WeChat groups are still being set up. Official links, account names and current QR codes will appear here when ready.",
+      "communityTitle": "Join the club",
+      "communityIntro": "Once the channels open, joining our Discord server, following an official social account or joining the WeChat group is enough to become a member.",
       "communityStatus": "Coming soon",
       "communities": [
         [
@@ -254,21 +259,18 @@ window.clubCopy = {
           "A current group QR code will be posted here and replaced when it expires."
         ]
       ],
-      "communityLink": "Use email or phone for now",
-      "contactTitle": "Have another idea?",
-      "contactBody": "We would love to hear how you would like to help shape the club.",
-      "contactLink": "Get in touch",
-      "roleLinks": [
-        "Ask about learning together",
-        "Offer peer help",
-        "Express interest in performing",
-        "Propose a collaboration"
-      ]
+      "communityFootnote": "These channels are still being prepared. Official links, account names and current QR codes will appear here when ready.",
+      "rolesTitle": "Ways to take part",
+      "rolesIntro": "After joining the community, take part as a learner, peer tutor, performer or collaborator whenever an activity fits you. These are options, not membership requirements.",
+      "contactTitle": "Have a specific idea or question?",
+      "contactBody": "Email us about a project idea, performance, collaboration or individual question. You do not need to email us to join.",
+      "contactLink": "Write about your idea"
     },
     "contact": {
       "title": "Let’s talk piano.",
       "intro": "A question, a piece you want to share, or an idea for the club — we would like to hear from you.",
       "emailLabel": "Write to us",
+      "emailNote": "Email replies: Monday–Friday, 9:00 a.m.–8:00 p.m. Messages received outside these hours will wait until the next response window; we do not reply on weekends.",
       "phoneLabel": "Call us",
       "phoneNote": "Calls and texts: Monday–Friday, 9:00 a.m.–8:00 p.m. Leave a voicemail if we miss your call.",
       "topicLabel": "What is on your mind? (optional)",
@@ -566,6 +568,11 @@ window.clubCopy = {
       "subTitle": "纳入主要项目的轻量活动",
       "subBody": "四手联弹配对、练习伙伴和未完成作品分享将作为相关项目的子活动开展，不单独计数。",
       "practiceLink": "查看练琴资源",
+      "guideTitle": "展开项目，查看具体安排",
+      "guideBody": "点击任一项目，可查看该项目的时间、地点和参与说明；确认后的信息会统一在对应项目下更新。",
+      "detailPrompt": "查看时间、地点和参与方式",
+      "detailLabels": ["时间", "地点", "参与方式"],
+      "pendingDetails": ["CSI 审批完成后安排", "待确定", "开放后将在这里说明"],
       "items": [
         [
           "Open Piano Hours／共享练琴时段",
@@ -608,7 +615,7 @@ window.clubCopy = {
           "后续阶段"
         ]
       ],
-      "ask": "咨询这个项目"
+      "ask": "有具体问题？写信咨询"
     },
     "practice": {
       "title": "让练琴更容易一些。",
@@ -668,13 +675,13 @@ window.clubCopy = {
         "让练过的曲子，\n有机会被听见。",
         "从独奏出发，\n遇见合奏。"
       ],
-      "intro": "向校内外来宾开放的钢琴沙龙、一起聆听，也一起寻找登台的机会。",
+      "intro": "这里会汇总最新、已确认的沙龙、演出和聚会，并链接到对应项目查看完整安排。",
       "empty": "2026 年秋季将用于完成 CSI 审批，目前预计约十一月末获批。获批前不会启动活动；之后确认的日期、地点和参与方式会在这里公布。",
-      "programsLink": "了解正在筹备的项目"
+      "programsLink": "查看各项目安排"
     },
     "involved": {
       "title": "找到属于你的\n参与方式。",
-      "intro": "大多数项目面向 UCSD 在校学生，钢琴沙龙可向所有人开放。选一个感兴趣的角色，和我们聊聊。",
+      "intro": "社群入口开放后，加入 Discord、关注官方社交媒体或加入微信群，任一方式即可成为成员，无需发送申请邮件。",
       "roles": [
         [
           "学习者",
@@ -693,8 +700,8 @@ window.clubCopy = {
           "让钢琴与声乐、室内乐、乐团或其他学生组织连接。"
         ]
       ],
-      "communityTitle": "社群与动态",
-      "communityIntro": "Discord、社交媒体账号和微信群正在筹备。官方链接、账号和有效二维码确认后会在这里更新。",
+      "communityTitle": "加入社团",
+      "communityIntro": "加入 Discord、关注官方社交媒体或加入微信群，选择任一官方渠道即可成为成员。",
       "communityStatus": "筹备中",
       "communities": [
         [
@@ -710,21 +717,18 @@ window.clubCopy = {
           "群聊建立后将在这里提供有效二维码，并在二维码过期后更新。"
         ]
       ],
-      "communityLink": "查看当前联系方式",
-      "contactTitle": "还有其他想法？",
-      "contactBody": "欢迎告诉我们，你希望怎样一起把钢琴社建立起来。",
-      "contactLink": "聊聊你的想法",
-      "roleLinks": [
-        "咨询一起学习",
-        "我愿意提供同伴帮助",
-        "表达演奏意向",
-        "提出合作想法"
-      ]
+      "communityFootnote": "这些渠道仍在筹备。官方链接、账号名称和有效二维码确认后会在这里发布。",
+      "rolesTitle": "加入以后，你可以这样参与",
+      "rolesIntro": "学习者、同伴辅导者、演奏者和合作伙伴只是参与方式，不是入会身份或申请条件。活动开放时，选择适合自己的方式参加即可。",
+      "contactTitle": "有具体想法或问题？",
+      "contactBody": "项目建议、演出、合作或个别问题可以通过邮件联系。加入社团本身不需要发送邮件。",
+      "contactLink": "写信聊聊"
     },
     "contact": {
       "title": "聊聊钢琴，\n也聊聊你的想法。",
       "intro": "想了解项目、一起演奏，或帮助筹建社团？欢迎来信。",
       "emailLabel": "给我们写信",
+      "emailNote": "邮件回复时间：周一至周五 9:00–20:00。周末不回复，非回复时段收到的邮件会留到下一个工作时段处理。",
       "phoneLabel": "给我们打电话",
       "phoneNote": "电话与短信：周一至周五 9:00–20:00。未接时请留言，我们看到后会回复。",
       "topicLabel": "你想聊什么？（可选）",
@@ -1022,6 +1026,11 @@ window.clubCopy = {
       "subTitle": "Actividades ligeras dentro de los programas",
       "subBody": "La búsqueda de parejas para piano a cuatro manos, compañeros de práctica y muestras de obras en proceso serán subactividades, no programas separados.",
       "practiceLink": "Ver acceso para practicar",
+      "guideTitle": "Abre un programa para ver sus detalles",
+      "guideBody": "Selecciona cualquier programa para consultar horario, lugar y forma de participar. La información confirmada se mantendrá aquí, dentro del programa correspondiente.",
+      "detailPrompt": "Ver horario, lugar y participación",
+      "detailLabels": ["Horario", "Lugar", "Participación"],
+      "pendingDetails": ["Después de la aprobación de CSI", "Por confirmar", "Publicaremos aquí los detalles"],
       "items": [
         [
           "Open Piano Hours / horario compartido de práctica",
@@ -1064,7 +1073,7 @@ window.clubCopy = {
           "Etapa posterior"
         ]
       ],
-      "ask": "Consultar este programa"
+      "ask": "¿Tienes una pregunta concreta? Escríbenos"
     },
     "practice": {
       "title": "Más tiempo al piano.",
@@ -1124,13 +1133,13 @@ window.clubCopy = {
         "Que tu música\npueda ser escuchada.",
         "Empieza solo.\nToca en conjunto."
       ],
-      "intro": "Encuentros de piano abiertos a más público, escucha compartida y oportunidades para tocar juntos.",
+      "intro": "Aquí aparecerán los encuentros, conciertos y reuniones confirmados más recientes, con enlaces a cada programa para consultar todos los detalles.",
       "empty": "El otoño de 2026 se dedicará a completar la aprobación de CSI, prevista actualmente para finales de noviembre. No habrá eventos antes de la aprobación; después publicaremos las fechas, lugares y formas de participar confirmados.",
-      "programsLink": "Explora lo que estamos preparando"
+      "programsLink": "Ver los detalles de los programas"
     },
     "involved": {
       "title": "Encuentra tu lugar\njunto al piano.",
-      "intro": "La mayoría de los programas son para estudiantes actuales de UCSD; los encuentros de piano podrán abrirse a todas las personas. Elige lo que te interese y cuéntanos sobre ti.",
+      "intro": "Cuando se abran nuestros canales, podrás unirte a la comunidad sin enviar un correo de solicitud.",
       "roles": [
         [
           "Estudiante",
@@ -1149,8 +1158,8 @@ window.clubCopy = {
           "Conecta el piano con voz, música de cámara, orquesta u otro grupo estudiantil."
         ]
       ],
-      "communityTitle": "Canales sociales y comunidad",
-      "communityIntro": "Discord, las redes sociales y el grupo de WeChat están en preparación. Publicaremos aquí los enlaces oficiales, las cuentas y los códigos QR vigentes cuando estén listos.",
+      "communityTitle": "Únete al club",
+      "communityIntro": "Bastará con entrar al servidor de Discord, seguir una cuenta social oficial o unirse al grupo de WeChat para ser miembro.",
       "communityStatus": "Próximamente",
       "communities": [
         [
@@ -1166,21 +1175,18 @@ window.clubCopy = {
           "Publicaremos un código QR vigente y lo sustituiremos cuando caduque."
         ]
       ],
-      "communityLink": "Usar correo o teléfono por ahora",
-      "contactTitle": "¿Tienes otra idea?",
-      "contactBody": "Nos gustaría saber cómo quieres ayudar a dar forma al club.",
-      "contactLink": "Cuéntanos tu idea",
-      "roleLinks": [
-        "Consultar cómo aprender",
-        "Ofrecer apoyo entre estudiantes",
-        "Expresar interés en tocar",
-        "Proponer una colaboración"
-      ]
+      "communityFootnote": "Estos canales todavía están en preparación. Publicaremos aquí los enlaces oficiales, los nombres de las cuentas y los códigos QR vigentes cuando estén listos.",
+      "rolesTitle": "Formas de participar",
+      "rolesIntro": "Después de unirte a la comunidad, participa como estudiante, tutor, intérprete o colaborador cuando una actividad encaje contigo. Son opciones, no requisitos de membresía.",
+      "contactTitle": "¿Tienes una idea o pregunta concreta?",
+      "contactBody": "Escríbenos sobre una idea de programa, actuación, colaboración o pregunta individual. No necesitas enviar un correo para unirte.",
+      "contactLink": "Escribir sobre tu idea"
     },
     "contact": {
       "title": "Hablemos de piano.",
       "intro": "Una pregunta, una obra para compartir o una idea para el club: nos gustaría escucharte.",
       "emailLabel": "Escríbenos",
+      "emailNote": "Respondemos correos de lunes a viernes, de 9:00 a 20:00. Los mensajes recibidos fuera de ese horario se atenderán en el siguiente periodo de respuesta; no respondemos los fines de semana.",
       "phoneLabel": "Llámanos",
       "phoneNote": "Llamadas y mensajes: de lunes a viernes, de 9:00 a 20:00. Deja un mensaje de voz si no contestamos.",
       "topicLabel": "¿De qué quieres hablar? (opcional)",
