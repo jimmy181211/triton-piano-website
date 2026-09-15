@@ -29,31 +29,37 @@ window.clubCopy = {
     },
     "home": {
       "title": "Find your people.\nMake music together.",
+      "taglines": [
+        "Find your people.\nPlay together.",
+        "Practice together.\nGrow together.",
+        "Bring a piece.\nLeave inspired.",
+        "Meet at the piano.\nMake music."
+      ],
       "body": "A piano community taking shape at UC San Diego. Bring a piece, a question, or simply your curiosity.",
       "cta1": "Explore our programs",
       "cta2": "Find your place",
       "themes": [
         [
           "Our programs",
-          "Explore eight ideas for learning, performing and making music together.",
+          "Explore eight ways to learn, perform and make music together.",
           "programs",
-          "Explore programs"
+          "View programs"
         ],
         [
           "Practice access",
-          "Learn about the proposed shared practice pilot and what still needs approval.",
+          "Learn about the shared-practice plan and what needs to be in place before it opens.",
           "practice",
-          "Explore practice access"
+          "View practice access"
         ],
         [
           "Events",
-          "Find confirmed events here when dates and venues are ready.",
+          "We’ll post upcoming events here once dates and venues are confirmed.",
           "events",
-          "View the calendar"
+          "View events"
         ],
         [
           "Get involved",
-          "Find a role as a learner, peer tutor, performer or collaborator.",
+          "Learn, help, perform or collaborate. Find a way to take part that suits you.",
           "get-involved",
           "Find your role"
         ]
@@ -61,38 +67,41 @@ window.clubCopy = {
       "statusTitle": "A community in the making",
       "statusBody": "Meet the idea behind the club and learn where we are in the registration process.",
       "statusLink": "About the club",
-      "exploreTitle": "Your next step",
-      "exploreIntro": "Discover what we are planning and where you can take part."
+      "exploreTitle": "Choose where to start",
+      "exploreIntro": "Explore our programs, learn about practice access, see upcoming events or find a way to get involved."
     },
     "about": {
       "title": "A piano community across majors and experience levels.",
       "intro": "The proposed club is designed for curious beginners, experienced pianists, listeners and collaborators.",
-      "mission": "Our purpose",
-      "missionBody": "Create a welcoming place where students can practice, ask musical questions, perform in a supportive setting and find people to make music with.",
-      "valuesTitle": "How we hope to work",
+      "mission": "What we want to build",
+      "missionBody": "A welcoming piano community where students can practice, ask musical questions, perform with confidence and find people to make music with.",
+      "valuesTitle": "How we’ll make it possible",
       "values": [
         [
-          "Open doors",
-          "Free membership and room for different goals and experience levels."
+          "Make room for everyone",
+          "Free to join, with space for different majors, goals and experience levels."
         ],
         [
-          "Useful feedback",
-          "Specific, respectful suggestions that help musicians decide what to practice next."
+          "Make feedback useful",
+          "Specific, respectful suggestions help each musician find a clear next step."
         ],
         [
-          "Responsible growth",
-          "Programs launch only after the relevant people, spaces, privacy rules and approvals are ready."
+          "Build programs that last",
+          "We open each program when the people, spaces, privacy safeguards and approvals are in place, so it can run safely and reliably."
         ]
       ],
       "stateTitle": "Organizational status",
-      "stateBody": "The club is being organized and has not yet been approved. Principal Members, volunteer pianists and launch timing remain unconfirmed."
+      "stateBody": "The club is being organized and has not yet been approved. Principal Members, volunteer pianists and launch timing remain unconfirmed.",
+      "programsTitle": "See what we’re planning",
+      "programsBody": "Eight proposed programs turn this idea into practical ways to learn, practice, perform and collaborate.",
+      "programsLink": "Explore the programs"
     },
     "programs": {
       "title": "Room to learn.\nA reason to play.",
       "intro": "Eight planned programs, from free peer help and piano salons to ensemble collaboration. The first four are launch priorities; external opportunities can be gathered alongside them.",
       "subTitle": "Lightweight activities inside the programs",
       "subBody": "Four-hand duet matching, practice partners and unfinished-work sharing will be offered as sub-activities rather than counted as separate programs.",
-      "practiceLink": "See the detailed Practice Access plan",
+      "practiceLink": "View Practice Access",
       "items": [
         [
           "Free Piano Help Hours",
@@ -233,8 +242,10 @@ window.clubCopy = {
       "topicLabel": "What is on your mind? (optional)",
       "general": "General enquiry",
       "reset": "Clear selection",
-      "providersTitle": "Choose your email",
-      "providersIntro": "Choose your email service to start writing. You can edit or remove any part of the suggested message.",
+      "providersTitle": "Choose how to write",
+      "providersIntro": "Choose an email service and we’ll open a suggested draft. You can change or remove any part of it.",
+      "composeButton": "Write an email",
+      "closeDialog": "Close",
       "defaultMail": "Mail app",
       "defaultHint": "Use the app on your device",
       "gmailHint": "Open Gmail with a draft",
@@ -374,7 +385,7 @@ window.clubCopy = {
       "programs": "项目",
       "practice": "练琴资源",
       "events": "活动",
-      "get-involved": "参与我们",
+      "get-involved": "加入我们",
       "contact": "联系我们"
     },
     "common": {
@@ -390,70 +401,79 @@ window.clubCopy = {
     },
     "home": {
       "title": "以琴会友，\n一起成长。",
+      "taglines": [
+        "以琴会友，\n一起成长。",
+        "带着问题来，\n带着灵感走。",
+        "一起练习，\n也一起演奏。",
+        "从一架琴开始，\n认识更多伙伴。"
+      ],
       "body": "一个正在 UC San Diego 萌芽的钢琴社群。带上一首曲子、一个问题，或一份对音乐的好奇。",
       "cta1": "探索社团项目",
       "cta2": "找到你的参与方式",
       "themes": [
         [
           "社团项目",
-          "从免费同伴答疑到钢琴沙龙、合奏合作，探索八个项目。",
+          "查看八个计划中的项目，了解如何一起学习、演奏和合作。",
           "programs",
-          "探索项目"
+          "查看项目"
         ],
         [
           "练琴资源",
-          "了解共享练琴试点的设想，以及开放前需要落实的条件。",
+          "了解共享练琴时段的设想，以及开放前需要落实的条件。",
           "practice",
-          "了解练琴资源"
+          "查看练琴资源"
         ],
         [
-          "活动日历",
-          "在活动日期与场地确认后，找到下一次音乐相聚。",
+          "活动",
+          "日期和场地确认后，我们会在这里发布最新活动。",
           "events",
           "查看活动"
         ],
         [
-          "参与我们",
-          "学习、辅导、演奏或合作，找到适合你的角色。",
+          "加入我们",
+          "想学习、帮助他人、演奏或合作，都能找到适合自己的参与方式。",
           "get-involved",
-          "了解参与方式"
+          "找到参与方式"
         ]
       ],
       "statusTitle": "一起把社团建立起来",
       "statusBody": "认识我们的理念，了解社团筹建与注册的当前进展。",
       "statusLink": "认识钢琴社",
-      "exploreTitle": "从这里开始",
-      "exploreIntro": "了解我们正在筹备的活动，找到你感兴趣的参与方式。"
+      "exploreTitle": "选择你的下一步",
+      "exploreIntro": "查看社团项目、了解练琴资源、寻找近期活动，或选择一种方式加入我们。"
     },
     "about": {
       "title": "面向不同专业与演奏经验的钢琴社群。",
-      "intro": "拟议社团希望欢迎初学者、有经验的钢琴演奏者、聆听者及音乐合作伙伴。",
-      "mission": "我们的目的",
-      "missionBody": "建立一个友好的空间，让同学练琴、提出音乐问题、在支持性的环境中演奏，并找到一起做音乐的伙伴。",
-      "valuesTitle": "我们希望如何运作",
+      "intro": "这里欢迎刚开始学琴的同学、有经验的演奏者、喜欢聆听的人，以及想一起合作的伙伴。",
+      "mission": "我们想建立什么",
+      "missionBody": "一个友好的钢琴社群，让同学可以练琴、交流音乐问题、安心演奏，也能找到一起做音乐的伙伴。",
+      "valuesTitle": "我们怎样把它做好",
       "values": [
         [
-          "开放参与",
-          "免费入会，并为不同目标和经验水平的同学保留空间。"
+          "让每个人都能参与",
+          "免费加入，欢迎不同专业、目标和经验水平的同学。"
         ],
         [
-          "有效反馈",
-          "提供具体而尊重的建议，帮助演奏者决定下一步如何练习。"
+          "让交流真正有帮助",
+          "用具体、尊重的建议，帮助彼此找到下一步练习的方向。"
         ],
         [
-          "稳健发展",
-          "人员、场地、隐私机制和相关批准准备好后，再启动具体项目。"
+          "让活动安心开展",
+          "人员、场地、隐私保护和相关批准落实后再开放项目，让活动能够稳定进行。"
         ]
       ],
       "stateTitle": "组织状态",
-      "stateBody": "社团目前处于筹建阶段，尚未获批。主要负责人、志愿钢琴演奏者和启动时间均待确认。"
+      "stateBody": "社团目前处于筹建阶段，尚未获批。主要负责人、志愿钢琴演奏者和启动时间均待确认。",
+      "programsTitle": "看看我们准备做什么",
+      "programsBody": "八个计划中的项目，会把这些想法变成一起学习、练习、演奏和合作的具体方式。",
+      "programsLink": "查看社团项目"
     },
     "programs": {
       "title": "一起学习，\n一起演奏。",
       "intro": "八个拟议项目，从免费同伴答疑、钢琴沙龙到合奏合作。启动期优先推进前四项，并同步整理外部比赛与演出机会。",
       "subTitle": "纳入主要项目的轻量活动",
       "subBody": "四手联弹配对、练习伙伴和未完成作品分享将作为相关项目的子活动开展，不单独计数。",
-      "practiceLink": "查看练琴资源的详细方案",
+      "practiceLink": "查看练琴资源",
       "items": [
         [
           "免费 Piano Help Hours",
@@ -594,8 +614,10 @@ window.clubCopy = {
       "topicLabel": "你想聊什么？（可选）",
       "general": "一般咨询",
       "reset": "清除选择",
-      "providersTitle": "选择邮箱，开始写信",
-      "providersIntro": "选择邮箱即可打开预填草稿。里面的提示可以自由补充、修改或删除。",
+      "providersTitle": "选择写信方式",
+      "providersIntro": "选择邮箱后，我们会打开一封预填草稿；其中的提示可以自由补充、修改或删除。",
+      "composeButton": "点击写信",
+      "closeDialog": "关闭",
       "defaultMail": "邮件应用",
       "defaultHint": "使用设备上的默认邮件应用",
       "gmailHint": "在 Gmail 中打开草稿",
@@ -751,70 +773,79 @@ window.clubCopy = {
     },
     "home": {
       "title": "Encuentra tu gente.\nComparte tu música.",
+      "taglines": [
+        "Conoce a otros.\nToca en compañía.",
+        "Practica en grupo.\nCrece con otros.",
+        "Trae una obra.\nLlévate ideas.",
+        "Ven al piano.\nHagamos música."
+      ],
       "body": "Una comunidad de piano que está naciendo en UC San Diego. Trae una obra, una pregunta o tu curiosidad.",
       "cta1": "Explora los programas",
       "cta2": "Encuentra tu lugar",
       "themes": [
         [
           "Programas",
-          "Ocho ideas para aprender, tocar y crear música juntos.",
+          "Conoce ocho propuestas para aprender, tocar y hacer música con otras personas.",
           "programs",
-          "Explorar programas"
+          "Ver programas"
         ],
         [
           "Acceso a la práctica",
-          "Conoce el piloto propuesto y lo que falta por aprobar.",
+          "Conoce el plan de práctica compartida y las condiciones necesarias antes de abrirlo.",
           "practice",
-          "Consultar el acceso"
+          "Ver acceso"
         ],
         [
           "Eventos",
-          "Encuentra eventos cuando sus fechas y espacios estén confirmados.",
+          "Publicaremos aquí los próximos eventos cuando se confirmen las fechas y los espacios.",
           "events",
-          "Ver el calendario"
+          "Ver eventos"
         ],
         [
           "Participa",
-          "Encuentra tu lugar como estudiante, tutor, intérprete o colaborador.",
+          "Aprende, ayuda, toca o colabora. Encuentra la forma de participar que mejor encaje contigo.",
           "get-involved",
-          "Encuentra tu rol"
+          "Cómo participar"
         ]
       ],
       "statusTitle": "Una comunidad en formación",
       "statusBody": "Conoce la idea del club y el avance de su registro.",
       "statusLink": "Conoce el club",
-      "exploreTitle": "Tu próximo paso",
-      "exploreIntro": "Descubre lo que estamos preparando y cómo puedes participar."
+      "exploreTitle": "Elige por dónde empezar",
+      "exploreIntro": "Explora los programas, consulta el acceso para practicar, descubre próximos eventos o encuentra una forma de participar."
     },
     "about": {
       "title": "Una comunidad de piano para distintas carreras y niveles.",
       "intro": "El club propuesto está pensado para principiantes, pianistas con experiencia, oyentes y colaboradores.",
-      "mission": "Nuestro propósito",
-      "missionBody": "Crear un espacio acogedor para practicar, plantear preguntas musicales, tocar en un ambiente de apoyo y conocer a otras personas con quienes hacer música.",
-      "valuesTitle": "Cómo esperamos trabajar",
+      "mission": "Lo que queremos crear",
+      "missionBody": "Una comunidad de piano acogedora donde estudiantes puedan practicar, hacer preguntas sobre música, tocar con confianza y encontrar personas con quienes hacer música.",
+      "valuesTitle": "Cómo lo haremos posible",
       "values": [
         [
-          "Puertas abiertas",
-          "Membresía gratuita y espacio para diferentes objetivos y niveles de experiencia."
+          "Un lugar para todos",
+          "Participación gratuita y abierta a distintas carreras, metas y niveles de experiencia."
         ],
         [
-          "Comentarios útiles",
-          "Sugerencias específicas y respetuosas que ayuden a decidir qué practicar después."
+          "Comentarios que ayudan",
+          "Sugerencias concretas y respetuosas para que cada músico encuentre un siguiente paso claro."
         ],
         [
-          "Crecimiento responsable",
-          "Los programas comenzarán cuando estén listos las personas, los espacios, las reglas de privacidad y las autorizaciones necesarias."
+          "Programas bien preparados",
+          "Abriremos cada programa cuando estén listos el equipo, los espacios, la protección de la privacidad y las autorizaciones necesarias, para que funcione de forma segura y estable."
         ]
       ],
       "stateTitle": "Estado de la organización",
-      "stateBody": "El club está en organización y aún no ha sido aprobado. Los miembros principales, los pianistas voluntarios y la fecha de lanzamiento están por confirmar."
+      "stateBody": "El club está en organización y aún no ha sido aprobado. Los miembros principales, los pianistas voluntarios y la fecha de lanzamiento están por confirmar.",
+      "programsTitle": "Conoce lo que estamos preparando",
+      "programsBody": "Ocho programas propuestos convierten esta idea en formas concretas de aprender, practicar, tocar y colaborar.",
+      "programsLink": "Explorar los programas"
     },
     "programs": {
       "title": "Aprender juntos.\nTocar juntos.",
       "intro": "Ocho programas previstos, desde apoyo gratuito y encuentros de piano hasta colaboración con conjuntos. Los cuatro primeros son prioritarios; las oportunidades externas pueden recopilarse en paralelo.",
       "subTitle": "Actividades ligeras dentro de los programas",
       "subBody": "La búsqueda de parejas para piano a cuatro manos, compañeros de práctica y muestras de obras en proceso serán subactividades, no programas separados.",
-      "practiceLink": "Ver el plan detallado de acceso a la práctica",
+      "practiceLink": "Ver acceso para practicar",
       "items": [
         [
           "Piano Help Hours gratuitos",
@@ -955,8 +986,10 @@ window.clubCopy = {
       "topicLabel": "¿De qué quieres hablar? (opcional)",
       "general": "Consulta general",
       "reset": "Borrar selección",
-      "providersTitle": "Elige tu correo",
-      "providersIntro": "Elige tu servicio para empezar a escribir. Puedes completar, editar o borrar cualquier parte del mensaje sugerido.",
+      "providersTitle": "Elige cómo escribirnos",
+      "providersIntro": "Elige un servicio de correo y abriremos un borrador sugerido. Puedes cambiar o borrar cualquier parte.",
+      "composeButton": "Escribir un correo",
+      "closeDialog": "Cerrar",
       "defaultMail": "Aplicación de correo",
       "defaultHint": "Usar la aplicación de tu dispositivo",
       "gmailHint": "Abrir un borrador en Gmail",
