@@ -97,7 +97,7 @@ main { min-height:58vh; }
 .program-heading h2 { font-family:inherit; font-size:1.35rem; line-height:1.4; letter-spacing:0; margin:0; }
 .program-heading .status-pill { flex-shrink:0; }
 .program-description { display:block; max-width:72ch; margin-bottom:.55rem; color:var(--muted); }
-.detail-prompt { display:inline-flex; align-items:center; gap:.45rem; color:var(--navy-2); font-weight:750; text-decoration:underline; text-underline-offset:.25em; }
+.detail-prompt { display:inline-flex; align-items:center; gap:.45rem; color:var(--navy-2); font-size:.875rem; font-weight:750; text-decoration:underline; text-underline-offset:.25em; }
 .detail-prompt::after { content:'+'; display:inline-flex; align-items:center; justify-content:center; width:1.4rem; height:1.4rem; color:var(--navy); background:var(--gold-soft); border-radius:50%; text-decoration:none; }
 .program-row[open] .detail-prompt::after { content:'−'; }
 .program-row>summary:hover .detail-prompt { color:var(--navy); text-decoration-thickness:2px; }
