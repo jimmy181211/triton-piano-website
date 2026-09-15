@@ -19,8 +19,8 @@ npm install
 npm run check
 ```
 
-## Deployment
+## Continuous deployment
 
-The `main` branch is connected to Cloudflare Workers Builds. A push to `main` runs the checks and deploys the contents of `dist/` as Cloudflare Worker static assets.
+Cloudflare Workers Builds is connected directly to this repository. Every push to `main` runs `npm run check`, then `npx wrangler deploy` publishes the contents of `dist/` as Worker static assets.
 
 The production domain is [tritonpiano.org](https://tritonpiano.org).
