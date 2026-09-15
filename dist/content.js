@@ -263,10 +263,10 @@ window.clubCopy = {
       "rolesTitle": "Ways to take part",
       "rolesIntro": "After joining the community, take part as a learner, peer tutor, performer or collaborator whenever an activity fits you. These are options, not membership requirements.",
       "roleLinks": [
-        "Questions about learning? Contact us",
-        "Ask about peer tutoring",
-        "Ask about performing",
-        "Ask about collaboration"
+        "Still have questions about learning? Contact us",
+        "Still have questions about peer tutoring? Contact us",
+        "Still have questions about performing? Contact us",
+        "Still have questions about collaboration? Contact us"
       ],
       "contactTitle": "Have a specific idea or question?",
       "contactBody": "Email us about a project idea, performance, collaboration or individual question. You do not need to email us to join.",
@@ -727,10 +727,10 @@ window.clubCopy = {
       "rolesTitle": "加入以后，你可以这样参与",
       "rolesIntro": "学习者、同伴辅导者、演奏者和合作伙伴只是参与方式，不是入会身份或申请条件。活动开放时，选择适合自己的方式参加即可。",
       "roleLinks": [
-        "对共同学习有疑问？联系我们",
-        "咨询同伴辅导",
-        "咨询演奏参与",
-        "咨询合作方式"
+        "对共同学习仍有疑问？联系我们",
+        "对同伴辅导仍有疑问？联系我们",
+        "对参与演奏仍有疑问？联系我们",
+        "对合作方式仍有疑问？联系我们"
       ],
       "contactTitle": "有具体想法或问题？",
       "contactBody": "项目建议、演出、合作或个别问题可以通过邮件联系。加入社团本身不需要发送邮件。",
@@ -1191,10 +1191,10 @@ window.clubCopy = {
       "rolesTitle": "Formas de participar",
       "rolesIntro": "Después de unirte a la comunidad, participa como estudiante, tutor, intérprete o colaborador cuando una actividad encaje contigo. Son opciones, no requisitos de membresía.",
       "roleLinks": [
-        "¿Dudas sobre cómo aprender? Contáctanos",
-        "Consultar la tutoría entre estudiantes",
-        "Consultar cómo participar como intérprete",
-        "Consultar formas de colaborar"
+        "¿Aún tienes dudas sobre cómo aprender? Contáctanos",
+        "¿Aún tienes dudas sobre la tutoría? Contáctanos",
+        "¿Aún tienes dudas sobre cómo actuar? Contáctanos",
+        "¿Aún tienes dudas sobre la colaboración? Contáctanos"
       ],
       "contactTitle": "¿Tienes una idea o pregunta concreta?",
       "contactBody": "Escríbenos sobre una idea de programa, actuación, colaboración o pregunta individual. No necesitas enviar un correo para unirte.",
