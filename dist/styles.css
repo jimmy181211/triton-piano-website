@@ -57,7 +57,7 @@ main { min-height:58vh; }
 .button-link:active,.provider:active { transform:translateY(1px); }
 .button-link.secondary { color:var(--ivory); background:transparent; border-color:#73859c; }
 .button-link.secondary:hover { color:var(--gold); border-color:var(--gold); }
-.text-link { display:inline-flex; align-items:center; gap:.4rem; min-height:44px; width:fit-content; color:var(--navy-2); font-size:.8125rem; font-weight:750; text-underline-offset:.25em; line-height:1.5; }
+.text-link { display:inline-flex; align-items:center; gap:.4rem; min-height:44px; width:fit-content; color:var(--navy-2); font-size:.875rem; font-weight:750; text-underline-offset:.25em; line-height:1.5; }
 .text-link:hover { color:var(--navy); text-decoration-thickness:2px; }
 .text-link span { text-decoration:none; }
 .section-head { max-width:700px; margin-bottom:1.8rem; }
