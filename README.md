@@ -1,6 +1,6 @@
 # Piano Club at UCSD website
 
-Public website for the proposed Piano Club at UCSD. The club is still being organized and has not yet been approved by the university.
+Public website for the proposed Piano Club at UCSD. The club is currently going through the CSI approval process and no program will begin before approval is complete.
 
 ## Local preview
 

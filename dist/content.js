@@ -7,7 +7,7 @@ window.clubCopy = {
     "skip": "Skip to content",
     "navigation": "Primary navigation",
     "footerNavigation": "Footer navigation",
-    "banner": "Proposed student club — not yet approved",
+    "banner": "CSI approval in progress — programs not yet open",
     "nav": {
       "home": "Home",
       "about": "About",
@@ -55,7 +55,7 @@ window.clubCopy = {
         ],
         [
           "Events",
-          "We’ll post upcoming events here once dates and venues are confirmed.",
+          "After CSI approval, confirmed event dates and venues will appear here.",
           "events",
           "View events"
         ],
@@ -67,10 +67,10 @@ window.clubCopy = {
         ]
       ],
       "statusTitle": "A community in the making",
-      "statusBody": "The club is being organized now, with a first phase tentatively planned for early to mid-October 2026.",
+      "statusBody": "Fall 2026 is focused on completing CSI approval, currently expected around late November. Programs can begin only after approval.",
       "statusLink": "About the club",
       "exploreTitle": "Choose where to start",
-      "exploreIntro": "Explore our programs, learn about practice access, see upcoming events or find a way to get involved."
+      "exploreIntro": "Explore the programs and practice access planned for after approval, review future events or express your interest in getting involved."
     },
     "about": {
       "title": "A piano community for current UCSD students.",
@@ -93,7 +93,7 @@ window.clubCopy = {
         ]
       ],
       "stateTitle": "Organizational status",
-      "stateBody": "The club is currently being organized by one student and has not yet been approved. Leadership is still open; the first phase is tentatively planned for early to mid-October 2026.",
+      "stateBody": "The club is currently being organized by one student and is going through the CSI approval process. Approval may come around late November 2026; leadership remains open, and no program can begin before approval.",
       "programsTitle": "See what we’re planning",
       "programsBody": "Eight proposed programs turn this idea into practical ways to learn, practice, perform and collaborate.",
       "programsLink": "Explore the programs"
@@ -106,7 +106,7 @@ window.clubCopy = {
         "Learn. Play. Connect.\nStart here.",
         "Bring a question.\nLeave inspired."
       ],
-      "intro": "Eight planned programs, from free peer help and piano salons to ensemble collaboration. The first four are launch priorities; external opportunities can be gathered alongside them.",
+      "intro": "Eight programs are planned, from free peer help and piano salons to ensemble collaboration. None will begin before CSI approval is complete; the first four remain the priorities afterward, with external opportunities prepared alongside them.",
       "subTitle": "Lightweight activities inside the programs",
       "subBody": "Four-hand duet matching, practice partners and unfinished-work sharing will be offered as sub-activities rather than counted as separate programs.",
       "practiceLink": "View Practice Access",
@@ -213,7 +213,7 @@ window.clubCopy = {
         "Start solo.\nFind an ensemble."
       ],
       "intro": "Piano salons open to the wider community, shared listening and opportunities to play together.",
-      "empty": "We are tentatively aiming to begin the first phase in early to mid-October 2026. Confirmed dates, venues and participation details will appear here.",
+      "empty": "Fall 2026 is dedicated to completing CSI approval, currently expected around late November. No events will begin before approval; confirmed dates, venues and participation details will appear here afterward.",
       "programsLink": "Explore what we are planning"
     },
     "involved": {
@@ -285,8 +285,8 @@ window.clubCopy = {
       "faqIntro": "Quick answers about the club, its programs, practice access, events and getting in touch.",
       "faq": [
         [
-          "Is the Piano Club officially recognized yet?",
-          "Not yet. The club is still being organized and has not received university approval. One student is currently organizing it, and leadership remains open. The first phase is tentatively planned for early to mid-October 2026."
+          "Has the club completed CSI approval?",
+          "Not yet. One student is currently organizing the club and the CSI approval process is underway. Approval may come around late November 2026; leadership remains open, and no program can begin before approval."
         ],
         [
           "Who is the club for?",
@@ -302,7 +302,7 @@ window.clubCopy = {
         ],
         [
           "When and where will the first events happen?",
-          "The first phase is tentatively planned for early to mid-October 2026, but no event date or venue is confirmed yet. We will update the Events page once details are ready."
+          "No event can begin before CSI approval is complete. Approval is currently expected around late November 2026; event dates and venues will be planned and posted afterward."
         ],
         [
           "How can I take part?",
@@ -445,7 +445,7 @@ window.clubCopy = {
     "skip": "跳至正文",
     "navigation": "主导航",
     "footerNavigation": "页脚导航",
-    "banner": "筹建中的学生社团，尚未获批",
+    "banner": "正在进行 CSI 审批，项目尚未开放",
     "nav": {
       "home": "首页",
       "about": "关于我们",
@@ -460,7 +460,7 @@ window.clubCopy = {
       "proposal": "拟议项目",
       "status": "当前状态",
       "contact": "hello@tritonpiano.org",
-      "disclaimer": "本组织是筹建中的独立学生社团；提及 UC San Diego 仅用于说明所在地，不代表校方认可、赞助或支持。",
+      "disclaimer": "本组织是筹建中的独立学生社团；提及 UC San Diego 仅用于说明所在地，不代表由校方运营、赞助或支持。",
       "approval": "须经校方批准",
       "learn": "学习",
       "share": "分享",
@@ -493,7 +493,7 @@ window.clubCopy = {
         ],
         [
           "活动",
-          "日期和场地确认后，我们会在这里发布最新活动。",
+          "CSI 审批完成后，我们会在这里发布已确认日期和场地的活动。",
           "events",
           "查看活动"
         ],
@@ -505,10 +505,10 @@ window.clubCopy = {
         ]
       ],
       "statusTitle": "一起把社团建立起来",
-      "statusBody": "社团正在筹建，首阶段暂定于 2026 年十月上中旬启动。",
+      "statusBody": "2026 年秋季将用于完成 CSI 审批，目前预计约十一月末获批。所有项目须在社团正式获批后才能启动。",
       "statusLink": "认识钢琴社",
       "exploreTitle": "选择你的下一步",
-      "exploreIntro": "查看社团项目、了解练琴资源、寻找近期活动，或选择一种方式加入我们。"
+      "exploreIntro": "了解获批后计划开展的项目、练琴资源和活动，或先表达你的参与意向。"
     },
     "about": {
       "title": "面向 UCSD 在校学生的钢琴社群。",
@@ -531,7 +531,7 @@ window.clubCopy = {
         ]
       ],
       "stateTitle": "组织状态",
-      "stateBody": "社团目前由一名学生筹办，尚未获批；正式负责人仍待确定，首阶段暂定于 2026 年十月上中旬启动。",
+      "stateBody": "社团目前由一名学生筹办，正在进行 CSI 审批；预计可能于 2026 年十一月末获批，正式负责人仍待确定，任何项目都须在获批后才能启动。",
       "programsTitle": "看看我们准备做什么",
       "programsBody": "八个计划中的项目，会把这些想法变成一起学习、练习、演奏和合作的具体方式。",
       "programsLink": "查看社团项目"
@@ -544,7 +544,7 @@ window.clubCopy = {
         "想学、想演、想合作，\n从这里开始。",
         "带着问题来，\n带着灵感走。"
       ],
-      "intro": "八个拟议项目，从免费同伴答疑、钢琴沙龙到合奏合作。启动期优先推进前四项，并同步整理外部比赛与演出机会。",
+      "intro": "目前规划了八个项目，从免费同伴答疑、钢琴沙龙到合奏合作。CSI 审批完成前不会启动任何项目；获批后优先推进前四项，并同步整理外部比赛与演出机会。",
       "subTitle": "纳入主要项目的轻量活动",
       "subBody": "四手联弹配对、练习伙伴和未完成作品分享将作为相关项目的子活动开展，不单独计数。",
       "practiceLink": "查看练琴资源",
@@ -651,7 +651,7 @@ window.clubCopy = {
         "从独奏出发，\n遇见合奏。"
       ],
       "intro": "向校内外来宾开放的钢琴沙龙、一起聆听，也一起寻找登台的机会。",
-      "empty": "首阶段暂定于 2026 年十月上中旬启动。日期、地点和参与方式确认后会在这里公布。",
+      "empty": "2026 年秋季将用于完成 CSI 审批，目前预计约十一月末获批。获批前不会启动活动；之后确认的日期、地点和参与方式会在这里公布。",
       "programsLink": "了解正在筹备的项目"
     },
     "involved": {
@@ -723,8 +723,8 @@ window.clubCopy = {
       "faqIntro": "关于社团、项目、练琴资源、活动和联系方式，这里有一些简明回答。",
       "faq": [
         [
-          "钢琴社已经正式获批了吗？",
-          "还没有。社团仍在筹建，尚未获得学校批准。目前由一名学生筹办，正式负责人仍待确定；首阶段暂定于 2026 年十月上中旬启动。"
+          "社团已经完成 CSI 审批了吗？",
+          "还没有。目前由一名学生筹办，CSI 审批正在进行中，预计可能于 2026 年十一月末完成；正式负责人仍待确定，任何项目都须在获批后才能启动。"
         ],
         [
           "谁可以参加？",
@@ -740,7 +740,7 @@ window.clubCopy = {
         ],
         [
           "第一场活动何时、在哪里举行？",
-          "首阶段暂定于 2026 年十月上中旬启动，但具体活动日期和场地尚未确认。信息落实后，我们会更新“活动”页面。"
+          "CSI 审批完成前不会启动活动。目前预计可能于 2026 年十一月末获批，获批后才会确定活动日期和场地，并更新“活动”页面。"
         ],
         [
           "我可以怎样参与？",
@@ -883,7 +883,7 @@ window.clubCopy = {
     "skip": "Saltar al contenido",
     "navigation": "Navegación principal",
     "footerNavigation": "Navegación del pie de página",
-    "banner": "Club estudiantil propuesto; aún no aprobado",
+    "banner": "Aprobación de CSI en curso; programas aún no abiertos",
     "nav": {
       "home": "Inicio",
       "about": "Acerca del club",
@@ -931,7 +931,7 @@ window.clubCopy = {
         ],
         [
           "Eventos",
-          "Publicaremos aquí los próximos eventos cuando se confirmen las fechas y los espacios.",
+          "Después de la aprobación de CSI, publicaremos aquí los eventos con fechas y espacios confirmados.",
           "events",
           "Ver eventos"
         ],
@@ -943,10 +943,10 @@ window.clubCopy = {
         ]
       ],
       "statusTitle": "Una comunidad en formación",
-      "statusBody": "El club está en preparación y la primera fase está prevista, de forma provisional, para principios o mediados de octubre de 2026.",
+      "statusBody": "El otoño de 2026 se dedicará a completar la aprobación de CSI, prevista actualmente para finales de noviembre. Los programas solo podrán comenzar después de la aprobación.",
       "statusLink": "Conoce el club",
       "exploreTitle": "Elige por dónde empezar",
-      "exploreIntro": "Explora los programas, consulta el acceso para practicar, descubre próximos eventos o encuentra una forma de participar."
+      "exploreIntro": "Explora los programas, el acceso para practicar y los eventos previstos para después de la aprobación, o expresa tu interés en participar."
     },
     "about": {
       "title": "Una comunidad de piano para estudiantes actuales de UCSD.",
@@ -969,7 +969,7 @@ window.clubCopy = {
         ]
       ],
       "stateTitle": "Estado de la organización",
-      "stateBody": "Actualmente una persona está organizando el club, que aún no ha sido aprobado. El liderazgo sigue abierto y la primera fase está prevista provisionalmente para principios o mediados de octubre de 2026.",
+      "stateBody": "Actualmente una persona organiza el club y el proceso de aprobación de CSI está en curso. La aprobación podría llegar hacia finales de noviembre de 2026; el liderazgo sigue abierto y ningún programa podrá comenzar antes.",
       "programsTitle": "Conoce lo que estamos preparando",
       "programsBody": "Ocho programas propuestos convierten esta idea en formas concretas de aprender, practicar, tocar y colaborar.",
       "programsLink": "Explorar los programas"
@@ -982,7 +982,7 @@ window.clubCopy = {
         "Aprende. Toca. Únete.\nEmpieza aquí.",
         "Trae preguntas.\nLlévate ideas."
       ],
-      "intro": "Ocho programas previstos, desde apoyo gratuito y encuentros de piano hasta colaboración con conjuntos. Los cuatro primeros son prioritarios; las oportunidades externas pueden recopilarse en paralelo.",
+      "intro": "Hay ocho programas previstos, desde apoyo gratuito y encuentros de piano hasta colaboración con conjuntos. Ninguno comenzará antes de completar la aprobación de CSI; después, los cuatro primeros serán prioritarios y las oportunidades externas podrán prepararse en paralelo.",
       "subTitle": "Actividades ligeras dentro de los programas",
       "subBody": "La búsqueda de parejas para piano a cuatro manos, compañeros de práctica y muestras de obras en proceso serán subactividades, no programas separados.",
       "practiceLink": "Ver acceso para practicar",
@@ -1089,7 +1089,7 @@ window.clubCopy = {
         "Empieza solo.\nToca en conjunto."
       ],
       "intro": "Encuentros de piano abiertos a más público, escucha compartida y oportunidades para tocar juntos.",
-      "empty": "La primera fase está prevista provisionalmente para principios o mediados de octubre de 2026. Publicaremos las fechas, lugares y formas de participar cuando estén confirmados.",
+      "empty": "El otoño de 2026 se dedicará a completar la aprobación de CSI, prevista actualmente para finales de noviembre. No habrá eventos antes de la aprobación; después publicaremos las fechas, lugares y formas de participar confirmados.",
       "programsLink": "Explora lo que estamos preparando"
     },
     "involved": {
@@ -1161,8 +1161,8 @@ window.clubCopy = {
       "faqIntro": "Respuestas breves sobre el club, sus programas, el acceso a pianos, los eventos y cómo contactarnos.",
       "faq": [
         [
-          "¿El Piano Club ya está reconocido oficialmente?",
-          "Aún no. El club sigue en formación y no ha recibido la aprobación de la universidad. Actualmente lo organiza una persona y el liderazgo sigue abierto. La primera fase está prevista provisionalmente para principios o mediados de octubre de 2026."
+          "¿El club ya completó la aprobación de CSI?",
+          "Aún no. Actualmente una persona organiza el club y el proceso de aprobación de CSI está en curso. La aprobación podría llegar hacia finales de noviembre de 2026; el liderazgo sigue abierto y ningún programa podrá comenzar antes."
         ],
         [
           "¿Quién puede participar?",
@@ -1178,7 +1178,7 @@ window.clubCopy = {
         ],
         [
           "¿Cuándo y dónde será el primer evento?",
-          "La primera fase está prevista provisionalmente para principios o mediados de octubre de 2026, pero todavía no hay fecha ni lugar confirmados. Actualizaremos la página de Eventos cuando los detalles estén listos."
+          "No habrá eventos antes de completar la aprobación de CSI. Actualmente se espera que la aprobación pueda llegar hacia finales de noviembre de 2026; las fechas y los espacios se planificarán y publicarán después."
         ],
         [
           "¿Cómo puedo participar?",
