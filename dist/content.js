@@ -262,6 +262,12 @@ window.clubCopy = {
       "communityFootnote": "These channels are still being prepared. Official links, account names and current QR codes will appear here when ready.",
       "rolesTitle": "Ways to take part",
       "rolesIntro": "After joining the community, take part as a learner, peer tutor, performer or collaborator whenever an activity fits you. These are options, not membership requirements.",
+      "roleLinks": [
+        "Questions about learning? Contact us",
+        "Ask about peer tutoring",
+        "Ask about performing",
+        "Ask about collaboration"
+      ],
       "contactTitle": "Have a specific idea or question?",
       "contactBody": "Email us about a project idea, performance, collaboration or individual question. You do not need to email us to join.",
       "contactLink": "Write about your idea"
@@ -720,6 +726,12 @@ window.clubCopy = {
       "communityFootnote": "这些渠道仍在筹备。官方链接、账号名称和有效二维码确认后会在这里发布。",
       "rolesTitle": "加入以后，你可以这样参与",
       "rolesIntro": "学习者、同伴辅导者、演奏者和合作伙伴只是参与方式，不是入会身份或申请条件。活动开放时，选择适合自己的方式参加即可。",
+      "roleLinks": [
+        "对共同学习有疑问？联系我们",
+        "咨询同伴辅导",
+        "咨询演奏参与",
+        "咨询合作方式"
+      ],
       "contactTitle": "有具体想法或问题？",
       "contactBody": "项目建议、演出、合作或个别问题可以通过邮件联系。加入社团本身不需要发送邮件。",
       "contactLink": "写信聊聊"
@@ -1178,6 +1190,12 @@ window.clubCopy = {
       "communityFootnote": "Estos canales todavía están en preparación. Publicaremos aquí los enlaces oficiales, los nombres de las cuentas y los códigos QR vigentes cuando estén listos.",
       "rolesTitle": "Formas de participar",
       "rolesIntro": "Después de unirte a la comunidad, participa como estudiante, tutor, intérprete o colaborador cuando una actividad encaje contigo. Son opciones, no requisitos de membresía.",
+      "roleLinks": [
+        "¿Dudas sobre cómo aprender? Contáctanos",
+        "Consultar la tutoría entre estudiantes",
+        "Consultar cómo participar como intérprete",
+        "Consultar formas de colaborar"
+      ],
       "contactTitle": "¿Tienes una idea o pregunta concreta?",
       "contactBody": "Escríbenos sobre una idea de programa, actuación, colaboración o pregunta individual. No necesitas enviar un correo para unirte.",
       "contactLink": "Escribir sobre tu idea"

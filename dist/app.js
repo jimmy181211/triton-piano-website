@@ -6,6 +6,7 @@ const clubEmail = 'hello@tritonpiano.org';
 const clubPhoneDisplay = '(619) 380-1100';
 const clubPhoneHref = 'tel:+16193801100';
 const programTopics = ['practice','learn','salon','collaboration','masterclass','audition','opportunities','tutoring'];
+const roleTopics = ['learn','peer','perform','collaboration'];
 let taglineTimer = 0;
 let taglineSwapTimer = 0;
 let legalScrollHandler = null;
@@ -55,7 +56,7 @@ function renderEvents(c,lang) {
 }
 function renderInvolved(c,lang) {
   const i=c.involved;
-  return `${intro(i.title,i.intro)}<section class="page-shell"><section class="community-panel" aria-labelledby="community-title"><div class="section-head"><h2 id="community-title">${esc(i.communityTitle)}</h2><p>${esc(i.communityIntro)}</p></div><div class="community-grid">${i.communities.map(x=>`<article class="community-card"><div class="community-card-head"><h3>${esc(x[0])}</h3>${pill(i.communityStatus)}</div><p>${esc(x[1])}</p></article>`).join('')}</div><p class="community-footnote">${esc(i.communityFootnote)}</p></section><section class="participation-section" aria-labelledby="roles-title"><div class="section-head"><h2 id="roles-title">${esc(i.rolesTitle)}</h2><p>${esc(i.rolesIntro)}</p></div><div class="role-grid">${i.roles.map(x=>`<article class="card role-card"><h3>${esc(x[0])}</h3><p>${esc(x[1])}</p></article>`).join('')}</div></section><div class="contact-callout"><div><h2>${esc(i.contactTitle)}</h2><p>${esc(i.contactBody)}</p></div>${link(lang,'contact',i.contactLink,'button-link','organize')}</div></section>`;
+  return `${intro(i.title,i.intro)}<section class="page-shell"><section class="community-panel" aria-labelledby="community-title"><div class="section-head"><h2 id="community-title">${esc(i.communityTitle)}</h2><p>${esc(i.communityIntro)}</p></div><div class="community-grid">${i.communities.map(x=>`<article class="community-card"><div class="community-card-head"><h3>${esc(x[0])}</h3>${pill(i.communityStatus)}</div><p>${esc(x[1])}</p></article>`).join('')}</div><p class="community-footnote">${esc(i.communityFootnote)}</p></section><section class="participation-section" aria-labelledby="roles-title"><div class="section-head"><h2 id="roles-title">${esc(i.rolesTitle)}</h2><p>${esc(i.rolesIntro)}</p></div><div class="role-grid">${i.roles.map((x,n)=>`<article class="card role-card"><h3>${esc(x[0])}</h3><p>${esc(x[1])}</p>${link(lang,'contact',i.roleLinks[n],'text-link',roleTopics[n])}</article>`).join('')}</div></section><div class="contact-callout"><div><h2>${esc(i.contactTitle)}</h2><p>${esc(i.contactBody)}</p></div>${link(lang,'contact',i.contactLink,'button-link','organize')}</div></section>`;
 }
 function mailDraft(lang,topic) {
   const c=copy[lang].contact,t=c.topicMessages[topicKey(topic)];
