@@ -3,7 +3,9 @@ const legalPages = ['privacy','terms'];
 const locales = ['en','zh-CN','es'];
 const copy = window.clubCopy;
 const clubEmail = 'hello@tritonpiano.org';
-const programTopics = ['learn','salon','practice','collaboration','masterclass','audition','opportunities','tutoring'];
+const clubPhoneDisplay = '(619) 380-1100';
+const clubPhoneHref = 'tel:+16193801100';
+const programTopics = ['practice','learn','salon','collaboration','masterclass','audition','opportunities','tutoring'];
 const roleTopics = ['learn','peer','perform','collaboration'];
 let taglineTimer = 0;
 let taglineSwapTimer = 0;
@@ -25,12 +27,16 @@ function link(lang,page,label,classes='text-link',topic='general',anchor='') {
   return `<a class="${classes}" href="${esc(href(lang,page,topic)+anchor)}">${esc(label)}<span aria-hidden="true">↗</span></a>`;
 }
 function pill(t) { return `<span class="status-pill">${esc(t)}</span>`; }
-function intro(title,body) { return `<section class="page-intro"><div class="page-shell"><h1>${heading(title)}</h1><p>${esc(body)}</p></div></section>`; }
+function intro(title,body,taglines=[]) {
+  const items=Array.isArray(taglines)&&taglines.length?taglines:[title];
+  const rotating=items.length>1;
+  return `<section class="page-intro"><div class="page-shell"><h1${rotating?' class="page-tagline" data-rotating-tagline aria-live="off"':''}>${heading(items[0])}</h1><p>${esc(body)}</p></div></section>`;
+}
 function cardGrid(items) { return `<div class="card-grid">${items.map(x=>`<article class="card"><h3>${esc(x[0])}</h3><p>${esc(x[1])}</p></article>`).join('')}</div>`; }
 function renderHome(c,lang) {
   const h=c.home;
   const firstTagline=(h.taglines||[h.title])[0];
-  return `<section class="hero"><div class="hero-inner"><div class="hero-copy"><h1 class="hero-tagline" id="hero-tagline" aria-live="off">${heading(firstTagline)}</h1><p class="lead">${esc(h.body)}</p><div class="actions">${link(lang,'programs',h.cta1,'button-link')}${link(lang,'get-involved',h.cta2,'button-link secondary')}</div></div><div class="hero-art" aria-hidden="true"><img class="hero-mark" src="./assets/club-mark.png" alt="" width="1254" height="1254" fetchpriority="high"></div></div></section><section class="page-shell"><div class="section-head"><h2>${esc(h.exploreTitle)}</h2><p>${esc(h.exploreIntro)}</p></div><div class="entry-grid">${h.themes.map(x=>`<article class="entry-card"><h3>${esc(x[0])}</h3><p>${esc(x[1])}</p>${link(lang,x[2],x[3])}</article>`).join('')}</div><div class="status-panel"><div><h2>${esc(h.statusTitle)}</h2><p>${esc(h.statusBody)}</p></div>${link(lang,'about',h.statusLink,'button-link secondary')}</div></section>`;
+  return `<section class="hero"><div class="hero-inner"><div class="hero-copy"><h1 class="hero-tagline" data-rotating-tagline aria-live="off">${heading(firstTagline)}</h1><p class="lead">${esc(h.body)}</p><div class="actions">${link(lang,'programs',h.cta1,'button-link')}${link(lang,'get-involved',h.cta2,'button-link secondary')}</div></div><div class="hero-art" aria-hidden="true"><img class="hero-mark" src="./assets/club-mark.png" alt="" width="1254" height="1254" fetchpriority="high"></div></div></section><section class="page-shell"><div class="section-head"><h2>${esc(h.exploreTitle)}</h2><p>${esc(h.exploreIntro)}</p></div><div class="entry-grid">${h.themes.map(x=>`<article class="entry-card"><h3>${esc(x[0])}</h3><p>${esc(x[1])}</p>${link(lang,x[2],x[3])}</article>`).join('')}</div><div class="status-panel"><div><h2>${esc(h.statusTitle)}</h2><p>${esc(h.statusBody)}</p></div>${link(lang,'about',h.statusLink,'button-link secondary')}</div></section>`;
 }
 function renderAbout(c,lang) {
   const a=c.about;
@@ -38,19 +44,19 @@ function renderAbout(c,lang) {
 }
 function renderPrograms(c,lang) {
   const p=c.programs;
-  return `${intro(p.title,p.intro)}<section class="page-shell"><div class="program-list">${p.items.map((x,i)=>`<article class="program-row" id="program-${i+1}"><span class="program-number" aria-hidden="true">${String(i+1).padStart(2,'0')}</span><div><div class="program-heading"><h2>${esc(x[0])}</h2>${pill(x[2])}</div><p>${esc(x[1])}</p><div class="program-links">${i===2?link(lang,'practice',p.practiceLink):''}${link(lang,'contact',p.ask,'text-link',programTopics[i])}</div></div></article>`).join('')}</div><aside class="subactivity-note"><h2>${esc(p.subTitle)}</h2><p>${esc(p.subBody)}</p></aside></section>`;
+  return `${intro(p.title,p.intro,p.taglines)}<section class="page-shell"><div class="program-list">${p.items.map((x,i)=>`<article class="program-row" id="program-${i+1}"><span class="program-number" aria-hidden="true">${String(i+1).padStart(2,'0')}</span><div><div class="program-heading"><h2>${esc(x[0])}</h2>${pill(x[2])}</div><p>${esc(x[1])}</p><div class="program-links">${i===0?link(lang,'practice',p.practiceLink):''}${link(lang,'contact',p.ask,'text-link',programTopics[i])}</div></div></article>`).join('')}</div><aside class="subactivity-note"><h2>${esc(p.subTitle)}</h2><p>${esc(p.subBody)}</p></aside></section>`;
 }
 function renderPractice(c,lang) {
   const p=c.practice;
-  return `${intro(p.title,p.intro)}<section class="page-shell"><div class="practice-overview"><div><h2>${esc(p.cardTitle)}</h2><p>${esc(p.cardBody)}</p>${link(lang,'contact',p.ask,'button-link','practice')}</div><dl class="facts">${p.facts.map(x=>`<div class="fact"><dt>${esc(x[0])}</dt><dd>${esc(x[1])}</dd></div>`).join('')}</dl></div><div class="section-head"><h2>${esc(p.questionsTitle)}</h2></div><div class="requirements">${p.questions.map(x=>`<article><h3>${esc(x[0])}</h3><p>${esc(x[1])}</p></article>`).join('')}</div></section>`;
+  return `${intro(p.title,p.intro,p.taglines)}<section class="page-shell"><div class="practice-overview"><div><h2>${esc(p.cardTitle)}</h2><p>${esc(p.cardBody)}</p>${link(lang,'contact',p.ask,'button-link','practice')}</div><dl class="facts">${p.facts.map(x=>`<div class="fact"><dt>${esc(x[0])}</dt><dd>${esc(x[1])}</dd></div>`).join('')}</dl></div><div class="section-head"><h2>${esc(p.questionsTitle)}</h2></div><div class="requirements">${p.questions.map(x=>`<article><h3>${esc(x[0])}</h3><p>${esc(x[1])}</p></article>`).join('')}</div></section>`;
 }
 function renderEvents(c,lang) {
   const e=c.events;
-  return `${intro(e.title,e.intro)}<section class="page-shell"><div class="empty-state"><span class="rest" aria-hidden="true">𝄽</span><h2>${esc(c.common.pending)}</h2><p>${esc(e.empty)}</p>${link(lang,'programs',e.programsLink,'button-link')}</div></section>`;
+  return `${intro(e.title,e.intro,e.taglines)}<section class="page-shell"><div class="empty-state"><span class="rest" aria-hidden="true">𝄽</span><h2>${esc(c.common.pending)}</h2><p>${esc(e.empty)}</p>${link(lang,'programs',e.programsLink,'button-link')}</div></section>`;
 }
 function renderInvolved(c,lang) {
   const i=c.involved;
-  return `${intro(i.title,i.intro)}<section class="page-shell"><div class="role-grid">${i.roles.map((x,n)=>`<article class="card role-card"><h2>${esc(x[0])}</h2><p>${esc(x[1])}</p>${link(lang,'contact',i.roleLinks[n],'text-link',roleTopics[n])}</article>`).join('')}</div><div class="contact-callout"><div><h2>${esc(i.contactTitle)}</h2><p>${esc(i.contactBody)}</p></div>${link(lang,'contact',i.contactLink,'button-link','organize')}</div><div class="faq"><h2>${esc(i.faqTitle)}</h2>${i.faq.map(x=>`<details><summary>${esc(x[0])}</summary><p>${esc(x[1])}</p></details>`).join('')}</div></section>`;
+  return `${intro(i.title,i.intro)}<section class="page-shell"><div class="role-grid">${i.roles.map((x,n)=>`<article class="card role-card"><h2>${esc(x[0])}</h2><p>${esc(x[1])}</p>${link(lang,'contact',i.roleLinks[n],'text-link',roleTopics[n])}</article>`).join('')}</div><div class="contact-callout"><div><h2>${esc(i.contactTitle)}</h2><p>${esc(i.contactBody)}</p></div>${link(lang,'contact',i.contactLink,'button-link','organize')}</div></section>`;
 }
 function mailDraft(lang,topic) {
   const c=copy[lang].contact,t=c.topicMessages[topicKey(topic)];
@@ -62,18 +68,18 @@ function composeLinks(d) {
 }
 function renderContact(c) {
   const m=c.contact;
-  return `${intro(m.title,m.intro)}<section class="page-shell contact-layout"><div class="contact-address"><p class="eyebrow">${esc(m.emailLabel)}</p><p class="public-email">${clubEmail}</p><label for="enquiry-topic">${esc(m.topicLabel)}</label><div class="topic-control"><select id="enquiry-topic"><option value="general">${esc(m.general)}</option>${Object.entries(m.topicMessages).map(([k,x])=>`<option value="${k}">${esc(x[0])}</option>`).join('')}</select></div><button class="button-link compose-button" id="open-mail-dialog" type="button">${esc(m.composeButton)}<span aria-hidden="true">→</span></button></div><dialog class="mail-dialog" id="mail-dialog" aria-labelledby="mail-dialog-title"><div class="dialog-shell"><button class="dialog-close" type="button" data-close-dialog aria-label="${esc(m.closeDialog)}"><span aria-hidden="true">×</span></button><div class="dialog-head"><p class="eyebrow">${clubEmail}</p><h2 id="mail-dialog-title">${esc(m.providersTitle)}</h2><p>${esc(m.providersIntro)}</p></div><div class="mail-providers"><a id="compose-gmail" class="provider" target="_blank" rel="noopener noreferrer"><span class="provider-monogram" aria-hidden="true">G</span><span><strong>Gmail</strong><small>${esc(m.gmailHint)}</small></span><span aria-hidden="true">↗</span></a><a id="compose-outlook" class="provider" target="_blank" rel="noopener noreferrer"><span class="provider-monogram" aria-hidden="true">O</span><span><strong>Outlook</strong><small>${esc(m.outlookHint)}</small></span><span aria-hidden="true">↗</span></a><a id="compose-mail" class="provider"><span class="provider-monogram" aria-hidden="true">@</span><span><strong>${esc(m.defaultMail)}</strong><small>${esc(m.defaultHint)}</small></span><span aria-hidden="true">↗</span></a></div><p class="review-note">${esc(m.reviewNote)}</p><details class="draft-preview"><summary>${esc(m.preview)}</summary><div class="draft-fields"><label for="draft-to">${esc(m.recipient)}</label><input id="draft-to" readonly><label for="draft-subject">${esc(m.subject)}</label><input id="draft-subject" readonly><label for="draft-body">${esc(m.body)}</label><textarea id="draft-body" rows="9" readonly></textarea><button class="button-link" type="button" data-copy="template">${esc(m.copyTemplate)}</button></div></details><p class="mail-fallback">${esc(m.fallbackNote)}</p><output class="copy-notice" id="copy-notice" aria-live="polite"></output></div></dialog></section>`;
+  return `${intro(m.title,m.intro)}<section class="page-shell contact-layout"><div class="contact-address"><div class="contact-methods"><div class="contact-method"><p class="eyebrow">${esc(m.emailLabel)}</p><p class="public-contact">${clubEmail}</p></div><div class="contact-method"><p class="eyebrow">${esc(m.phoneLabel)}</p><a class="public-contact" href="${clubPhoneHref}">${clubPhoneDisplay}</a></div></div><label for="enquiry-topic">${esc(m.topicLabel)}</label><div class="topic-control"><select id="enquiry-topic"><option value="general">${esc(m.general)}</option>${Object.entries(m.topicMessages).map(([k,x])=>`<option value="${k}">${esc(x[0])}</option>`).join('')}</select></div><button class="button-link compose-button" id="open-mail-dialog" type="button">${esc(m.composeButton)}<span aria-hidden="true">→</span></button></div><div class="faq contact-faq"><h2>${esc(m.faqTitle)}</h2><p class="faq-intro">${esc(m.faqIntro)}</p>${m.faq.map(x=>`<details><summary>${esc(x[0])}</summary><p>${esc(x[1])}</p></details>`).join('')}</div><dialog class="mail-dialog" id="mail-dialog" aria-labelledby="mail-dialog-title"><div class="dialog-shell"><button class="dialog-close" type="button" data-close-dialog aria-label="${esc(m.closeDialog)}"><span aria-hidden="true">×</span></button><div class="dialog-head"><p class="eyebrow">${clubEmail}</p><h2 id="mail-dialog-title">${esc(m.providersTitle)}</h2><p>${esc(m.providersIntro)}</p></div><div class="mail-providers"><a id="compose-gmail" class="provider" target="_blank" rel="noopener noreferrer"><span class="provider-monogram" aria-hidden="true">G</span><span><strong>Gmail</strong><small>${esc(m.gmailHint)}</small></span><span aria-hidden="true">↗</span></a><a id="compose-outlook" class="provider" target="_blank" rel="noopener noreferrer"><span class="provider-monogram" aria-hidden="true">O</span><span><strong>Outlook</strong><small>${esc(m.outlookHint)}</small></span><span aria-hidden="true">↗</span></a><a id="compose-mail" class="provider"><span class="provider-monogram" aria-hidden="true">@</span><span><strong>${esc(m.defaultMail)}</strong><small>${esc(m.defaultHint)}</small></span><span aria-hidden="true">↗</span></a></div><p class="review-note">${esc(m.reviewNote)}</p><details class="draft-preview"><summary>${esc(m.preview)}</summary><div class="draft-fields"><label for="draft-to">${esc(m.recipient)}</label><input id="draft-to" readonly><label for="draft-subject">${esc(m.subject)}</label><input id="draft-subject" readonly><label for="draft-body">${esc(m.body)}</label><textarea id="draft-body" rows="9" readonly></textarea><button class="button-link" type="button" data-copy="template">${esc(m.copyTemplate)}</button></div></details><p class="mail-fallback">${esc(m.fallbackNote)}</p><output class="copy-notice" id="copy-notice" aria-live="polite"></output></div></dialog></section>`;
 }
 function renderLegal(c,lang,page) {
   const l=window.clubLegal[lang][page];
   const tocId=`${page}-contents`;
-  return `${intro(l.title,l.intro)}<section class="page-shell legal-layout"><nav class="legal-toc" aria-labelledby="${tocId}"><p class="legal-toc-title" id="${tocId}">${esc(l.contents)}</p><ol>${l.sections.map((s,i)=>`<li><a href="#${page}-${i+1}">${esc(s[0])}</a></li>`).join('')}</ol></nav><div class="legal-copy"><p class="legal-date">${esc(c.footer.updated)}: <time datetime="2026-09-14">2026-09-14</time></p>${l.sections.map((s,i)=>`<section id="${page}-${i+1}" tabindex="-1"><h2>${esc(s[0])}</h2>${s.slice(1).map(p=>`<p>${esc(p)}</p>`).join('')}</section>`).join('')}${page==='privacy'?'<p class="provider-policies"><a href="https://openai.com/policies/privacy-policy/" target="_blank" rel="noopener noreferrer">OpenAI Privacy Policy ↗</a><a href="https://www.cloudflare.com/privacypolicy/" target="_blank" rel="noopener noreferrer">Cloudflare Privacy Policy ↗</a></p>':''}${link(lang,'contact',c.footer.contact,'button-link',page==='privacy'?'privacy':'general')}</div></section>`;
+  return `${intro(l.title,l.intro)}<section class="page-shell legal-layout"><nav class="legal-toc" aria-labelledby="${tocId}"><p class="legal-toc-title" id="${tocId}">${esc(l.contents)}</p><ol>${l.sections.map((s,i)=>`<li><a href="#${page}-${i+1}">${esc(s[0])}</a></li>`).join('')}</ol></nav><div class="legal-copy"><p class="legal-date">${esc(c.footer.updated)}: <time datetime="2026-09-14">2026-09-14</time></p>${l.sections.map((s,i)=>`<section id="${page}-${i+1}" tabindex="-1"><h2>${esc(s[0])}</h2>${s.slice(1).map(p=>`<p>${esc(p)}</p>`).join('')}</section>`).join('')}${page==='privacy'?'<p class="provider-policies"><a href="https://www.cloudflare.com/privacypolicy/" target="_blank" rel="noopener noreferrer">Cloudflare Privacy Policy ↗</a></p>':''}${link(lang,'contact',c.footer.contact,'button-link',page==='privacy'?'privacy':'general')}</div></section>`;
 }
 function stopTaglineRotation() {
   clearInterval(taglineTimer);clearTimeout(taglineSwapTimer);taglineTimer=0;taglineSwapTimer=0;
 }
 function startTaglineRotation(items) {
-  const el=document.getElementById('hero-tagline');
+  const el=document.querySelector('[data-rotating-tagline]');
   if(!el||!items||items.length<2||window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
   let index=0;
   taglineTimer=window.setInterval(()=>{
@@ -154,7 +160,7 @@ async function copyMessage() {
 function render() {
   const {lang,page,topic}=params(),c=copy[lang];
   stopTaglineRotation();stopLegalTracking();
-  document.documentElement.lang=lang;document.title=`${c.nav[page]||c.footer[page]} | Piano Club at UC San Diego`;
+  document.documentElement.lang=lang;document.documentElement.dataset.page=page;document.title=`${c.nav[page]||c.footer[page]} | Piano Club at UC San Diego`;
   document.querySelector('meta[name="description"]').content=page==='home'?c.home.body:page==='contact'?c.contact.intro:legalPages.includes(page)?window.clubLegal[lang][page].intro:c[page==='get-involved'?'involved':page].intro;
   document.getElementById('proposal-ribbon').textContent=c.banner;document.getElementById('menu-label').textContent=c.menu;document.getElementById('language-label').textContent=c.language;
   document.querySelector('.skip-link').textContent=c.skip;document.getElementById('site-nav').setAttribute('aria-label',c.navigation);document.getElementById('language-select').value=lang;
@@ -164,9 +170,10 @@ function render() {
   document.getElementById('main').innerHTML=legalPages.includes(page)?renderLegal(c,lang,page):views[page](c,lang);
   document.getElementById('footer-disclaimer').textContent=c.common.disclaimer;
   document.getElementById('footer-links').innerHTML=`<a data-contact href="${esc(href(lang,'contact',contextTopic(page)))}">${esc(c.footer.contact)}</a>${legalPages.map(p=>`<a href="${esc(href(lang,p))}" ${p===page?'aria-current="page"':''}>${esc(c.footer[p])}</a>`).join('')}`;
-  document.getElementById('footer-links').setAttribute('aria-label',c.navigation);
+  document.getElementById('footer-links').setAttribute('aria-label',c.footerNavigation);
   document.getElementById('footer-email').href=href(lang,'contact',contextTopic(page));closeMenu();
   if(page==='home') startTaglineRotation(c.home.taglines);
+  if(['programs','practice','events'].includes(page)) startTaglineRotation(c[page].taglines);
   if(legalPages.includes(page)) startLegalTracking();
   if(page==='contact') {document.getElementById('enquiry-topic').value=topic;refreshContact();initMailDialog();document.getElementById('enquiry-topic').addEventListener('change',e=>changeTopic(e.target.value));document.querySelectorAll('[data-copy]').forEach(b=>b.addEventListener('click',copyMessage));}
 }

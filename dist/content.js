@@ -6,6 +6,7 @@ window.clubCopy = {
     "language": "Language",
     "skip": "Skip to content",
     "navigation": "Primary navigation",
+    "footerNavigation": "Footer navigation",
     "banner": "Proposed student club — not yet approved",
     "nav": {
       "home": "Home",
@@ -30,10 +31,11 @@ window.clubCopy = {
     "home": {
       "title": "Find your people.\nMake music together.",
       "taglines": [
-        "Find your people.\nPlay together.",
-        "Practice together.\nGrow together.",
-        "Bring a piece.\nLeave inspired.",
-        "Meet at the piano.\nMake music."
+        "Find a piano.\nKeep practising.",
+        "Let your music\nbe heard.",
+        "Learn. Play. Connect.\nStart here.",
+        "Start solo.\nDiscover an ensemble.",
+        "Bring a question.\nLeave inspired."
       ],
       "body": "A piano community taking shape at UC San Diego. Bring a piece, a question, or simply your curiosity.",
       "cta1": "Explore our programs",
@@ -98,11 +100,22 @@ window.clubCopy = {
     },
     "programs": {
       "title": "Room to learn.\nA reason to play.",
+      "taglines": [
+        "Questions to ensembles.\nFind your fit.",
+        "Eight ideas.\nPractise, share and play.",
+        "Learn. Play. Connect.\nStart here.",
+        "Bring a question.\nLeave inspired."
+      ],
       "intro": "Eight planned programs, from free peer help and piano salons to ensemble collaboration. The first four are launch priorities; external opportunities can be gathered alongside them.",
       "subTitle": "Lightweight activities inside the programs",
       "subBody": "Four-hand duet matching, practice partners and unfinished-work sharing will be offered as sub-activities rather than counted as separate programs.",
       "practiceLink": "View Practice Access",
       "items": [
+        [
+          "Open Piano Hours / shared practice time",
+          "Proposed recurring practice blocks for students who need access to a piano, subject to space and university approval.",
+          "Launch priority"
+        ],
         [
           "Free Piano Help Hours",
           "Scheduled drop-in peer help with fundamentals, repertoire, interpretation and practice methods.",
@@ -111,11 +124,6 @@ window.clubCopy = {
         [
           "Piano salons, anonymous feedback and AI-organized suggestions",
           "Informal performances with optional anonymous feedback. AI may organize recurring themes after privacy and consent rules are established.",
-          "Launch priority"
-        ],
-        [
-          "Open Piano Hours / shared practice time",
-          "Proposed recurring practice blocks for students who need access to a piano, subject to space and university approval.",
           "Launch priority"
         ],
         [
@@ -148,6 +156,12 @@ window.clubCopy = {
     },
     "practice": {
       "title": "More time at the piano.",
+      "taglines": [
+        "Find a piano.\nKeep practising.",
+        "More practice.\nMore room to grow.",
+        "No piano?\nKeep the music moving.",
+        "A place to practise.\nPeople to play with."
+      ],
       "intro": "We hope to arrange shared practice time at the Conrad Prebys Music Center (CPMC). University and department approval is still required.",
       "cardTitle": "Open Piano Hours — pilot concept",
       "cardBody": "The pilot would give students who need a piano a regular chance to practise. Room access and bookings are not yet available.",
@@ -193,6 +207,11 @@ window.clubCopy = {
     },
     "events": {
       "title": "Come for the music.",
+      "taglines": [
+        "Practise together.\nPerform together.",
+        "Let your music\nbe heard.",
+        "Start solo.\nFind an ensemble."
+      ],
       "intro": "Piano salons, shared listening and opportunities to play together.",
       "empty": "Our first events are still being planned. Dates, venues and participation details will appear here once confirmed.",
       "programsLink": "Explore what we are planning"
@@ -221,13 +240,6 @@ window.clubCopy = {
       "contactTitle": "Have another idea?",
       "contactBody": "We would love to hear how you would like to help shape the club.",
       "contactLink": "Get in touch",
-      "faqTitle": "Before you join",
-      "faq": [
-        [
-          "Do I need piano experience?",
-          "The proposed community is intended for different experience levels; exact participation arrangements are still being designed."
-        ]
-      ],
       "roleLinks": [
         "Ask about learning together",
         "Offer peer help",
@@ -239,6 +251,7 @@ window.clubCopy = {
       "title": "Let’s talk piano.",
       "intro": "A question, a piece you want to share, or an idea for the club — we would like to hear from you.",
       "emailLabel": "Write to us",
+      "phoneLabel": "Call us",
       "topicLabel": "What is on your mind? (optional)",
       "general": "General enquiry",
       "reset": "Clear selection",
@@ -266,6 +279,58 @@ window.clubCopy = {
       "fields": [
         "Name (optional):",
         "My question or idea:"
+      ],
+      "faqTitle": "You may be wondering",
+      "faqIntro": "Quick answers about the club, its programs, practice access, events and getting in touch.",
+      "faq": [
+        [
+          "Is the Piano Club officially recognized yet?",
+          "Not yet. The club is still being organized and has not received university approval. Its launch date and leadership team remain unconfirmed."
+        ],
+        [
+          "Who is the club for?",
+          "The proposed community welcomes UC San Diego students across majors and experience levels, from beginners and listeners to experienced pianists and collaborators. Final eligibility rules will be published after approval."
+        ],
+        [
+          "Will it cost anything to join?",
+          "The club is intended to be free to join, and the first proposed peer-help and community programs are designed to be free. Optional paid coaching would be considered only after approval and clear pricing, payment and accountability rules."
+        ],
+        [
+          "Can I book a piano or practice room now?",
+          "Not yet. Open Piano Hours is a proposal; rooms, eligibility, schedules, supervision and any costs remain unconfirmed."
+        ],
+        [
+          "When and where will the first events happen?",
+          "No date or venue is confirmed yet. We will update the Events page once the details are ready."
+        ],
+        [
+          "How can I take part?",
+          "You can express interest as a learner, peer tutor, performer or collaborator. Choose a role on Get Involved; the link takes you to Contact with the relevant topic selected, where you can open an email draft."
+        ],
+        [
+          "Can I propose a collaboration or share an opportunity?",
+          "Yes. Choose Ensembles & collaboration when you write, then include the people involved, the idea or opportunity, and any dates or links you already know."
+        ],
+        [
+          "How will anonymous feedback and AI be used?",
+          "They are a future proposal. The club is not currently collecting recordings or anonymous salon feedback. Participation would be optional, with privacy and consent rules in place first; AI would only help organize recurring themes."
+        ],
+        [
+          "Do I have to choose a topic?",
+          "No. A topic simply prepares a more relevant email draft; you can keep General enquiry instead."
+        ],
+        [
+          "Will the email draft be sent automatically?",
+          "No. It opens in your own mailbox for you to review, edit and send."
+        ],
+        [
+          "Who will read my message?",
+          "During the organizing stage, the club organizer receives messages. A planned contact role will later route relevant messages to the appropriate organizer. Abusive, harassing or clearly irrelevant messages may not receive a response."
+        ],
+        [
+          "Can I call instead?",
+          "Yes. Our public phone number is (619) 380-1100. Email is especially helpful when you need to share detailed context, links or files."
+        ]
       ],
       "topicMessages": {
         "learn": [
@@ -378,6 +443,7 @@ window.clubCopy = {
     "language": "语言",
     "skip": "跳至正文",
     "navigation": "主导航",
+    "footerNavigation": "页脚导航",
     "banner": "筹建中的学生社团，尚未获批",
     "nav": {
       "home": "首页",
@@ -402,10 +468,11 @@ window.clubCopy = {
     "home": {
       "title": "以琴会友，\n一起成长。",
       "taglines": [
-        "以琴会友，\n一起成长。",
-        "带着问题来，\n带着灵感走。",
-        "一起练习，\n也一起演奏。",
-        "从一架琴开始，\n认识更多伙伴。"
+        "想练琴，\n更容易找到琴。",
+        "让练过的曲子，\n有机会被听见。",
+        "想学、想演、想合作，\n从这里开始。",
+        "从独奏出发，\n遇见合奏。",
+        "带着问题来，\n带着灵感走。"
       ],
       "body": "一个正在 UC San Diego 萌芽的钢琴社群。带上一首曲子、一个问题，或一份对音乐的好奇。",
       "cta1": "探索社团项目",
@@ -470,11 +537,22 @@ window.clubCopy = {
     },
     "programs": {
       "title": "一起学习，\n一起演奏。",
+      "taglines": [
+        "从答疑到合奏，\n找到适合你的方式。",
+        "八个项目，\n连接练习、交流与演奏。",
+        "想学、想演、想合作，\n从这里开始。",
+        "带着问题来，\n带着灵感走。"
+      ],
       "intro": "八个拟议项目，从免费同伴答疑、钢琴沙龙到合奏合作。启动期优先推进前四项，并同步整理外部比赛与演出机会。",
       "subTitle": "纳入主要项目的轻量活动",
       "subBody": "四手联弹配对、练习伙伴和未完成作品分享将作为相关项目的子活动开展，不单独计数。",
       "practiceLink": "查看练琴资源",
       "items": [
+        [
+          "Open Piano Hours／共享练琴时段",
+          "为需要钢琴的同学争取定期共享练琴时段，具体场地与使用方式须经校方批准。",
+          "启动优先"
+        ],
         [
           "免费 Piano Help Hours",
           "通过固定答疑时段，提供钢琴基础、曲目处理、音乐表达与练习方法方面的同伴帮助。",
@@ -483,11 +561,6 @@ window.clubCopy = {
         [
           "钢琴沙龙＋匿名反馈＋AI 建议整理",
           "举办轻松的演奏与聆听聚会；在明确隐私与同意机制后，自愿收集匿名反馈并由 AI 整理共性建议。",
-          "启动优先"
-        ],
-        [
-          "Open Piano Hours／共享练琴时段",
-          "为需要钢琴的同学争取定期共享练琴时段，具体场地与使用方式须经校方批准。",
           "启动优先"
         ],
         [
@@ -520,6 +593,12 @@ window.clubCopy = {
     },
     "practice": {
       "title": "让练琴更容易一些。",
+      "taglines": [
+        "想练琴，\n更容易找到琴。",
+        "多一点机会，\n多一点进步。",
+        "别让找不到琴，\n停下你的音乐。",
+        "让练琴有去处，\n让音乐有伙伴。"
+      ],
       "intro": "我们希望在 Conrad Prebys Music Center（CPMC）争取共享练琴时段，目前仍需获得学校及音乐系批准。",
       "cardTitle": "开放练琴时段——试点设想",
       "cardBody": "试点希望为需要钢琴的同学提供定期练习机会。目前尚未开放琴房使用或预约。",
@@ -565,6 +644,11 @@ window.clubCopy = {
     },
     "events": {
       "title": "为音乐相聚。",
+      "taglines": [
+        "一起练习，\n也一起演奏。",
+        "让练过的曲子，\n有机会被听见。",
+        "从独奏出发，\n遇见合奏。"
+      ],
       "intro": "钢琴沙龙、一起聆听，也一起寻找登台的机会。",
       "empty": "首批活动正在筹备中。日期、地点和参与方式确认后会在这里公布。",
       "programsLink": "了解正在筹备的项目"
@@ -593,13 +677,6 @@ window.clubCopy = {
       "contactTitle": "还有其他想法？",
       "contactBody": "欢迎告诉我们，你希望怎样一起把钢琴社建立起来。",
       "contactLink": "聊聊你的想法",
-      "faqTitle": "参与前，你可能想知道",
-      "faq": [
-        [
-          "需要钢琴经验吗？",
-          "拟议社群希望面向不同经验水平的同学，具体参与安排仍在设计。"
-        ]
-      ],
       "roleLinks": [
         "咨询一起学习",
         "我愿意提供同伴帮助",
@@ -611,6 +688,7 @@ window.clubCopy = {
       "title": "聊聊钢琴，\n也聊聊你的想法。",
       "intro": "想了解项目、一起演奏，或帮助筹建社团？欢迎来信。",
       "emailLabel": "给我们写信",
+      "phoneLabel": "给我们打电话",
       "topicLabel": "你想聊什么？（可选）",
       "general": "一般咨询",
       "reset": "清除选择",
@@ -638,6 +716,58 @@ window.clubCopy = {
       "fields": [
         "称呼（可选）：",
         "我的问题或想法："
+      ],
+      "faqTitle": "你可能想问",
+      "faqIntro": "关于社团、项目、练琴资源、活动和联系方式，这里有一些简明回答。",
+      "faq": [
+        [
+          "钢琴社已经正式获批了吗？",
+          "还没有。社团仍在筹建，尚未获得学校批准；正式启动时间与主要负责人也还没有确认。"
+        ],
+        [
+          "谁可以参加？",
+          "我们希望面向 UC San Diego 不同专业和经验水平的学生，包括初学者、听众、有经验的演奏者和合作伙伴。最终参与资格将在获批后公布。"
+        ],
+        [
+          "加入或参加项目需要付费吗？",
+          "社团计划免费加入，首批同伴答疑和社群活动也以免费为目标。可选付费辅导只会在取得批准并明确定价、收款与责任规则后再考虑。"
+        ],
+        [
+          "现在可以预约钢琴或琴房吗？",
+          "还不可以。Open Piano Hours 目前只是拟议项目；琴房、参与资格、时段、监督方式和可能产生的费用都尚未确认。"
+        ],
+        [
+          "第一场活动何时、在哪里举行？",
+          "日期和场地都还没有确认。信息落实后，我们会更新“活动”页面。"
+        ],
+        [
+          "我可以怎样参与？",
+          "你可以作为学习者、同伴辅导者、演奏者或合作伙伴表达兴趣。在“加入我们”页面选择角色，链接会带你前往联系页并选好相关事项，再由你点击打开邮件草稿。"
+        ],
+        [
+          "可以提出合作，或分享演出机会吗？",
+          "可以。写信时选择“合奏、伴奏与演出合作”，再附上参与者、想法或机会内容，以及已知的日期和链接。"
+        ],
+        [
+          "匿名反馈和 AI 会怎样使用？",
+          "这仍是后续设想。社团目前不收集演奏录音或沙龙匿名反馈。未来如要开展，参与将完全自愿，并会先建立隐私与同意规则；AI 只用于整理反复出现的意见。"
+        ],
+        [
+          "一定要选择咨询事项吗？",
+          "不用。选择后会生成更合适的邮件草稿，也可以直接保留“一般咨询”。"
+        ],
+        [
+          "邮件草稿会自动发送吗？",
+          "不会。草稿只会在你的邮箱中打开，由你检查、修改并点击发送。"
+        ],
+        [
+          "谁会查看我的来信？",
+          "筹建阶段由社团筹备负责人接收来信。未来会设置专门的联系岗位，再把相关来信转交给对应负责人。骚扰、辱骂或明显无关的来信可能不会得到回复。"
+        ],
+        [
+          "可以直接打电话吗？",
+          "可以。公开电话是 (619) 380-1100；如果需要说明较多背景，或附上链接和文件，使用邮件会更方便。"
+        ]
       ],
       "topicMessages": {
         "learn": [
@@ -750,6 +880,7 @@ window.clubCopy = {
     "language": "Idioma",
     "skip": "Saltar al contenido",
     "navigation": "Navegación principal",
+    "footerNavigation": "Navegación del pie de página",
     "banner": "Club estudiantil propuesto; aún no aprobado",
     "nav": {
       "home": "Inicio",
@@ -774,10 +905,11 @@ window.clubCopy = {
     "home": {
       "title": "Encuentra tu gente.\nComparte tu música.",
       "taglines": [
-        "Conoce a otros.\nToca en compañía.",
-        "Practica en grupo.\nCrece con otros.",
-        "Trae una obra.\nLlévate ideas.",
-        "Ven al piano.\nHagamos música."
+        "Encuentra un piano.\nSigue practicando.",
+        "Que tu música\npueda ser escuchada.",
+        "Aprende. Toca. Únete.\nEmpieza aquí.",
+        "Empieza solo.\nToca en conjunto.",
+        "Trae preguntas.\nLlévate ideas."
       ],
       "body": "Una comunidad de piano que está naciendo en UC San Diego. Trae una obra, una pregunta o tu curiosidad.",
       "cta1": "Explora los programas",
@@ -842,11 +974,22 @@ window.clubCopy = {
     },
     "programs": {
       "title": "Aprender juntos.\nTocar juntos.",
+      "taglines": [
+        "Dudas y conjuntos.\nEncuentra tu lugar.",
+        "Ocho propuestas.\nPractica, toca y comparte.",
+        "Aprende. Toca. Únete.\nEmpieza aquí.",
+        "Trae preguntas.\nLlévate ideas."
+      ],
       "intro": "Ocho programas previstos, desde apoyo gratuito y encuentros de piano hasta colaboración con conjuntos. Los cuatro primeros son prioritarios; las oportunidades externas pueden recopilarse en paralelo.",
       "subTitle": "Actividades ligeras dentro de los programas",
       "subBody": "La búsqueda de parejas para piano a cuatro manos, compañeros de práctica y muestras de obras en proceso serán subactividades, no programas separados.",
       "practiceLink": "Ver acceso para practicar",
       "items": [
+        [
+          "Open Piano Hours / horario compartido de práctica",
+          "Bloques periódicos propuestos para estudiantes que necesitan acceso a un piano, sujetos a espacio y aprobación universitaria.",
+          "Prioridad inicial"
+        ],
         [
           "Piano Help Hours gratuitos",
           "Sesiones abiertas de apoyo entre estudiantes sobre fundamentos, repertorio, interpretación y métodos de práctica.",
@@ -855,11 +998,6 @@ window.clubCopy = {
         [
           "Encuentros de piano, comentarios anónimos y síntesis con IA",
           "Actuaciones informales con comentarios anónimos opcionales. La IA podrá organizar temas comunes después de definir privacidad y consentimiento.",
-          "Prioridad inicial"
-        ],
-        [
-          "Open Piano Hours / horario compartido de práctica",
-          "Bloques periódicos propuestos para estudiantes que necesitan acceso a un piano, sujetos a espacio y aprobación universitaria.",
           "Prioridad inicial"
         ],
         [
@@ -892,6 +1030,12 @@ window.clubCopy = {
     },
     "practice": {
       "title": "Más tiempo al piano.",
+      "taglines": [
+        "Encuentra un piano.\nSigue practicando.",
+        "Más práctica.\nMás espacio para crecer.",
+        "¿Sin piano?\nQue siga la música.",
+        "Practica y conecta.\nToca con otros."
+      ],
       "intro": "Queremos conseguir horarios compartidos en el Conrad Prebys Music Center (CPMC). Aún se requiere aprobación de la universidad y del departamento.",
       "cardTitle": "Horas abiertas de piano: concepto piloto",
       "cardBody": "El piloto ofrecería oportunidades regulares de práctica a estudiantes que necesitan un piano. Aún no hay acceso ni reservas disponibles.",
@@ -937,6 +1081,11 @@ window.clubCopy = {
     },
     "events": {
       "title": "Nos une la música.",
+      "taglines": [
+        "Practiquemos juntos.\nToquemos juntos.",
+        "Que tu música\npueda ser escuchada.",
+        "Empieza solo.\nToca en conjunto."
+      ],
       "intro": "Encuentros de piano, escucha compartida y oportunidades para tocar juntos.",
       "empty": "Los primeros eventos están en preparación. Publicaremos fechas, lugares y formas de participar cuando estén confirmados.",
       "programsLink": "Explora lo que estamos preparando"
@@ -965,13 +1114,6 @@ window.clubCopy = {
       "contactTitle": "¿Tienes otra idea?",
       "contactBody": "Nos gustaría saber cómo quieres ayudar a dar forma al club.",
       "contactLink": "Cuéntanos tu idea",
-      "faqTitle": "Antes de participar",
-      "faq": [
-        [
-          "¿Necesito experiencia con el piano?",
-          "La comunidad propuesta está pensada para distintos niveles; los detalles de participación siguen en diseño."
-        ]
-      ],
       "roleLinks": [
         "Consultar cómo aprender",
         "Ofrecer apoyo entre estudiantes",
@@ -983,6 +1125,7 @@ window.clubCopy = {
       "title": "Hablemos de piano.",
       "intro": "Una pregunta, una obra para compartir o una idea para el club: nos gustaría escucharte.",
       "emailLabel": "Escríbenos",
+      "phoneLabel": "Llámanos",
       "topicLabel": "¿De qué quieres hablar? (opcional)",
       "general": "Consulta general",
       "reset": "Borrar selección",
@@ -1010,6 +1153,58 @@ window.clubCopy = {
       "fields": [
         "Nombre (opcional):",
         "Mi pregunta o idea:"
+      ],
+      "faqTitle": "Quizá te preguntes",
+      "faqIntro": "Respuestas breves sobre el club, sus programas, el acceso a pianos, los eventos y cómo contactarnos.",
+      "faq": [
+        [
+          "¿El Piano Club ya está reconocido oficialmente?",
+          "Aún no. El club sigue en formación y no ha recibido la aprobación de la universidad. La fecha de lanzamiento y el equipo responsable tampoco están confirmados."
+        ],
+        [
+          "¿Quién puede participar?",
+          "La comunidad propuesta está pensada para estudiantes de UC San Diego de distintas carreras y niveles, desde principiantes y oyentes hasta pianistas con experiencia y colaboradores. Los requisitos definitivos se publicarán después de la aprobación."
+        ],
+        [
+          "¿Hay que pagar para unirse?",
+          "La intención es que unirse sea gratuito y que los primeros programas de apoyo entre estudiantes y de comunidad también lo sean. La tutoría de pago opcional solo se consideraría después de contar con aprobación y reglas claras de precios, pagos y responsabilidades."
+        ],
+        [
+          "¿Puedo reservar un piano o una sala ahora?",
+          "Todavía no. Open Piano Hours es una propuesta; las salas, los requisitos, los horarios, la supervisión y los posibles costos siguen sin confirmarse."
+        ],
+        [
+          "¿Cuándo y dónde será el primer evento?",
+          "Aún no hay fecha ni lugar confirmados. Actualizaremos la página de Eventos cuando los detalles estén listos."
+        ],
+        [
+          "¿Cómo puedo participar?",
+          "Puedes mostrar interés como estudiante, tutor o tutora, intérprete o colaborador. Elige un rol en Participa; el enlace te llevará a Contacto con el tema correspondiente seleccionado, donde podrás abrir un borrador."
+        ],
+        [
+          "¿Puedo proponer una colaboración o compartir una oportunidad?",
+          "Sí. Elige Conjuntos y colaboración al escribir e incluye las personas, la idea u oportunidad y cualquier fecha o enlace que ya conozcas."
+        ],
+        [
+          "¿Cómo se usarán los comentarios anónimos y la IA?",
+          "Es una propuesta para el futuro. El club no recopila actualmente grabaciones ni comentarios anónimos de los encuentros. La participación sería opcional y primero se definirían reglas de privacidad y consentimiento; la IA solo ayudaría a organizar temas recurrentes."
+        ],
+        [
+          "¿Tengo que elegir un tema?",
+          "No. Elegirlo prepara un borrador más adecuado; también puedes dejar Consulta general."
+        ],
+        [
+          "¿Se enviará el borrador automáticamente?",
+          "No. Se abrirá en tu correo para que lo revises, lo edites y lo envíes."
+        ],
+        [
+          "¿Quién leerá mi mensaje?",
+          "Durante la organización, la persona organizadora del club recibe los mensajes. Más adelante, un puesto de contacto previsto derivará cada mensaje pertinente a la persona responsable. Los mensajes abusivos, de acoso o claramente irrelevantes podrían quedar sin respuesta."
+        ],
+        [
+          "¿Puedo llamar en su lugar?",
+          "Sí. Nuestro teléfono público es (619) 380-1100. El correo resulta más cómodo cuando necesitas compartir contexto detallado, enlaces o archivos."
+        ]
       ],
       "topicMessages": {
         "learn": [
