@@ -27,10 +27,10 @@ p { max-width:72ch; }
 .skip-link:focus { transform:none; }
 .proposal-ribbon { padding:.45rem 1rem; background:var(--gold); color:var(--navy); text-align:center; font-size:.875rem; font-weight:700; }
 .site-header { position:sticky; top:0; z-index:30; color:var(--ivory); background:rgba(7,30,61,.98); border-bottom:1px solid rgba(255,255,255,.13); }
-.header-inner { width:min(calc(100% - 48px),1280px); min-height:84px; margin:auto; display:grid; grid-template-columns:auto minmax(0,1fr) auto; gap:clamp(1.25rem,2.2vw,2.5rem); align-items:center; }
-.brand { display:inline-flex; align-items:center; gap:.5rem; text-decoration:none; font-size:1rem; font-weight:800; line-height:1.15; white-space:nowrap; }
-.brand img { width:56px; height:56px; object-fit:contain; mask-image:radial-gradient(ellipse at center,#000 47%,transparent 75%); }
-.brand small { display:block; margin-top:.3rem; color:var(--gold); font-size:.75rem; letter-spacing:.01em; }
+.header-inner { width:min(calc(100% - 48px),1280px); min-height:94px; margin:auto; display:grid; grid-template-columns:max-content minmax(0,1fr) auto; gap:clamp(1.25rem,2.2vw,2.5rem); align-items:center; }
+.brand { display:inline-flex; align-items:center; gap:.65rem; text-decoration:none; font-size:1.125rem; font-weight:800; line-height:1.12; white-space:nowrap; }
+.brand img { width:64px; height:64px; object-fit:contain; mask-image:radial-gradient(ellipse at center,#000 47%,transparent 75%); }
+.brand small { display:block; margin-top:.32rem; color:var(--gold); font-size:.8125rem; letter-spacing:.01em; }
 .site-nav { display:flex; align-items:center; justify-content:center; gap:.5rem; }
 .site-nav a { display:inline-flex; align-items:center; justify-content:center; min-height:44px; padding:.5rem .7rem; color:#e8eef6; text-decoration:none; font-size:.875rem; font-weight:650; white-space:nowrap; border-radius:7px; }
 .site-nav a:hover { background:rgba(245,194,66,.13); color:var(--gold); }
@@ -113,6 +113,14 @@ main { min-height:58vh; }
 .role-card h2 { font-size:1.7rem; }
 .role-card p { margin-bottom:.75rem; }
 .role-card .text-link { margin-top:auto; }
+.community-panel { margin-top:2.5rem; padding:clamp(1.5rem,3vw,2.2rem); border:1px solid var(--line); border-radius:var(--radius); background:var(--paper); }
+.community-panel .section-head { margin-bottom:1.25rem; }
+.community-panel .section-head h2 { margin-bottom:.55rem; }
+.community-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:1rem; margin-bottom:1rem; }
+.community-card { min-width:0; padding:1.25rem; border:1px solid var(--line); border-top:3px solid var(--gold); border-radius:10px; background:var(--white); }
+.community-card-head { display:flex; align-items:flex-start; justify-content:space-between; gap:.75rem; margin-bottom:.65rem; }
+.community-card h3 { margin:0; font-size:1.15rem; }
+.community-card p { margin:0; color:var(--muted); }
 .contact-callout { margin-top:2rem; padding:1.6rem 0; border-block:1px solid var(--line); display:flex; gap:2rem; justify-content:space-between; align-items:center; }
 .contact-callout h2 { font-size:1.65rem; }
 .contact-callout p { margin:0; color:var(--muted); }
@@ -190,8 +198,9 @@ a.public-contact:hover { color:var(--navy-2); text-decoration:underline; text-de
 .footer-meta a:hover,.footer-meta a[aria-current] { color:var(--gold); text-decoration:underline; text-underline-offset:.25em; }
 @media (min-width:1024px) and (max-width:1199.98px) {
   .header-inner { width:calc(100% - 32px); gap:.8rem; }
-  .brand { font-size:.9375rem; gap:.25rem; }
-  .brand img { width:45px; height:45px; }
+  .brand { font-size:1rem; gap:.35rem; }
+  .brand img { width:50px; height:50px; }
+  .brand small { font-size:.75rem; }
   .site-nav { gap:.1rem; }
   .site-nav a { padding-inline:.4rem; }
   .language-control select { width:122px; }
@@ -226,13 +235,13 @@ a.public-contact:hover { color:var(--navy-2); text-decoration:underline; text-de
   .legal-toc { position:static; top:auto; }
   .program-heading { flex-direction:column; gap:.6rem; }
   .program-row { grid-template-columns:32px minmax(0,1fr); gap:.75rem; }
-  .role-grid { grid-template-columns:1fr; }
+  .role-grid,.community-grid { grid-template-columns:1fr; }
 }
 @media (max-width:479.98px) {
   .header-inner,.page-shell,.hero-inner,.footer-inner { width:calc(100% - 32px); }
   .header-inner { grid-template-columns:minmax(0,1fr) auto; grid-template-areas:'brand menu' 'language language'; gap:.65rem; padding:.65rem 0; }
-  .brand { grid-area:brand; }
-  .brand img { width:46px; height:46px; }
+  .brand { grid-area:brand; font-size:1.05rem; }
+  .brand img { width:50px; height:50px; }
   .brand small { font-size:.75rem; }
   .menu-toggle { grid-area:menu; }
   #menu-label { position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0,0,0,0); }

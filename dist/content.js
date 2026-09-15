@@ -237,6 +237,24 @@ window.clubCopy = {
           "Connect piano with voice, chamber music, orchestra or another student group."
         ]
       ],
+      "communityTitle": "Social and community channels",
+      "communityIntro": "Our Discord, social media and WeChat groups are still being set up. Official links, account names and current QR codes will appear here when ready.",
+      "communityStatus": "Coming soon",
+      "communities": [
+        [
+          "Discord",
+          "The official server invitation will be posted here."
+        ],
+        [
+          "Social media",
+          "Official account names and profile links will be posted here."
+        ],
+        [
+          "WeChat",
+          "A current group QR code will be posted here and replaced when it expires."
+        ]
+      ],
+      "communityLink": "Use email or phone for now",
       "contactTitle": "Have another idea?",
       "contactBody": "We would love to hear how you would like to help shape the club.",
       "contactLink": "Get in touch",
@@ -675,6 +693,24 @@ window.clubCopy = {
           "让钢琴与声乐、室内乐、乐团或其他学生组织连接。"
         ]
       ],
+      "communityTitle": "社群与动态",
+      "communityIntro": "Discord、社交媒体账号和微信群正在筹备。官方链接、账号和有效二维码确认后会在这里更新。",
+      "communityStatus": "筹备中",
+      "communities": [
+        [
+          "Discord 社群",
+          "官方服务器邀请链接确认后将在这里发布。"
+        ],
+        [
+          "社交媒体",
+          "官方账号建立后将在这里发布账号名称与主页链接。"
+        ],
+        [
+          "微信群",
+          "群聊建立后将在这里提供有效二维码，并在二维码过期后更新。"
+        ]
+      ],
+      "communityLink": "查看当前联系方式",
       "contactTitle": "还有其他想法？",
       "contactBody": "欢迎告诉我们，你希望怎样一起把钢琴社建立起来。",
       "contactLink": "聊聊你的想法",
@@ -1113,6 +1149,24 @@ window.clubCopy = {
           "Conecta el piano con voz, música de cámara, orquesta u otro grupo estudiantil."
         ]
       ],
+      "communityTitle": "Canales sociales y comunidad",
+      "communityIntro": "Discord, las redes sociales y el grupo de WeChat están en preparación. Publicaremos aquí los enlaces oficiales, las cuentas y los códigos QR vigentes cuando estén listos.",
+      "communityStatus": "Próximamente",
+      "communities": [
+        [
+          "Discord",
+          "La invitación oficial al servidor se publicará aquí."
+        ],
+        [
+          "Redes sociales",
+          "Los nombres de las cuentas oficiales y sus enlaces se publicarán aquí."
+        ],
+        [
+          "WeChat",
+          "Publicaremos un código QR vigente y lo sustituiremos cuando caduque."
+        ]
+      ],
+      "communityLink": "Usar correo o teléfono por ahora",
       "contactTitle": "¿Tienes otra idea?",
       "contactBody": "Nos gustaría saber cómo quieres ayudar a dar forma al club.",
       "contactLink": "Cuéntanos tu idea",
