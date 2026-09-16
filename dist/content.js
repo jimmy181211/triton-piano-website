@@ -93,7 +93,7 @@ window.clubCopy = {
         ]
       ],
       "stateTitle": "Organizational Status",
-      "stateBody": "The club is currently being organized by one student and is going through the CSI approval process. Approval may come around late November 2026; leadership remains open, and no program can begin before approval.",
+      "stateBody": "The club is going through the CSI approval process, with several prospective founding organizers prepared to help build it. Approval may come around late November 2026; formal roles and program operations will be confirmed after approval, and no program can begin before then.",
       "programsTitle": "See What We’re Planning",
       "programsBody": "Eight proposed programs turn this idea into practical ways to learn, practice, perform and collaborate.",
       "programsLink": "Explore the programs"
@@ -312,7 +312,7 @@ window.clubCopy = {
       "faq": [
         [
           "Has the Club Completed CSI Approval?",
-          "Not yet. One student is currently organizing the club and the CSI approval process is underway. Approval may come around late November 2026; leadership remains open, and no program can begin before approval."
+          "Not yet. The CSI approval process is underway, and several prospective founding organizers are prepared to help build the club. Approval may come around late November 2026; formal roles and program operations will be confirmed after approval, and no program can begin before then."
         ],
         [
           "Who Is the Club For?",
@@ -557,7 +557,7 @@ window.clubCopy = {
         ]
       ],
       "stateTitle": "组织状态",
-      "stateBody": "社团目前由一名学生筹办，正在进行 CSI 审批；预计可能于 2026 年十一月末获批，正式负责人仍待确定，任何项目都须在获批后才能启动。",
+      "stateBody": "社团正在进行 CSI 审批，已有几位合适的创始成员候选人准备共同推进筹建；预计可能于 2026 年十一月末获批。正式分工与项目安排会在获批后确认，任何项目都须在获批后才能启动。",
       "programsTitle": "看看我们准备做什么",
       "programsBody": "八个计划中的项目，会把这些想法变成一起学习、练习、演奏和合作的具体方式。",
       "programsLink": "查看社团项目"
@@ -776,7 +776,7 @@ window.clubCopy = {
       "faq": [
         [
           "社团已经完成 CSI 审批了吗？",
-          "还没有。目前由一名学生筹办，CSI 审批正在进行中，预计可能于 2026 年十一月末完成；正式负责人仍待确定，任何项目都须在获批后才能启动。"
+          "还没有。社团正在进行 CSI 审批，已有几位合适的创始成员候选人准备共同推进筹建，预计可能于 2026 年十一月末完成。正式分工与项目安排会在获批后确认，任何项目都须在获批后才能启动。"
         ],
         [
           "谁可以参加？",
@@ -1021,7 +1021,7 @@ window.clubCopy = {
         ]
       ],
       "stateTitle": "Estado de la Organización",
-      "stateBody": "Actualmente una persona organiza el club y el proceso de aprobación de CSI está en curso. La aprobación podría llegar hacia finales de noviembre de 2026; el liderazgo sigue abierto y ningún programa podrá comenzar antes.",
+      "stateBody": "El club está en el proceso de aprobación de CSI, con varias personas candidatas a organizar su fundación preparadas para impulsarlo. La aprobación podría llegar hacia finales de noviembre de 2026; los roles formales y las operaciones de los programas se confirmarán después, y ningún programa podrá comenzar antes.",
       "programsTitle": "Conoce lo Que Estamos Preparando",
       "programsBody": "Ocho programas propuestos convierten esta idea en formas concretas de aprender, practicar, tocar y colaborar.",
       "programsLink": "Explorar los programas"
@@ -1240,7 +1240,7 @@ window.clubCopy = {
       "faq": [
         [
           "¿El Club Ya Completó la Aprobación de CSI?",
-          "Aún no. Actualmente una persona organiza el club y el proceso de aprobación de CSI está en curso. La aprobación podría llegar hacia finales de noviembre de 2026; el liderazgo sigue abierto y ningún programa podrá comenzar antes."
+          "Aún no. El proceso de aprobación de CSI está en curso, y varias personas candidatas a organizar la fundación del club están preparadas para impulsarlo. La aprobación podría llegar hacia finales de noviembre de 2026; los roles formales y las operaciones de los programas se confirmarán después, y ningún programa podrá comenzar antes."
         ],
         [
           "¿Quién Puede Participar?",
